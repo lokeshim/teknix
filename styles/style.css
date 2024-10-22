@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://db.onlinewebfonts.com/c/4c4c08af466e9ad071b6d69cf44093df?family=SaolDisplay-Regular'); 
+* {
+    font-weight: 400;
+    font-family: "Roboto";
+    color: #fff;
+}
+td, th {text-align: center;}
+.letter-spacing {letter-spacing: 1.2px;}
+.font-family-main {  font-family: "Roboto" !important;}
+.font-title {  font-family: "SaolDisplay-Regular" !important;}
+.text-danger {color: #ED2024 !important;}
+.bg-danger {background: #ED2024 !important;}
+.bg-transparent {background: transparent !important;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'SaolDisplay-Regular', sans-serif;
+    ;
+}
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light,.fw-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular,.fw-nromal {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium, .fw-semibold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold ,.fw-bold{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic,.fw-italic-500  {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic,.fw-italic-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic,.fw-italic-exbold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.section{
+    padding: 80px 0;
+    background: #000 !important;
+}
+.bg-dark {
+   
+    background: #000 !important;
+}
+.w-35 {width: 35%;}
+.navbar a {
+    font-family: "Roboto", sans-serif;
+    font-size: 11px
+}
+.light-white {color:#A2A2A4 !important}
+.footer-email input::placeholder {color:#A2A2A4}
+.font-12 {     font-size: 12px}
+.font-13 {     font-size: 13px}
+.font-14 {     font-size: 14px}
+.font-15 {     font-size: 15px}
+.font-16 {     font-size: 16px}
+.font-21 {     font-size: 21px}
+.font-35 {     font-size: 2rem !important;line-height: 1.2}
+.text-light {color:#E4DFD8 !important}
+.navbar {
+    justify-content: space-between;
+    z-index: 99;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.nav-item {
+    margin-left: 15px;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.top-bg {
+    margin-top: -130px;
+    z-index: 2
+}
+
+/* Hide controls by default */
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+/* Show controls on hover */
+.carousel:hover .carousel-control-prev,
+.carousel:hover .carousel-control-next {
+    opacity: 1;
+}
+
+.home-about-heading h2{
+    font-family: 'SaolDisplay-Regular';
+ font-size: 6vw;
+font-weight: 300;
+line-height: 6.5vw;
+
+
+}
+label {display: none !important;}
+.font-14 {font-size:14px}
+#carouselExampleCaptions .carousel-caption  {bottom: 1.9vw;}
+.slider-txt {font-family: 'SaolDisplay-Regular';
+font-size: 9.55vw;
+font-weight: 300;
+line-height: 8.5vw;
+text-align: center;
+opacity: .75;
+z-index: 99;
+color:#fff !important;
+letter-spacing: .1px;
+}
+.slider-txt2 {font-family: 'SaolDisplay-Regular';
+font-size: 30px !important;
+font-weight: 300;
+
+text-align: center;
+opacity: 1;
+z-index: 99;
+color:#fff !important;
+letter-spacing: .1px;
+}
+.experience-text {position: absolute;left: 12.5vw;top:20.5vw}
+.experience-text  p, .other-heading {    font-family: 'SaolDisplay-Regular';
+ font-size: 5vw;
+font-weight: 300;
+line-height: 5.3vw;
+color:#E4DFD8;
+}
+.other-heading2  {    font-family: 'SaolDisplay-Regular';
+ font-size: 3.2vw;
+font-weight: 300;
+line-height: 4vw;
+color:#E4DFD8;
+}
+.myform input::placeholder,.myform textarea::placeholder{color:#A2A2A4}
+.text-justify {text-align: justify !important;}
+.footer ul li{list-style: none;line-height: 3;}
+a {text-decoration: none !important;}
+   .test-font {
+        max-width: 100% !important;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 50px;
+        color: #E4DFD8;
+
+    }
+
+    .w-12 {
+        width: 8px !important;
+        margin-left: 15px;
+    }
+
+    #testimonials .owl-dots {
+        position: absolute;
+        left: 0;
+        bottom: 33%
+    }
+
+    #testimonials .owl-item {
+        transition: width 0.3s ease;
+        /* Smooth transition for width change */
+    }
+
+    #testimonials .owl-stage-outer {
+        padding-left: -250px !important;
+    }
+
+    .testi-info {
+        position: relative;
+        background: rgba(0, 0, 0, 1);
+        color: white;
+        z-index: 1;
+    }
+
+  .owl-item.active.center  .testi-info::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -50%;
+        width: 44%;
+        height: 100%;
+        background: rgba(0, 0, 0, 1);
+        /* Overlay color (black with 60% opacity) */
+        z-index: -1;
+        /* Position behind the content */
+        border-radius: 10px;
+        /* Match border-radius of the .testi-info container */
+    }
+.owl-item:not(.active):not(.center) {
+    opacity: 0.5; /* Example style: make non-active, non-center items semi-transparent */
+    transform: scale(0.9); /* Optional: slightly reduce the size of these items */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+    @media only screen and (max-width:768px) {
+        .test-font {
+            max-width: 100%;
+            font-size: 4.2vh;
+            font-weight: 400;
+            line-height: 6.2vh;
+            color: #E4DFD8;
+        }
+    }
+@media (max-width: 767.98px) {
+    .w-35 {width: 100%;}
+    .navbar-brand {
+        position: static;
+        transform: none;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-item {
+        margin: 5px 0;
+    }
+}
+
+
+@media only screen and (max-width: 767px){  
+    .elevator-carousel .carousel-control-prev,
+    .elevator-carousel .carousel-control-next {
+        top: 50%;
+     
+        bottom: auto;
+        opacity: 1;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .elevator-carousel .carousel-control-prev{
+        left: 0;
+    }
+
+    .elevator-carousel .carousel-control-next {
+        right: 0;
+    }
+    .filter a h2 {
+        cursor: pointer;
+        line-height: 15px;
+    }
+
+
+}
+
+@media only screen and (min-width: 767px){  
+    .elevator-carousel .carousel-control-prev,
+    .elevator-carousel .carousel-control-next {
+        top: -55%;
+        /* Position at the top */
+        bottom: auto;
+        opacity: 1;
+        /* Always visible */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .elevator-carousel .carousel-control-prev{
+        left: 0;
+    }
+
+    .elevator-carousel .carousel-control-next {
+        left: 45px;
+    }
+    .filter a h2 {
+        cursor: pointer;
+        line-height: 65px;
+    }
+
+
+}
+
+
+
+
+
+.elevator-carousel .carousel-control-prev-icon,
+.elevator-carousel .carousel-control-next-icon {
+    display: none;
+   
+}
+
+.elevator-carousel .carousel-control-prev img,
+.elevator-carousel .carousel-control-next img {
+    width: 30px;
+   
+    height: auto;
+}
+
+.elevator-carousel .carousel-arrow{
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 35px;
+}
+
+.filter a h2.active {
+    color: white !important;
+}
+
+#elevator-description{
+    margin-top: 75px;
+    margin-bottom: 40px;
+}
+
+
+#optima {
+    display: block;
+}
+
+ .test-font {
+        max-width: 100% !important;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 50px;
+        color: #E4DFD8;
+
+    }
+
+    .w-12 {
+        width: 8px !important;
+        margin-left: 15px;
+    }
+
+    #testimonials .owl-dots {
+        position: absolute;
+        left: 0;
+        bottom: 33%
+    }
+
+    #testimonials .owl-item {
+        transition: width 0.3s ease;
+        /* Smooth transition for width change */
+    }
+
+    #testimonials .owl-stage-outer {
+        padding-left: -250px !important;
+    }
+
+   #testimonials  .testi-info {
+        position: relative;
+        background: rgba(0, 0, 0, 1);
+        color: white;
+        z-index: 1;
+    }
+
+   #testimonials .testi-info::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -50%;
+        width: 44%;
+        height: 100%;
+        background: rgba(0, 0, 0, 1);
+        /* Overlay color (black with 60% opacity) */
+        z-index: -1;
+        /* Position behind the content */
+        border-radius: 10px;
+        /* Match border-radius of the .testi-info container */
+    }
+ #testimonials .owl-item:not(.active):not(.center) {
+    opacity: 0.5; /* Example style: make non-active, non-center items semi-transparent */
+    transform: scale(0.9); /* Optional: slightly reduce the size of these items */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+    @media only screen and (max-width:768px) {
+        #testimonials .test-font {
+            max-width: 100%;
+            font-size: 4.2vh;
+            font-weight: 400;
+            line-height: 6.2vh;
+            color: #E4DFD8;
+        }
+    }
+     .blog-box h3{
+        min-height: 115px;
+    }
