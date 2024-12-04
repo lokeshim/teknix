@@ -300,8 +300,6 @@ export default function Home() {
 
 
 
-<BlogSection/>
-<Testimonials/>
 <ConnectForm/>
 </>
 

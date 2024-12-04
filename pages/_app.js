@@ -5,7 +5,7 @@ import AOS from 'aos';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-import '../styles/style.css'; // Import global CSS
+import '../styles/style.css'; 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import CommonModal from '../components/CommonModal';
@@ -23,10 +23,9 @@ function MyApp({ Component, pageProps }) {
 
     // Conditionally import the calculator CSS
     useEffect(() => {
-        if (router.pathname === '/calculator') {
-            import('../styles/calc.css');
-        }
+       
          if (typeof document !== 'undefined') {
+            
             require('bootstrap/dist/js/bootstrap.bundle.min.js');
         }
     }, [router.pathname]);

@@ -1,0 +1,9 @@
+# Enable the Rewrite Engine
+RewriteEngine On
+
+# Rule 1: Redirect blog/slug to blog_detail.php
+RewriteRule ^blog/([a-zA-Z0-9-]+)/?$ blog_detail.php?slug=$1 [L,QSA]
+
+# Rule 2: If a file without a .php extension is requested, check if a .php file with that name exists
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [QSA,L]

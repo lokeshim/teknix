@@ -1,19 +1,24 @@
-// pages/contact.js
+// pages/index.js
 import Head from 'next/head';
 import Image from 'next/image';
 import ElevatorCarousel from '../components/ElevatorCarousel';
 import BlogSection from '../components/BlogSection';
 import Testimonials from '../components/Testimonials';
 import ConnectForm from '../components/ConnectForm';
-
-export default function Contact() {
-
-
- 
-
-  return (
-    <>
-          <Head>
+import SimpleCarousel from '../components/SimpleCarousel';
+import CarouselComponent from '../components/CarouselComponent';
+import MapWithCarousel from "../components/MapWithCarousel";
+export default function Home() {
+   const slides = [
+    {
+      mobile: 'img/mobile/Banner Mobile - Contact.png',
+      desktop: 'img/contact.webp',
+    }
+   
+  ];
+    return (
+        <>
+            <Head>
                 <title>teknix</title>
                 <meta name="description" content="teknix" />
                 <meta name="keywords" content="teknix" />
@@ -22,149 +27,119 @@ export default function Contact() {
                 <link rel="canonical" href="#" />
 
             </Head>
+      <>
 
-              <div
-                id="carouselExampleCaptions"
-                className="carousel slide top-bg"
-                data-bs-ride="carousel"
-            >
-                <div className="carousel-indicators ">
-                    <button
-                        type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide-to={0}
-                        className="active"
-                        aria-current="true"
-                        aria-label="Slide 1"
-                    ></button>
-                    <button
-                        type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide-to={1}
-                        aria-label="Slide 2"
-                    ></button>
-                    <button
-                        type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide-to={2}
-                        aria-label="Slide 3"
-                    ></button>
-                </div>
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img src="img/contact.png" className="d-block w-100" alt="Slide 1" />
-                        <div className="carousel-caption d-none d-md-block">
-                            <p className="slider-txt">TESC 20</p>
-                        </div>
-                    </div>
-                    <div className="carousel-item">
-                        <img src="img/contact.png" className="d-block w-100" alt="Slide 2" />
-                        <div className="carousel-caption d-none d-md-block">
-                            <p className="slider-txt">TESC 20</p>
-                        </div>
-                    </div>
-                    <div className="carousel-item">
-                        <img src="img/contact.png" className="d-block w-100" alt="Slide 3" />
-                        <div className="carousel-caption d-none d-md-block">
-                            <p className="slider-txt">TESC 20</p>
-                        </div>
-                    </div>
-                </div>
-                <button
-                    className="carousel-control-prev"
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev"
-                >
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button
-                    className="carousel-control-next"
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next"
-                >
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                </button>
-            </div>
 
-            <section className="section">
-                <div className="container-fluid ">
-                    <div className="row">
-                        <p className="text-center text-danger font-21 mb-5">TESC 20</p>
-                        <div className="home-about-heading">
-                            <h2 className="text-center mb-5">Moving made simple and easy</h2>
-                            <p className="font-small text-center w-35 d-block mx-auto light-white font-14 my-5 ">
-                                These escalators are designed for medium usage like offices and
-                                commercial buildings where the daily usage is maximum of 16 hours
-                                &amp; Max Rise height of 10 Metres.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+  <SimpleCarousel slides={slides} showIndicators={false} showControls={false} />
 
-            <section className="section position-relative" id="brochure">
-                <div className="container p-0">
-                    <div className="row py-4">
-                        {[...Array(8)].map((_, index) => (
-                            <div className="col-md-3 d-block mx-auto" key={index}>
-                                <div className="row optima-list">
-                                    <div className="col-3">
-                                        <img src="img/type.png" className="d-block mx-auto" alt="" />
-                                    </div>
-                                    <div className="col-9 d-flex align-items-center">
-                                        <div>
-                                            <p className="fw-bold font-13 mb-0">Type</p>
-                                            <p className="font-13">Type MRL/MMR</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
 
-                    <div className="row py-4">
-                        <a
-                            href="#"
-                            className="text-danger text-decoration-none font-13 fw-normal letter-spacing text-center"
-                        >
-                            DOWNLOAD OPTIMA BROCHURE
-                        </a>
-                    </div>
-                </div>
-            </section>
+<div>
+  <section className="section" data-aos="fade-left" data-aos-duration={1000}>
+    <div className="container">
+      <div className="row sub-section">
+        <div className="col-md-11 offset-md-1 d-block mx-auto">
+          <div className="other-heading " data-aos="fade-down" data-aos-duration={1500}>
+            <p className="text-center">Reach out to us</p>
+          </div>
+        </div>
+      </div>
+      <div className="row align-items-center border-bottom border-secondary pb-4" data-aos="fade-right" data-aos-duration={2000}>
+        <div className="col-md-6 ">
+          <p className="text-start text-danger font-28 mb-2" data-aos="fade-right" data-aos-duration={2500}>HEAD OFFICE</p>
+          <div className=" " data-aos="fade-right" data-aos-duration={3000}>
+            <p className="other-heading2">Bengaluru</p>
+          </div>
+        </div>
+        <div className="col-md-4 offset-md-2 " data-aos="fade-left" data-aos-duration={3000}>
+          <p className="border-secondary p-10 ">Teknix Elevators Pvt Ltd.<br />3354, KR Road, Tata Silk Farm, Banashankari Stage II,<br /> Bengaluru, Karnataka 560070</p>
+          <p className="border-secondary p-10">Email :sales@teknixelevators.com</p>
+          <p className="border-secondary p-10">Toll Free :1800-1200-903 | 0091-80-41253500</p>
+        </div>
+      </div>
+      <div className="row mt-5" data-aos="fade-right" data-aos-duration={2000}>
+        <div className="col-md-12">
+          <p className="text-start text-danger font-28 mb-2">BRANCHES</p>   
+        </div>
+      </div>
+      <div className="row ps-0 ps-md-5 border-bottom border-secondary pb-4" data-aos="fade-up" data-aos-duration={1500}>
+        <div className="col-md-6" data-aos="fade-right" data-aos-duration={2500}>                             
+          <h2 className="other-heading2">Hyderabad</h2>
+          <p className="border-secondary p-10">Teknix Elevators Pvt Ltd.<br />#30, Indus Space Centre, 3rd Floor, 100 Feet Road<br />Kavuri Hills, Madhapur Road, Hyderabad - 500 081</p>
+          <p className="border-secondary p-10">Toll Free :<br />040-46012184</p>
+        </div>
+        <div className="col-md-4 offset-md-2 " data-aos="fade-left" data-aos-duration={2500}>
+          <h2 className="other-heading2">Rajkot</h2>
+          <p className="border-secondary p-10">Teknix Elevators Pvt. Ltd.<br />Mo. 61, 3rd Floor, Samrudhi Bhavan<br />Gondal Road, Rajkot - 360001 Gujarat</p>
+        </div>
+      </div>
+      <div className="row ps-0 ps-md-5 border-bottom border-secondary pb-4 mt-5" data-aos="fade-up" data-aos-duration={2000}>
+        <div className="col-md-6" data-aos="fade-right" data-aos-duration={3000}>            
+          <h2 className="other-heading2">Nepal</h2>
+          <p className="border-secondary p-10">Elevator Solutions Nepal Pvt Ltd.<br />Nagapokhari, Kathamandu, Nepal.</p>
+          <p>Email :<br />info@elevatorsolutionsnepal.com.np</p>
+          <p className="border-secondary p-10">Phone : +977 1 4433280</p>
+        </div>
+        <div className="col-md-4 offset-md-2 " data-aos="fade-left" data-aos-duration={2000}>
+          <h2 className="other-heading2">Coimbatore</h2>
+          <p className="border-secondary p-10">7,3, Sambandam Road East, R. S. Puram,<br />Coimbatore, Tamil Nadu - 641002</p>
+          <p>Landline :<br />0422 471 4472</p>
+          <p>Mobile Number : +91 789 972 3060</p>
+        </div>
+      </div>
+      <div className="row ps-0 ps-md-5 border-bottom border-secondary pb-4 mt-5" data-aos="fade-up" data-aos-duration={2000}>
+        <div className="col-md-6" data-aos="fade-right" data-aos-duration={2500}>           
+          <h2 className="other-heading2">Belgaum</h2>
+          <p className="border-secondary p-10">SR Bagewadi<br />Plot No. 71, 3rd Stage, Scheme No. 40<br />Hanuman Nagar, Belgaum - 590019</p>
+          <p className="border-secondary p-10">Mobile Number : +91 636 028 7258</p>
+        </div>
+        <div className="col-md-4 offset-md-2 " data-aos="fade-right" data-aos-duration={2500}>
+          <h2 className="other-heading2">Visakhapatnam</h2>
+          <p className="border-secondary p-10">#203, Sri Muktha Residency,<br />Baba College Road, PM Palem 3rd Bus Stop<br />Madhurwada, Visakhapatnam,<br />Andhra Pradesh - 530 041</p>
+          <p>Mobile Number : +91 636 028 7035</p>
+        </div>
+      </div>
+      <div className="row ps-0 ps-md-5 border-bottom border-secondary pb-4 mt-5" data-aos="fade-up" data-aos-duration={15000}>
+        <div className="col-md-6" data-aos="fade-right" data-aos-duration={2500}>           
+          <h2 className="other-heading2">Mangalore</h2>
+          <p className="border-secondary p-10">Nityaadar villa,<br />Behind ideal icecream factory kottara,<br />Mangalore. Karnataka - 575006</p>
+          <p className="border-secondary p-10">Mobile Number : +91 84319 09748</p>
+        </div>
+        <div className="col-md-4 offset-md-2 " data-aos="fade-left" data-aos-duration={2500}>
+          <h2 className="other-heading2">Chennai</h2>
+          <p className="border-secondary p-10">Old#29, New #62, 3rd Floor,<br />3rd Street, Abhiramapuram,<br />Chennai - 600018</p>
+          <p>Mobile Number : +91 789 972 3060</p>
+        </div>
+      </div>
+      <div className="row ps-0 ps-md-5 pb-4 mt-5" data-aos="fade-up" data-aos-duration={1500}>
+        <div className="col-md-10 col-12 text-center d-block mx-auto">           
+          <h2 className="other-heading2">UAE</h2>
+          <p className="border-secondary p-10">Teknix Prime Lifts Trading Co. LLC<br />Office no. F29, Al Khaima Bldg, 2 Al Barsha,<br />Dubai- UAE</p>
+          <p className="p-10">Email:<br />sales.dxb@teknixelevators.com</p>
+          <p className="border-secondary p-10">Mobile Number : +971-56 981 8705</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <MapWithCarousel />
+ 
+  <section className="section position-relative" id="experience" data-aos="fade-up" data-aos-duration={2500}>
+    <div className="container-fluid px-md-5 p-0">
+      <img src="img/map.png" alt className="w-100" />
+    </div>
+  </section>
+</div>
 
-            <section className="section position-relative" id="table">
-                <div className="container p-0">
-                    <div className="row">
-                        <div className="col-md-12">
-                            <table className="table">
-                                <thead>
-                                    <tr>
-                                        <th scope="col" className="fs-3">Indoor/Outdoor 16HR Daily</th>
-                                        <th scope="col" className="fs-3">Application</th>
-                                        <th scope="col" className="fs-3">Indoor/Outdoor 16HR Daily</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    {[...Array(9)].map((_, index) => (
-                                        <tr key={index}>
-                                            <td>&lt;6m</td>
-                                            <td>Rise</td>
-                                            <td>&lt;6m</td>
-                                        </tr>
-                                    ))}
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </section>
-      
-     
-    </>
-  );
+
+
+
+
+
+<ConnectForm/>
+</>
+
+
+
+
+        </>
+    );
 }

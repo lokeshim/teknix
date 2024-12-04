@@ -4,38 +4,146 @@ import Image from 'next/image';
 
 const Header = () => {
     return (
-        <header>
-           <section className="top-section ">
-  <div className=" ">
-    <nav className="navbar navbar-expand-lg  px-md-5 py-md-5 ">
+       <>
+       <section className="top-section ">
+  <div className="container ">
+    <nav className="navbar navbar-expand-lg narbar-light  py-md-4    fixed-top px-md-5">
       {/* Left-side Menu (visible on large screens) */}
-      <div className="d-none d-lg-flex">
-        <ul className="navbar-nav">
+      <div className="d-none d-lg-flex ">
+        <ul className="navbar-nav   ">
           <li className="nav-item">
-            <a className="nav-link text-white" href="./">
+            <Link className="nav-link text-white" href="/">
               HOME
-            </a>
+            </Link>
           </li>
-          <li className="nav-item">
-            <a className="nav-link text-white" href="elevators">
+          <li className="nav-item dropdown">
+            <Link
+              className="nav-link dropdown-toggle text-white"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
               ELEVATORS
-            </a>
+            </Link>
+            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <Link
+                  className="dropdown-item"
+                  href="/optima"
+                >
+                  Optima 
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="dropdown-item"
+                  href="/vertix"
+                >
+                  Vertix
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="dropdown-item"
+                  href="/greentek"
+                >
+                  Greentek X2
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="dropdown-item"
+                  href="/hydratek"
+                >
+                  Hydratek
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="dropdown-item"
+                  href="/villa-matek"
+                >
+                  Villa Matek
+                </Link>
+              </li>
+            </ul>
           </li>
-          <li className="nav-item">
-            <a className="nav-link text-white" href="escalators">
+          <li className="nav-item dropdown">
+            <Link
+              className="nav-link dropdown-toggle text-white"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
               ESCALATORS
-            </a>
+            </Link>
+            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <Link
+                  className="dropdown-item"
+                  href="/tesc-20"
+                >
+                  TESC-20
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="dropdown-item"
+                  href="/tesc-50"
+                >
+                  TESC-50
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="dropdown-item"
+                  href="/tmw-15"
+                >
+                  TMW-15
+                </Link>
+              </li>
+            </ul>
           </li>
-          <li className="nav-item">
-            <a className="nav-link text-white" href="about">
+          <li className="nav-item dropdown">
+            <Link
+              className="nav-link dropdown-toggle text-white"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
               SERVICES
-            </a>
+            </Link>
+            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <Link
+                  className="dropdown-item"
+                  href="/lifts-service-and-maintenance"
+                >
+                  SERVICE &amp; MAINTAINENCE
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="dropdown-item"
+                  href="/safety"
+                >
+                  SAFETY
+                </Link>
+              </li>
+            </ul>
           </li>
+         
         </ul>
       </div>
       {/* Center Logo */}
-      <a className="navbar-brand mx-auto" href="./">
-        <img src="img/logo-white.png" alt="Logo" />
+      <a className="navbar-brand mx-md-auto " href="./">
+        <img src="/img/Web-teknix-logo.svg" alt="Logo" style={{ width: 150 }} />
       </a>
       {/* Right-side Menu (hamburger icon for small screens) */}
       <button
@@ -51,35 +159,242 @@ const Header = () => {
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         {/* Right-side Menu */}
-        <ul className="navbar-nav ms-auto">
+        <ul className="navbar-nav ms-auto d-none d-lg-flex pe-4">
+          <li className="nav-item dropdown">
+            <Link
+              className="nav-link dropdown-toggle text-white"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+            >
+              ABOUT-US
+            </Link>
+            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <Link
+                  className="dropdown-item"
+                  href="/corporate-profile"
+                >
+                  CORPORATE PROFILE
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="dropdown-item"
+                  href="/quality-policy"
+                >
+                  QUALITY POLICY
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="dropdown-item"
+                  href="/sustainability"
+                >
+                  SUSTAINABILITY
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="dropdown-item"
+                  href="/gallery"
+                >
+                  GALLERY
+                </Link>
+              </li>
+            </ul>
+          </li>
           <li className="nav-item">
-            <a className="nav-link text-white" href="experience-center">
+            <Link
+              className="nav-link text-white"
+              href="/experience-center"
+            >
               {" "}
               EXPERIENCE CENTRE
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-white" href="blog">
+            <Link
+              className="nav-link text-white"
+              href="/blogs"
+            >
               BLOG
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-white" href="contact">
-              Contact
-            </a>
+            <Link
+              className="nav-link text-white"
+              href="/contact"
+            >
+              CONTACT
+            </Link>
           </li>
         </ul>
         {/* Left-side Menu for small screens */}
-        <ul className="navbar-nav d-lg-none">
+        <ul className="navbar-nav d-lg-none ">
           <li className="nav-item">
-            <a className="nav-link" href="#">
-              Home
-            </a>
+            <Link className="nav-link text-white" href="index">
+              HOME
+            </Link>
+          </li>
+          <li className="nav-item dropdown">
+            <Link
+              className="nav-link dropdown-toggle text-white"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              ELEVATORS
+            </Link>
+            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <Link className="dropdown-item" href="optima">
+                  Optima
+                </Link>
+              </li>
+              <li>
+                <Link className="dropdown-item" href="vertix">
+                  Vertix
+                </Link>
+              </li>
+              <li>
+                <Link className="dropdown-item" href="greentek">
+                  Greentek
+                </Link>
+              </li>
+              <li>
+                <a className="dropdown-item" href="hydratek">
+                  Hydratek
+                </a>
+              </li>
+              <li>
+                <Link className="dropdown-item" href="villa-matek">
+                  Villa Matek
+                </Link>
+              </li>
+            </ul>
+          </li>
+          <li className="nav-item dropdown">
+            <Link
+              className="nav-link dropdown-toggle text-white"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              ESCALATORS
+            </Link>
+            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <Link className="dropdown-item" href="tesc-20">
+                  TESC-20
+                </Link>
+              </li>
+              <li>
+                <Link className="dropdown-item" href="tesc-50">
+                  TESC-50
+                </Link>
+              </li>
+              <li>
+                <a className="dropdown-item" href="tmw-15">
+                  TMW-15
+                </a>
+              </li>
+            </ul>
+          </li>
+          {/*?php /*
+                  <li class="nav-item"*/}
+          <Link className="nav-link text-white" href="eleveators">
+            ELEVATORS
+          </Link>
+          <li className="nav-item">
+            <Link className="nav-link text-white" href="escalators">
+              ESCALATORS
+            </Link>
+          </li>{" "}
+          */ ?&gt;
+          <li className="nav-item dropdown">
+            <Link
+              className="nav-link dropdown-toggle text-white"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              SERVICES
+            </Link>
+            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <Link
+                  className="dropdown-item"
+                  href="lifts-service-and-maintenance"
+                >
+                  SERVICE &amp; MAINTAINENCE
+                </Link>
+              </li>
+              <li>
+                <Link className="dropdown-item" href="safety">
+                  SAFETY
+                </Link>
+              </li>
+            </ul>
+          </li>
+          <li className="nav-item dropdown">
+            <Link
+              className="nav-link dropdown-toggle text-white"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              ABOUT-US
+            </Link>
+            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <Link className="dropdown-item" href="corporate-profile">
+                  CORPORATE PROFILE
+                </Link>
+              </li>
+              <li>
+                <Link className="dropdown-item" href="quality-policy">
+                  QUALITY POLICY
+                </Link>
+              </li>
+              <li>
+                <Link className="dropdown-item" href="sustainability">
+                  SUSTAINABILITY
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="dropdown-item"
+                  href="/gallery"
+                >
+                  GALLERY
+                </Link>
+              </li>
+            </ul>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
-              About
-            </a>
+            <Link className="nav-link text-white" href="experience-center">
+              {" "}
+              EXPERIENCE CENTRE
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link text-white" href="blogs">
+              BLOG
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link text-white" href="contact">
+              CONTACT
+            </Link>
           </li>
         </ul>
       </div>
@@ -87,7 +402,7 @@ const Header = () => {
   </div>
 </section>
 
-        </header>
+       </>
     );
 };
 

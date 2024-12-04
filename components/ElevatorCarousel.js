@@ -14,69 +14,106 @@ const ElevatorSection = () => {
   // Content for each elevator
   const elevators = {
     optima: {
+      name:'Optima',
       description: 'The all-new OPTIMA redefines simplicity, giving you a vertical mobility solution with a range of technologically advanced features with German craftsmanship at its heart.',
       carouselId: 'carouselExampleOptima',
-      images: ['/img/elevator.png', '/img/elevator.png', '/img/elevator.png'], // update with actual image paths
+      images: ['/img/OPTIMA BANNER 1.png', '/img/OPTIMA BANNER 2.png', '/img/OMTIMA BANNER 3.jpg'], // update with actual image paths
     },
     vertix: {
-      description: 'The all-new VERTIX redefines simplicity, giving you a vertical mobility solution with a range of technologically advanced features with German craftsmanship at its heart.',
+      name:'Vertix',
+      description: 'The all-new, next-generation VERTIX range of elevators from Teknix, in collaboration with SRH Aufzüge GmbH, brings you the pinnacle of German engineering and craftsmanship. Designed with cutting-edge, eco-friendly technology, the VERTIX elevators offer an unparalleled combination of essential features and unrivaled comfort, ensuring a smooth and luxurious ride every time. This version enhances the premium feel, emphasizing the innovation, luxury, and eco-friendly aspects of the product.',
       carouselId: 'carouselExampleVertix',
-      images: ['/img/elevator.png', '/img/elevator.png', '/img/elevator.png'], // update with actual image paths
+      images: ['/img/VERTIX BANNER 1.png', '/img/VERTIX BANNER 2.png', '/img/VERTIX BANNER 3.jpg'], // update with actual image paths
     },
     greentek: {
-      description: 'Greentek is designed for sustainability, with eco-friendly technology that ensures smooth, energy-efficient operation.',
+         name:'Greentek',
+      description: 'Teknix GREENTEK exemplifies the pinnacle of German engineering, blending precision craftsmanship with years of innovation. With cutting-edge features like the VVVF drive with DTI, Direct Landing Technology, and sleek interface devices, it delivers an unparalleled, ultra-smooth ride—setting a new benchmark in luxury elevators.',
       carouselId: 'carouselExampleGreentek',
-      images: ['/img/elevator.png', '/img/elevator.png', '/img/elevator.png'], // update with actual image paths
+      images: ['/img/Greentek banner 1.png', '/img/Greentek banner 2.png', '/img/Greentek banner 3.png'], // update with actual image paths
     },
     hydratek: {
-      description: 'Hydratek brings you advanced hydraulic solutions, perfect for low and medium-rise buildings.',
-      carouselId: 'carouselExampleHydratek',
-      images: ['/img/elevator.png', '/img/elevator.png', '/img/elevator.png'], // update with actual image paths
+            name:'Hydratek',
+      description: 'Teknix GREENTEK exemplifies the pinnacle of German engineering, blending precision craftsmanship with years of innovation. With cutting-edge features like the VVVF drive with DTI, Direct Landing Technology, and sleek interface devices, it delivers an unparalleled, ultra-smooth ride—setting a new benchmark in luxury elevators.',
+      images: ['/img/Hydratek banner 1.png', '/img/Hydratek banner 2.png', '/img/Hydratek banner 3.png'], // update with actual image paths
     },
     villa_matek: {
-      description: 'Villa Matek is a luxury elevator solution designed for premium residential spaces, combining elegance with superior functionality.',
+       name:'Villa Matek',
+      description: 'TEKNIX VILLAMATEK, designed exclusively for residential use, combines technology, aesthetics, and craftsmanship to enhance accessibility for residents with mobility challenges. Available in gearless models and a variety of cabin styles to suit diverse preferences.',
       carouselId: 'carouselExampleVillaMatek',
-      images: ['/img/elevator.png', '/img/elevator.png', '/img/elevator.png'], // update with actual image paths
+      images: ['/img/Villa Matek 01.jpg', '/img/Villa Matek 02.jpg'], // update with actual image paths
     },
   };
 
   return (
-    <section className="section position-relative">
-      <div className="container px-2 px-md-5">
+    <section className="section position-relative ">
+      <div className="container-fluid ">
         <div className="row">
           {/* Elevator Links */}
-          <div className="col-md-6 col-12">
-            <h6 className="fs-6 text-danger">OUR BEST ELEVATORS</h6>
-            <div className="filter mt-5">
+          <div className="col-md-4 offset-md-1 col-12">
+           
+            <div className="filter ps-md-0 text-md-start text-center  m-30">
               {Object.keys(elevators).map((elevator) => (
-                <a
-                  href="#"
+                <div
+                  
                   className={`text-decoration-none ${activeElevator === elevator ? 'active' : ''}`}
                   key={elevator}
                   onClick={() => handleElevatorChange(elevator)}
                 >
-                  <h2 className={`other-heading2 text-secondary ${activeElevator === elevator ? 'active' : ''}`}>
-                    {elevator.charAt(0).toUpperCase() + elevator.slice(1)}
+                  <h2 className={`other-heading text-secondary ${activeElevator === elevator ? 'active' : ''}`}>
+                   
+                     {elevators[elevator].name} {/* Display the name of the elevator */}
                   </h2>
-                </a>
+                </div>
               ))}
             </div>
           </div>
 
           {/* Elevator Carousel */}
-          <div className="col-md-6 col-12">
-            <div className="elevator-carousel">
-              <div className="row">
-                <div className="col-md-8">
-                  <p id="elevator-description">{elevators[activeElevator].description}</p>
-                </div>
-              </div>
+          <div className="col-md-6 col-12 multi-carousel">
+            <div className="elevator-carousel m-center" id="optima">
+              
 
               <div id="carouselContainer">
-                <div id={elevators[activeElevator].carouselId} className="carousel slide" data-bs-ride="carousel">
+                <div id={elevators[activeElevator].carouselId} className="carousel slide m-center" data-bs-ride="carousel">
+                  <div className="d-inline position-relative ">
+                    {/* Carousel Controls */}
+                                    <button
+                                      className="carousel-control-prev position-relative d-inline-block"
+                                      type="button"
+                                      data-bs-target={`#${elevators[activeElevator].carouselId}`}
+                                      data-bs-slide="prev"
+                                      aria-label="Previous"
+                                    >
+                                      <Image
+                                        src="/img/left-carousel.png"
+                                        alt="Previous"
+                                        width={30}
+                                        height={30}
+                                        className="img-fluid carousel-arrow"
+                                      />
+                                    </button>
+
+                                    <button
+                                      className="carousel-control-next position-relative d-inline-block"
+                                      type="button"
+                                      data-bs-target={`#${elevators[activeElevator].carouselId}`}
+                                      data-bs-slide="next"
+                                      aria-label="Next"
+                                    >
+                                      <Image
+                                        src="/img/right-carousel.png"
+                                        alt="Next"
+                                        width={30}
+                                        height={30}
+                                        className="img-fluid carousel-arrow"
+                                      />
+                                    </button>
+
+                  </div>
                   <div className="carousel-inner">
                     {elevators[activeElevator].images.map((image, index) => (
                       <div className={`carousel-item ${index === 0 ? 'active' : ''}`} key={index}>
+                       <p id="elevator-description" class="mb-4"> {elevators[activeElevator].description}</p>
                         <Image
                           src={image}
                           alt={`Slide ${index + 1}`}
@@ -89,38 +126,7 @@ const ElevatorSection = () => {
                     ))}
                   </div>
 
-                  {/* Carousel Controls */}
-                  <button
-                    className="carousel-control-prev"
-                    type="button"
-                    data-bs-target={`#${elevators[activeElevator].carouselId}`}
-                    data-bs-slide="prev"
-                  >
-                    <Image
-                      src="/img/left-carousel.png"
-                      alt="Previous"
-                      width={30}
-                      height={30}
-                      className="img-fluid carousel-arrow"
-                    />
-                    <span className="visually-hidden">Previous</span>
-                  </button>
-
-                  <button
-                    className="carousel-control-next"
-                    type="button"
-                    data-bs-target={`#${elevators[activeElevator].carouselId}`}
-                    data-bs-slide="next"
-                  >
-                    <Image
-                      src="/img/right-carousel.png"
-                      alt="Next"
-                      width={30}
-                      height={30}
-                      className="img-fluid carousel-arrow"
-                    />
-                    <span className="visually-hidden">Next</span>
-                  </button>
+                
                 </div>
               </div>
             </div>
