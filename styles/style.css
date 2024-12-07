@@ -1106,3 +1106,39 @@ object-position: center;
 #d-gallery .img-box:hover .img-third {
     transform: translate(10px, -10px);
 }
+#simpleCarousel .swiper-slide img {
+  transform: scale(1) !important; 
+}
+#simpleCarousel .swiper-slide-active img {
+  transform: scale(1.5) !important; 
+  transition: transform 0.3s ease !important; 
+}
+
+
+#contactmap iframe{height:100vh !important}
+
+
+/**/
+select {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px 12px;
+  outline: none;
+  cursor: pointer;
+}
+
+select:focus {
+  border-color: #007bff;
+}
+
+.wrapper {
+  margin: 20px 0;
+}
+
+.mainSwiper {
+  margin-bottom: 20px;
+}
+
+.thumbnailSwiper {
+  margin-top: 20px;
+}

@@ -8,6 +8,8 @@ import ConnectForm from '../components/ConnectForm';
 import SimpleCarousel from '../components/SimpleCarousel';
 import CarouselComponent from '../components/CarouselComponent';
 import MapWithCarousel from "../components/MapWithCarousel";
+import MapWithSliderIframe from "../components/MapWithSliderIframe";
+
 export default function Home() {
    const slides = [
     {
@@ -120,8 +122,8 @@ export default function Home() {
       </div>
     </div>
   </section>
-  <MapWithCarousel />
- 
+
+ <MapWithSliderIframe />
   <section className="section position-relative" id="experience" data-aos="fade-up" data-aos-duration={2500}>
     <div className="container-fluid px-md-5 p-0">
       <img src="img/map.png" alt className="w-100" />

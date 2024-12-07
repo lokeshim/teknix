@@ -4,7 +4,8 @@ import 'aos/dist/aos.css'; // Import AOS styles
 import AOS from 'aos';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
 import '../styles/style.css'; 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
