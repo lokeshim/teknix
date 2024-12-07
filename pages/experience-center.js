@@ -88,6 +88,7 @@ export default function Home() {
                     centeredSlides={true}
                     slidesPerView={'3'}
                     spaceBetween={-30}
+                    loop={true}
                     coverflowEffect={{
                       rotate: 0,
                       stretch: 0,
