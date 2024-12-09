@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-
+import Image from 'next/image';
 const MapWithSliderIframe = () => {
   const locations = [
     {
@@ -110,7 +110,7 @@ const MapWithSliderIframe = () => {
         <Swiper
           onSlideChange={handleSlideChange}
           spaceBetween={10}
-          slidesPerView= {auto}
+          slidesPerView= {1}
           centeredSlides= {true}
           breakpoints={{
             640: { slidesPerView: 1 }, // Mobile: Show 1 slide
@@ -119,7 +119,7 @@ const MapWithSliderIframe = () => {
         >
           {locations.map((location) => (
             <SwiperSlide key={location.id}>
-              <img src={location.image} alt={location.name} style={{ width: '100%' }} />
+              <Image src={location.image} alt={location.name} style={{ width: '100%' }} />
             </SwiperSlide>
           ))}
         </Swiper>

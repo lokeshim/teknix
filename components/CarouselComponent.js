@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
-
+import Image from 'next/image';
 // Dynamically import the OwlCarousel component with no SSR
 const OwlCarousel = dynamic(() => import('react-owl-carousel'), { ssr: false });
 import 'owl.carousel/dist/assets/owl.carousel.css';
@@ -59,13 +59,13 @@ const CarouselComponent = () => {
     <div>
       <OwlCarousel className="owl-theme">
         <div className="item">
-          <img src="/img/India.webp" alt="Image 1" />
+          <Image src="/img/India.webp" alt="Image 1" />
         </div>
         <div className="item">
-          <img src="/img/India.webp" alt="Image 2" />
+          <Image src="/img/India.webp" alt="Image 2" />
         </div>
         <div className="item">
-          <img src="/img/India.webp" alt="Image 3" />
+          <Image src="/img/India.webp" alt="Image 3" />
         </div>
       </OwlCarousel>
 

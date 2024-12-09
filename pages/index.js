@@ -86,38 +86,62 @@ export default function Home() {
     </div>
     <div className="carousel-item">
       <Image
+        src="img/mobile/Banner Mobile 1 - Greentek.png"
+        alt="Slide 1 Mobile"
+        layout="responsive"
+        width={1080}
+        height={1920}
+        className="d-md-none d-block img-fluid carousel-image"
+      />
+      <Image
         src="img/Home/greentek.webp"
-        alt="Slide 2"
+        alt="Slide 1 Desktop"
         layout="responsive"
         width={1920}
         height={1080}
-        className="d-block w-100 carousel-image"
+        className="d-none d-md-block w-100 carousel-image"
       />
       <div className="carousel-caption d-none d-md-block">
         <p className="slider-txt">GREENTEK</p>
       </div>
     </div>
     <div className="carousel-item">
+     <Image
+        src="img/mobile/Banner Mobile 2 - Hydratek.png"
+        alt="Slide 1 Mobile"
+        layout="responsive"
+        width={1080}
+        height={1920}
+        className="d-md-none d-block img-fluid carousel-image"
+      />
       <Image
         src="img/Home/2.webp"
-        alt="Slide 3"
+        alt="Slide 1 Desktop"
         layout="responsive"
         width={1920}
         height={1080}
-        className="d-block w-100 carousel-image"
+        className="d-none d-md-block w-100 carousel-image"
       />
       <div className="carousel-caption d-none d-md-block">
         <p className="slider-txt">HYDRATEK</p>
       </div>
     </div>
     <div className="carousel-item">
+    <Image
+        src="img/mobile/Banner Mobile 1 - Villa Matek.png"
+        alt="Slide 1 Mobile"
+        layout="responsive"
+        width={1080}
+        height={1920}
+        className="d-md-none d-block img-fluid carousel-image"
+      />
       <Image
-        src="img/Home/4.webp"
-        alt="Slide 4"
+        src="img/Banner 3 - Villa Matek (1).png"
+        alt="Slide 1 Desktop"
         layout="responsive"
         width={1920}
         height={1080}
-        className="d-block w-100 carousel-image"
+        className="d-none d-md-block w-100 carousel-image"
       />
       <div className="carousel-caption d-none d-md-block">
         <p className="slider-txt">VILLA MATEK</p>
@@ -226,7 +250,7 @@ export default function Home() {
           <p className="text-center ">
             <span>
               Every Teknix elevator exemplifies meticulous engineering and
-              innovation, whether it's a bespoke design or a part of our
+              innovation, whether it&apos;s a bespoke design or a part of our
               vertical transportation portfolio. Our dedicated in-house R&amp;D
               team ensures reliability, elegance, and advanced performance
               through rigorous testing. Key features of our state-of-the-art

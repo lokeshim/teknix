@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Carousel from '../components/Carousel';
 import dynamic from 'next/dynamic';
-
+import Image from 'next/image';
 // Import global styles for Owl Carousel
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
@@ -14,9 +14,9 @@ export default function Map() {
   ];
 
   const logos = [
-    { content: <img src="img/Belgaum.png" alt="Logo 1" /> },
-    { content: <img src="img/Chennai.png" alt="Logo 2" /> },
-    { content: <img src="img/Coimbatore.png" alt="Logo 3" /> },
+    { content: <Image src="img/Belgaum.png" alt="Logo 1" /> },
+    { content: <Image src="img/Chennai.png" alt="Logo 2" /> },
+    { content: <Image src="img/Coimbatore.png" alt="Logo 3" /> },
   ];
 
   const testimonialOptions = {

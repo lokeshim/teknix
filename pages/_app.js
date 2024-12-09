@@ -6,6 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
 import '../styles/style.css'; 
 import Header from '../components/Header';
 import Footer from '../components/Footer';

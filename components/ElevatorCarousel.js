@@ -40,7 +40,7 @@ const ElevatorSection = () => {
        name:'Villa Matek',
       description: 'TEKNIX VILLAMATEK, designed exclusively for residential use, combines technology, aesthetics, and craftsmanship to enhance accessibility for residents with mobility challenges. Available in gearless models and a variety of cabin styles to suit diverse preferences.',
       carouselId: 'carouselExampleVillaMatek',
-      images: ['/img/Villa Matek 01.jpg', '/img/Villa Matek 02.jpg'], // update with actual image paths
+      images: ['/img/Elevators/Vm/1.webp', '/img/Elevators/Vm/2.webp','/img/Elevators/Vm/1.webp'], // update with actual image paths
     },
   };
 

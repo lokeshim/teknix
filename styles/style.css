@@ -1055,7 +1055,7 @@ object-position: center;
     /* Zoom to 1.2x on hover */
 }
 
- .slick-slide img {
+.slick-slide img {
     width: 480px !important;
     object-fit: cover;
     max-height: 480px !important;
@@ -1106,133 +1106,156 @@ object-position: center;
 #d-gallery .img-box:hover .img-third {
     transform: translate(10px, -10px);
 }
+
+#simpleCarousel .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#simpleCarousel .swiper-3d {padding:50px 0}
 #simpleCarousel .swiper-slide img {
-  transform: scale(1) !important; 
+    transform: scale(1) !important;
+    transition: transform 0.3s ease !important;
+    width: 100%; /* Ensure the image width doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Prevent distortion */
 }
+
 #simpleCarousel .swiper-slide-active img {
-  transform: scale(1.5) !important; 
-  transition: transform 0.3s ease !important; 
+    transform: scale(1.3) !important; /* Zoom effect */
 }
 
 
-#contactmap iframe{height:100vh !important}
+#contactmap iframe {
+    height: 100vh !important
+}
 
 
 /**/
 select {
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 8px 12px;
-  outline: none;
-  cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 12px;
+    outline: none;
+    cursor: pointer;
 }
 
 select:focus {
-  border-color: #007bff;
+    border-color: #007bff;
 }
 
 .wrapper {
-  margin: 20px 0;
+    margin: 20px 0;
 }
 
 .mainSwiper {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .thumbnailSwiper {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 
 /*gallery*/
 
-  .img-box {
-        position: relative !important;
+.img-box {
+    position: relative !important;
 
 
-    }
+}
 
-    .mygallery  .img-box img {
+.mygallery .img-box img {
 
-        transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
-    }
+    transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
+}
 
-   .mygallery   .img-main {
-        position: relative;
-        top: 0;
-        left: 0;
-        z-index: 10;
-        max-height: 400px !important;
-        object-fit: cover !important;
-        transition: transform 0.3s ease-in-out;
-        /* Smooth transition */
-        transform: scale(1);
-        /* Default scale */
-    }
+.mygallery .img-main {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    max-height: 400px !important;
+    object-fit: cover !important;
+    transition: transform 0.3s ease-in-out;
+    /* Smooth transition */
+    transform: scale(1);
+    /* Default scale */
+}
 
-   .mygallery  .img-second {
-        position: absolute;
-        top: -10px;
-        right: 30px;
-        z-index: 8;
-        max-height: 400px !important;
-        object-fit: cover !important;
-    }
+.mygallery .img-second {
+    position: absolute;
+    top: -10px;
+    right: 30px;
+    z-index: 8;
+    max-height: 400px !important;
+    object-fit: cover !important;
+}
 
-   .mygallery   .img-third {
-        position: absolute;
-        top: 10px;
-        left: 30;
-        z-index: 5;
-        max-height: 400px !important;
-        object-fit: cover !important;
-    }
+.mygallery .img-third {
+    position: absolute;
+    top: 10px;
+    left: 30;
+    z-index: 5;
+    max-height: 400px !important;
+    object-fit: cover !important;
+}
 
-   .mygallery   .img-box:hover .img-main {
-        transform: scale(1.05) translate(-5px, 02px);
-    }
+.mygallery .img-box:hover .img-main {
+    transform: scale(1.05) translate(-5px, 02px);
+}
 
-    .mygallery  .img-box:hover .img-second {
-        transform: scale(1.05) translate(10px, -20px);
-    }
+.mygallery .img-box:hover .img-second {
+    transform: scale(1.05) translate(10px, -20px);
+}
 
-   .mygallery   .img-box:hover .img-third {
-         transform: scale(1.05) translate(-10px, 20px);
-    }
+.mygallery .img-box:hover .img-third {
+    transform: scale(1.05) translate(-10px, 20px);
+}
 
-   .mygallery   .thumbnail-slider img {
-        position: relative;
-        transition: top 0.5s ease-in-out;
-        padding: 15px 0;
-    }
+.mygallery .thumbnail-slider img {
+    position: relative;
+    transition: top 0.5s ease-in-out;
+    padding: 15px 0;
+}
 
-   .mygallery   .thumbnail-slider img:hover {
-        top: -15px;
-        /* Move the image upwards */
-    }
+.mygallery .thumbnail-slider img:hover {
+    top: -15px;
+    /* Move the image upwards */
+}
 
-    .mygallery  select {
-        background-color: #fff;
-    }
+.mygallery select {
+    background-color: #fff;
+}
 
-    .mygallery  select {
-        width: 100%;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-        padding: 10px;
-        margin: 20px 0;
+.mygallery select {
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 10px;
+    margin: 20px 0;
 
-    }
+}
 
-    .mygallery select {
-        background: #fff;
-        color:#000;
-    }
+.mygallery select {
+    background: #fff;
+    color: #000;
+}
 
-   .mygallery   option {
-        color: #000;
-    }
-    .slslider  img{max-height: 480px !important;object-fit: cover !;}
+.mygallery option {
+    color: #000;
+}
 
-    
+.slslider img {
+    max-height: 480px !important;
+    object-fit: cover !;
+}
+
+.bg-dark {
+
+    background: #000 !important;
+}
+.w-100 {height: auto !important;}
+.table-responsive tr td {color:#fff !important}
+.filter  h2:hover {cursor: pointer !important;}

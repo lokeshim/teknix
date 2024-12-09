@@ -111,10 +111,11 @@ export default function Home() {
     <div className="container-fluid px-md-5  text-center p-0">
       <div className="row">
         <div className="col-md-12">
-          <img
+          <Image
             src="img/research-center.webp"
-            alt=""
+            alt="teknix"
             className="d-block mx-auto img-fluid"
+             width={1824} height={817}
           />
         </div>
       </div>
@@ -159,7 +160,7 @@ export default function Home() {
             </p>
             <p className="text-white text-justify p-10">
               Every Teknix elevator is a testament to meticulous engineering,
-              whether it is a bespoke creation tailored to our clients' unique
+              whether it is a bespoke creation tailored to our clients&apos; unique
               specifications or an integral part of our illustrious vertical
               transportation portfolio. Our in-house R&amp;D team rigorously
               tests each product, ensuring it exemplifies reliability, elegance,

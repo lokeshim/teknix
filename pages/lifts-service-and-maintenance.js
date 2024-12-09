@@ -55,7 +55,7 @@ export default function Home() {
     <div className="row">
       <div className="col-md-4">
         <div className="px-md-3">
-          <img src="img/silver-package.webp" alt="" className="img-fluid d-block mx-auto p-3 img-275" />
+          <Image src="img/silver-package.webp" alt="Non Comprehensive Maintenance" className="img-fluid d-block mx-auto p-3 img-275"  width={275} height={237} />
           <div className="text-center post-title text-medium text-extra-dark-gray">
             <p className="p-10 border-bottom">Non Comprehensive Maintenance Package</p>
             <p className="p-10 border-bottom">24x7 Emergency service</p>
@@ -67,7 +67,7 @@ export default function Home() {
       </div>
       <div className="col-md-4">
         <div className="px-md-3">
-          <img src="img/gold-package.webp" alt="" className="img-fluid d-block mx-auto p-3 img-275" />
+          <Image src="img/gold-package.webp" alt=">Semi-Comprehensive Maintenance " className="img-fluid d-block mx-auto p-3 img-275" width={275} height={237} />
           <div className="text-center post-title text-medium text-extra-dark-gray">
             <p className="p-10 border-bottom">Semi-Comprehensive Maintenance Package</p>
             <p className="p-10 border-bottom">24x7 Emergency service</p>
@@ -79,7 +79,7 @@ export default function Home() {
       </div>
       <div className="col-md-4">
         <div className="px-md-3">
-          <img src="img/platinum-package.webp" alt="" className="img-fluid d-block mx-auto p-3 img-275" />
+          <Image src="img/platinum-package.webp" alt="Comprehensive maintenance " className="img-fluid d-block mx-auto p-3 img-275"  width={275} height={237}/>
           <div className="text-center post-title text-medium text-extra-dark-gray">
             <p className="p-10 border-bottom">Full – Comprehensive maintenance package</p>
             <p className="p-10 border-bottom">24x7 Emergency service</p>

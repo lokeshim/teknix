@@ -39,9 +39,7 @@ export default function Home() {
 <section className="section position-relative" id="experience" data-aos="fade-up" data-aos-duration={1500}>
   <div className="container text-center p-0">
     <div className="row align-items-center">
-      <div className="col-md-4 d-none">
-        <img src="img/sustainability.webp" className="img-fluid py-md-5d-block mx-auto" alt />
-      </div>
+      
       <div className="col-md-12">
         <div>
           <p className="text-center other-heading" data-aos="fade-up" data-aos-duration={2000}>
@@ -53,7 +51,7 @@ export default function Home() {
             We recognize that sustainability is not just an ethical imperative but a crucial driver of innovation and growth. As we strive to enhance the value we provide to our customers, investors, and employees, we remain steadfast in our dedication to ethical business practices, environmental stewardship, and social responsibility. Our ultimate ambition is to position TEKNIX as one of the world’s leading brands in corporate sustainability, setting a benchmark for excellence in how businesses can thrive while making a positive impact on the world.
           </p>
           <p className="p-10 text-justify">
-            Sustainability, for us, is not simply a set of initiatives but a deep-seated cultural value. It is woven into the very fabric of our company and serves as a key pillar of our long-term strategy. By embracing sustainability, we are not only improving performance but also ensuring that the benefits of our actions extend far beyond the present to positively influence future generations. Our commitment goes beyond eco-friendly practices, encompassing a fundamental shift in how we view our stewardship of the planet's finite resources. It is an enduring pledge to safeguard the environment and preserve it for those who will inherit it.
+            Sustainability, for us, is not simply a set of initiatives but a deep-seated cultural value. It is woven into the very fabric of our company and serves as a key pillar of our long-term strategy. By embracing sustainability, we are not only improving performance but also ensuring that the benefits of our actions extend far beyond the present to positively influence future generations. Our commitment goes beyond eco-friendly practices, encompassing a fundamental shift in how we view our stewardship of the planet’s finite resources. It is an enduring pledge to safeguard the environment and preserve it for those who will inherit it.
           </p>
           <p className="p-10 text-justify">
             At TEKNIX, we have set ambitious goals to become a carbon-neutral company, advancing toward a future where our operations have a net-zero carbon footprint. We are deeply committed to reducing emissions across all areas of our business, from product design and manufacturing to supply chain and energy consumption. Our goal is to eliminate our carbon impact through a combination of direct emissions reductions, operational efficiencies, and investments in carbon offset initiatives. Our efforts are driven by a strategic roadmap that involves the adoption of cleaner technologies, renewable energy sources, and sustainable materials, with the aim of achieving carbon neutrality within the coming years.

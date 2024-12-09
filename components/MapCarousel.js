@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
-
+import Image from 'next/image';
 const OwlCarousel = dynamic(() => import('react-owl-carousel'), { ssr: false });
 
 const MapCarousel = ({ locations }) => {
@@ -20,7 +20,7 @@ const MapCarousel = ({ locations }) => {
         >
           {locations.map((location, index) => (
             <div key={index} className="item">
-              <img src={location.image} alt={location.name} />
+              <Image src={location.image} alt={location.name} />
             </div>
           ))}
         </OwlCarousel>

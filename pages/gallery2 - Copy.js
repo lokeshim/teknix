@@ -6,6 +6,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 import { Navigation, Thumbs } from 'swiper/modules';
 import SimpleCarousel from '../components/SimpleCarousel';
+import Image from 'next/image';
 export default function GalleryPage() {
     const myslides = [
         {
@@ -267,7 +268,7 @@ export default function GalleryPage() {
                                         if (index === 2) className = 'img-fluid img-third rounded-4  ';
 
                                         return (
-                                            <img
+                                            <Image
                                                 key={index}
                                                 src={image}
                                                 alt={`${selectedSlider.name} - ${index + 1}`}
@@ -316,7 +317,7 @@ export default function GalleryPage() {
                                             >
                                                 {selectedSlider.images.map((image, index) => (
                                                     <SwiperSlide key={index}>
-                                                        <img
+                                                        <Image
                                                             src={image}
                                                             alt={`Slide ${index + 1}`}
                                                             style={{borderRadius: '10px' }}
@@ -354,7 +355,7 @@ export default function GalleryPage() {
                                             >
                                                 {selectedSlider.images.map((image, index) => (
                                                     <SwiperSlide key={index}>
-                                                        <img
+                                                        <Image
                                                             src={image}
                                                             alt={`Thumbnail ${index + 1}`}
                                                             style={{

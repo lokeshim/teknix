@@ -58,7 +58,7 @@ export default function Home() {
         <div className="col-md-3   d-flex align-items-center justify-content-center">
           <div className="row optima-list m-30">
             <div className="col-6 d-flex align-items-center ">
-              <img src="img/TESC1.png" className="d-block mx-auto" alt />
+              <Image src="img/TESC1.png" className="d-block mx-auto" alt="teknix"  width={80}  height={80}   />
             </div>
             <div className="col-6 d-flex align-items-center">
               <div>
@@ -71,7 +71,7 @@ export default function Home() {
         <div className="col-md-3   d-flex align-items-center justify-content-center">
           <div className="row optima-list m-30">
             <div className="col-6 d-flex align-items-center ">
-              <img src="img/TESC2.png" className="d-block mx-auto" alt />
+              <Image src="img/TESC2.png" className="d-block mx-auto" alt="teknix"  width={80}  height={80}  />
             </div>
             <div className="col-6 d-flex align-items-center">
               <div>
@@ -84,7 +84,7 @@ export default function Home() {
         <div className="col-md-3   d-flex align-items-center justify-content-center">
           <div className="row optima-list m-30">
             <div className="col-6 d-flex align-items-center ">
-              <img src="img/TESC3.png" className="d-block mx-auto" alt />
+              <Image src="img/TESC3.png" className="d-block mx-auto" alt="teknix"  width={80}  height={80}  />
             </div>
             <div className="col-6 d-flex align-items-center">
               <div>
@@ -97,7 +97,7 @@ export default function Home() {
         <div className="col-md-3   d-flex align-items-center justify-content-center">
           <div className="row optima-list m-30">
             <div className="col-6 d-flex align-items-center ">
-              <img src="img/TESC4.png" className="d-block mx-auto" alt />
+              <Image src="img/TESC4.png" className="d-block mx-auto" alt="teknix"  width={80}  height={80}  />
             </div>
             <div className="col-6 d-flex align-items-center">
               <div>

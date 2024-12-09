@@ -2,7 +2,7 @@ import Head from 'next/head';
 import React, { useState } from 'react';
 import DynamicSlider from '../components/DynamicSlider';
 import ConnectForm from '../components/ConnectForm';
-
+import Image from 'next/image';
 export default function Gallery() {
   
    const slides = [

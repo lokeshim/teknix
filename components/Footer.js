@@ -71,10 +71,12 @@ const Footer = () => {
       <div className="col-md-2 d-flex align-items-center justify-content-center justify-content-md-start p-10">
         <div className="row ">
           <div className="col-md-12 ">
-            <img
-              src="img/logo-white.png"
-              className="d-block ms-md-0 mx-auto"
-              alt=""
+            <Image
+              width={150}
+                  height={50}
+              src="/img/logo-white.png"
+              className="d-block ms-md-0 mx-auto img-fluid"
+              alt="teknix logo" layout="intrinsic"
             />
           </div>
         </div>
@@ -93,11 +95,11 @@ const Footer = () => {
             <form className="position-relative">
               <input
                 type="text"
-                className="form-control bg-transparent border-bottom border-top-0 rounded-0 border-start-0 border-end-0   border-opacity-25 p-20 m-10"
+                className="form-control bg-transparent border-bottom border-top-0 rounded-0 border-start-0 border-end-0   border-opacity-25 p-20 m-10 w-100"
                 placeholder="E-mail Addresss "
               />
               <div className="row   m-10">
-                <div className="  form-check">
+                <div className="w-100  form-check">
                   <input
                     type="checkbox"
                     className="form-check-input"
@@ -105,7 +107,7 @@ const Footer = () => {
                     required=""
                   />
                   <p
-                    className="form-check-label font-11 text-justify font-light-color"
+                    className="form-check-label font-11 text-justify font-light-color d-none"
                     htmlFor="terms"
                   >
                     By providing Global Collective your contact information, you
@@ -131,7 +133,8 @@ const Footer = () => {
                 }}
                 type="button"
               >
-                <img src="img/right-carousel.png" className="w-12" alt="" />
+                <Image src="img/right-carousel.png" className="w-12" alt=""   width={16}
+                  height={16} />
               </button>
             </form>
           </div>

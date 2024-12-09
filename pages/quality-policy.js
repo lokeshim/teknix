@@ -6,6 +6,7 @@ import BlogSection from '../components/BlogSection';
 import Testimonials from '../components/Testimonials';
 import ConnectForm from '../components/ConnectForm';
 import SimpleCarousel from '../components/SimpleCarousel';
+
 export default function Home() {
    const slides = [
     {
@@ -37,7 +38,7 @@ export default function Home() {
   <div className="container text-center p-0">
     <div className="row">
       <div className="col-md-5 d-flex">
-        <img src="img/quality-policy.webp" className="img-fluid px-md-3 py-md-3d-block mx-auto object-fit" alt />
+        <Image src="img/quality-policy.webp" className="img-fluid px-md-3 py-md-3d-block mx-auto object-fit" alt="qualtiy policy" width={536} height={512} />
       </div>
       <div className="col-md-7 d-flex align-items-center">
         <div>

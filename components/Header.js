@@ -143,7 +143,7 @@ const Header = () => {
       </div>
       {/* Center Logo */}
       <a className="navbar-brand mx-md-auto " href="./">
-        <img src="/img/Web-teknix-logo.svg" alt="Logo" style={{ width: 150 }} />
+        <Image src="/img/Web-teknix-logo.svg" alt="Logo" width={150} height={50} layout="intrinsic" style={{ width: 150 }} />
       </a>
       {/* Right-side Menu (hamburger icon for small screens) */}
       <button
@@ -216,7 +216,7 @@ const Header = () => {
           <li className="nav-item">
             <Link
               className="nav-link text-white"
-              href="/blogs"
+              href="/blog"
             >
               BLOG
             </Link>
@@ -387,7 +387,7 @@ const Header = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link text-white" href="blogs">
+            <Link className="nav-link text-white" href="blog">
               BLOG
             </Link>
           </li>

@@ -80,8 +80,10 @@ export default function Home() {
 
               </div>
             </div>
-            <div className="row">
-            <div className='col-md-12  py-5'>
+            <div className="row"  data-aos="fade-up"
+                    data-aos-duration={2000}>
+            <div className='col-md-12  py-5'  data-aos="fade-up"
+                    data-aos-duration={2000}>
                <Swiper
                     effect={'coverflow'}
                     grabCursor={true}
@@ -101,41 +103,41 @@ export default function Home() {
                   className="mySwiper"
                 >
                   <SwiperSlide>
-                    <img src="img/Center/s1.jpg" alt="gallery" className='img-fluid' />
+                    <Image src="img/Center/s1.jpg" alt="gallery" className='img-fluid' width={460} height={613} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src="img/Center/s7.jpg" alt="gallery"className='img-fluid' />
+                    <Image src="img/Center/s7.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src="img/Center/s3.jpg" alt="gallery"className='img-fluid' />
+                    <Image src="img/Center/s3.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src="img/Center/s9.jpg" alt="gallery"className='img-fluid' />
+                    <Image src="img/Center/s9.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src="img/Center/s5.jpg" alt="gallery"className='img-fluid' />
+                    <Image src="img/Center/s5.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src="img/Center/s11.jpg" alt="gallery"className='img-fluid' />
+                    <Image src="img/Center/s11.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src="img/Center/s14.jpg" alt="gallery"className='img-fluid' />
+                    <Image src="img/Center/s14.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src="img/Center/s2.jpg" alt="gallery"className='img-fluid' />
+                    <Image src="img/Center/s2.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src="img/Center/s4.jpg" alt="gallery"className='img-fluid' /> 
+                    <Image src="img/Center/s4.jpg" alt="gallery"className='img-fluid' width={460} height={613} /> 
                     </SwiperSlide>
                   <SwiperSlide>
-                    <img src="img/Center/s6.jpg" alt="gallery"className='img-fluid' />
+                    <Image src="img/Center/s6.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
                   </SwiperSlide>
 
                   <SwiperSlide>
-                    <img src="img/Center/s8.jpg" alt="gallery"className='img-fluid' />
+                    <Image src="img/Center/s8.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src="img/Center/s10.jpg" alt="gallery"className='img-fluid' />
+                    <Image src="img/Center/s10.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
                   </SwiperSlide>
                 </Swiper>
             </div>
@@ -149,7 +151,7 @@ export default function Home() {
           data-aos-duration={2500}
         >
           <div className="container-fluid px-md-5 p-0">
-            <img src="img/map.png" alt="" className="w-100" />
+            <Image src="/img/map.png" alt="" className="w-100"  width={1920} height={850} />
           </div>
         </section>
 

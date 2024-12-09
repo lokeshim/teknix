@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectCoverflow, Autoplay } from 'swiper/modules'; // Import Autoplay module
+import { EffectCoverflow } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
-
+import Image from 'next/image';
 const MapWithSliderIframe = () => {
   const locations = [
     {
@@ -90,37 +90,41 @@ const MapWithSliderIframe = () => {
             <iframe
               title="Google Map"
               src={getIframeSrc(selectedLocation.lat, selectedLocation.lng)}
-              style={{ width: '100%', height: '100%', border: 0,filter: 'grayscale(100%) invert(90%)' }}
+              style={{ width: '100%', height: '100%', border: 0, filter: 'grayscale(100%) invert(90%)' }}
               allowFullScreen
               loading="lazy"
             ></iframe>
           </div>
-          <div className="col-md-10 d-block mx-auto" id="gmap">
-            <div style={{ marginBottom: '20px' }}>
+          <div className="col-md-12 d-block mx-auto" id="gmap">
+            <div style={{ marginBottom: '20px' }} id="simpleCarousel">
               <Swiper
                 onSlideChange={handleSlideChange}
                 grabCursor={true}
-                spaceBetween={50}
+                spaceBetween={120}
                 centeredSlides={true}
                 slidesPerView="3"
                 effect="coverflow"
-                autoplay={{ delay: 5000, disableOnInteraction: false }} // Auto-slide every 5 seconds
-                modules={[EffectCoverflow, Autoplay]} // Include Autoplay module
+
+                modules={[EffectCoverflow]} // Include Autoplay module
                 coverflowEffect={{
                   rotate: 0,
                   stretch: 0,
-                  depth: 0,
+                  depth: 350,
                   modifier: 0,
                   slideShadows: false,
                 }}
               >
                 {locations.map((location) => (
-                  <SwiperSlide key={location.id} style={{ width: '300px' }}>
-                    <img
+                  <SwiperSlide key={location.id} >
+                    <Image
                       src={location.image}
                       alt={location.name}
-                      className='rounded-4'
-                      style={{ width: '100%', borderRadius: '10px' }}
+                      className='rounded-4 img-fluid'
+                      width={300} // Set appropriate width
+                      height={200} // Set appropriate height
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 300px" // For responsive images
+                      style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
+                      layout="intrinsic"
                     />
                   </SwiperSlide>
                 ))}

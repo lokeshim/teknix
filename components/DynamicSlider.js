@@ -4,6 +4,7 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
+import Image from 'next/image';
 import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
 
 const DynamicSlider = ({ sliderData }) => {
@@ -46,7 +47,7 @@ const DynamicSlider = ({ sliderData }) => {
                 background: 'transparent',
               }}
             >
-              <img
+              <Image
                 src={sliderData.images[0]} // Button shows the first image
                 alt={`Button Image for ${sliderData.name}`}
                 style={{
@@ -77,7 +78,7 @@ const DynamicSlider = ({ sliderData }) => {
                 >
                   {sliderData.images.map((image, index) => (
                     <SwiperSlide key={index}>
-                      <img
+                      <Image
                         src={image}
                         alt={`Slide ${sliderData.id}-${index + 1}`}
                         style={{ width: '100%', borderRadius: '10px' }}
@@ -109,7 +110,7 @@ const DynamicSlider = ({ sliderData }) => {
               >
                 {sliderData.images.map((image, index) => (
                   <SwiperSlide key={index}>
-                    <img
+                    <Image
                       src={image}
                       alt={`Thumbnail ${sliderData.id}-${index + 1}`}
                       style={{

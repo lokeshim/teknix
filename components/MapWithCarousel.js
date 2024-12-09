@@ -89,15 +89,7 @@ const MapWithCarousel = () => {
 
   return (
     <section  className="section">
-      {/* Load jQuery and Owl Carousel JS only on client-side */}
-      <Script
-        src="https://code.jquery.com/jquery-3.6.0.min.js"
-        strategy="beforeInteractive"
-      />
-      <Script
-        src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-        strategy="beforeInteractive"
-      />
+   
 
       <div className="container-fluid p-0">
         <div className="row" id="contactmap">

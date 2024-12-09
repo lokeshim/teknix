@@ -30,7 +30,7 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <section id="testimonials" className="section">
-      <Script src="https://code.jquery.com/jquery-3.6.0.min.js" strategy="beforeInteractive" />
+     
       <div className="container-fluid">
         {/* Carousel Section */}
         <div className="row py-5 border-bottom border-light border-opacity-25">

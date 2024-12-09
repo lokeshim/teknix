@@ -39,7 +39,7 @@ const ConnectForm = () => {
               href=""
               className="text-light text-decoration-none font-11 fw-normal letter-spacing"
             >
-              We’ll put you in touch with your acclaimed Global Collective™
+              We&apos;ll put you in touch with your acclaimed Global Collective™
               member.
             </a>
           </p>
@@ -71,6 +71,18 @@ const ConnectForm = () => {
               required=""
             />
           </div>
+            <div className="mb-4">
+            <label htmlFor="email" className="form-label">
+              Mobile
+            </label>
+            <input
+              type="text"
+              className="form-control border-bottom rounded-0 bg-transparent border-light border-opacity-25 border-top-0 border-start-0 border-end-0 p-20"
+              id="mobile"
+              placeholder="Mobile"
+              required=""
+            />
+          </div>
           {/* Message Field */}
           <div className="mb-4">
             <label htmlFor="message" className="form-label">
@@ -86,7 +98,7 @@ const ConnectForm = () => {
             />
           </div>
           {/* Terms and Conditions Checkbox */}
-          <div className="  form-check">
+          <div className="d-none  form-check">
             <input
               type="checkbox"
               className="form-check-input"
@@ -120,7 +132,8 @@ const ConnectForm = () => {
         </form>
       </div>
       <div className="col-md-6">
-        <img src="img/lets connect with us.png" alt="" className="w-100" />
+        <Image src="img/lets connect with us.png" alt="teknix"   width={956}
+                  height={587}className="w-100" />
       </div>
     </div>
   </div>

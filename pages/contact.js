@@ -126,7 +126,8 @@ export default function Home() {
  <MapWithSliderIframe />
   <section className="section position-relative" id="experience" data-aos="fade-up" data-aos-duration={2500}>
     <div className="container-fluid px-md-5 p-0">
-      <img src="img/map.png" alt className="w-100" />
+      <Image src="img/map.png" alt="teknix" className="w-100"   width={1920}
+                      height={850} />
     </div>
   </section>
 </div>

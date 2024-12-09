@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { posts } from '../../data/posts';
 import SimpleCarousel from '../../components/SimpleCarousel';
+import BlogSection2 from '../../components/BlogSection2';
 export default function Blog() {
    const sortedPosts = posts.sort((a, b) => new Date(b.date) - new Date(a.date));
  const slides = [
@@ -26,7 +27,7 @@ export default function Blog() {
           
 
     <SimpleCarousel slides={slides} showIndicators={false} showControls={false} />
-
+<BlogSection2></BlogSection2>
         
 
  

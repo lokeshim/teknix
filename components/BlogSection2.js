@@ -13,9 +13,9 @@ const BlogSection = () => {
           <div className="offset-md-1 col-md-6">
             <div>
               <p className="other-heading">Our Blog</p>
-              <p className="my-3 text-start my-md-5 ">
+              <p className="my-3 text-start my-md-3 ">
                 <Link href="#" className="text-danger text-decoration-none font-15 fw-normal letter-spacing">
-                  ALL ARTICLE
+                 &nbsp;
                 </Link>
               </p>
             </div>
@@ -23,7 +23,7 @@ const BlogSection = () => {
         </div>
 
         {/* Dynamic Blog Content */}
-        <div className="row py-md-5">
+        <div className="row ">
           {/* Main Blog Post */}
           <div className="col-md-6 px-0">
             {sortedPosts.length > 0 && (
@@ -36,18 +36,7 @@ const BlogSection = () => {
                 layout="intrinsic"
                   className="w-100"
                 />
-                <div className="row">
-                  <div className="col-md-9 my-5 offset-md-3">
-                    <p className="other-heading2">
-                      {posts[0].title}
-                    </p>
-                    <p className="my-3 text-start my-5">
-                      <Link href={`/blog/${posts[0].slug}`} className="text-danger text-decoration-none font-12 fw-normal letter-spacing">
-                        READ ARTICLE
-                      </Link>
-                    </p>
-                  </div>
-                </div>
+              
               </div>
             )}
           </div>

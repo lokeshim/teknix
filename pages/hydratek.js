@@ -57,7 +57,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Hydratek-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
-              <img src="img/type.png" className="d-block mx-auto img-fluid" alt />
+              <Image src="img/type.png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}  height={80}  />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
               <div>
@@ -70,7 +70,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Hydratek-list">
             <div className="col-6 col-md-6 d-flex align-items-center ">
-              <img src="img/cap.png" className="d-block mx-auto img-fluid" alt />
+              <Image src="img/cap.png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}  height={80}  />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
               <div>
@@ -83,7 +83,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Hydratek-list">
             <div className="col-6 col-md-6 d-flex align-items-center ">
-              <img src="img/icon-stars.png" className="d-block mx-auto img-fluid" alt />
+              <Image src="img/icon-stars.png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}  height={80}  />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
               <div>
@@ -96,7 +96,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Hydratek-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
-              <img src="img/icon-stars(1).png" className="d-block mx-auto img-fluid" alt />
+              <Image src="img/icon-stars(1).png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}  height={80}  />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
               <div>
@@ -109,7 +109,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Hydratek-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
-              <img src="img/icon-agent(1).png" className="d-block mx-auto" alt />
+              <Image src="img/icon-agent(1).png" className="d-block mx-auto" alt="teknix"  width={80}  height={80}  />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
               <div>
@@ -122,7 +122,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Hydratek-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
-              <img src="img/operation.png" className="d-block mx-auto" alt />
+              <Image src="img/operation.png" className="d-block mx-auto" alt="teknix"  width={80}  height={80}  />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
               <div>
@@ -135,7 +135,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Hydratek-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
-              <img src="img/width.png" className="d-block mx-auto" alt />
+              <Image src="img/width.png" className="d-block mx-auto" alt="teknix"  width={80}  height={80}  />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
               <div>
@@ -148,7 +148,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Hydratek-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
-              <img src="img/height.png" className="d-block mx-auto" alt />
+              <Image src="img/height.png" className="d-block mx-auto" alt="teknix"  width={80}  height={80}  />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
               <div>

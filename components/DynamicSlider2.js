@@ -4,6 +4,7 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
+import Image from 'next/image';
 import { FreeMode, Navigation, Thumbs } from 'swiper/modules'; // Correct way to import modules
 
 const DynamicSlider2 = ({ sliderData }) => {
@@ -27,14 +28,14 @@ const DynamicSlider2 = ({ sliderData }) => {
         spaceBetween={10} // Reduce space between slides
         navigation={false}
         thumbs={{ swiper: thumbsSwiper }}
-        className="img-fluid"
+        className="img-fluid mySwiper2"
         modules={[FreeMode, Navigation, Thumbs]} // Correctly specify modules here
-        className="mySwiper2"
+     
         style={{ marginBottom: '20px' }} // Add spacing between main and thumbnail sliders
       >
         {images.map((image, index) => (
           <SwiperSlide key={index}>
-            <img
+            <Image
               src={image}
               alt={`Slide ${index + 1}`}
               style={{ width: '100%', borderRadius: '10px' }} // Optional: Add some styling to images
@@ -59,7 +60,7 @@ const DynamicSlider2 = ({ sliderData }) => {
       >
         {images.map((image, index) => (
           <SwiperSlide key={index}>
-            <img
+            <Image
               src={image}
               alt={`Thumbnail ${index + 1}`}
               style={{ width: '100%', cursor: 'pointer', borderRadius: '5px' }} // Add thumbnail styling

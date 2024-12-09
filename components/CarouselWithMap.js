@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import OwlCarousel from "react-owl-carousel2";
 import "react-owl-carousel2/lib/styles.css";
-
+import Image from 'next/image';
 // Dynamically import Google Map to prevent SSR issues
 const GoogleMap = dynamic(() => import("google-maps-react").then((mod) => mod.Map), { ssr: false });
 const Marker = dynamic(() => import("google-maps-react").then((mod) => mod.Marker), { ssr: false });
@@ -39,7 +39,7 @@ const CarouselWithMap = () => {
         <OwlCarousel options={options} onTranslated={handleSlideChange}>
           {locations.map((location, idx) => (
             <div className="item" key={idx}>
-              <img src={location.img} alt={`Location ${idx + 1}`} />
+              <Image src={location.img} alt={`Location ${idx + 1}`} />
             </div>
           ))}
         </OwlCarousel>

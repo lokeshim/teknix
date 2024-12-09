@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
+import Image from 'next/image';
 import { Navigation, Thumbs } from 'swiper/modules';
 import SimpleCarousel from '../components/SimpleCarousel';
 export default function GalleryPage() {
@@ -53,7 +54,7 @@ export default function GalleryPage() {
         },
         {
             id: 3,
-            name: 'Greentekr',
+            name: 'Greentek',
             images: [
                 'img/gal/elevator/greentek/1.webp',
                 'img/gal/elevator/greentek/2.webp',
@@ -274,7 +275,7 @@ const handleSliderChange2 = (event) => {
                                         if (index === 2) className = 'img-fluid img-third rounded-4  ';
 
                                         return (
-                                            <img
+                                            <Image
                                                 key={index}
                                                 src={image}
                                                 alt={`${selectedSlider.name} - ${index + 1}`}
@@ -286,6 +287,8 @@ const handleSliderChange2 = (event) => {
                                                     borderRadius: '5px',
                                                     transition: 'transform 0.3s ease',
                                                 }}
+                                                width={262}
+                                                height={420}
                                             />
                                         );
                                     })}
@@ -324,10 +327,12 @@ const handleSliderChange2 = (event) => {
                                             >
                                                 {selectedSlider.images.map((image, index) => (
                                                     <SwiperSlide key={index}>
-                                                        <img
+                                                        <Image
                                                             src={image}
                                                             alt={`Slide ${index + 1}`}
                                                             style={{ width: '100%', maxHeight: '480px',objectFit:'cover',borderRadius: '10px' }}
+                                                             width={416}
+                                                height={450}
                                                         />
                                                     </SwiperSlide>
                                                 ))}
@@ -362,7 +367,7 @@ const handleSliderChange2 = (event) => {
                                             >
                                                 {selectedSlider.images.map((image, index) => (
                                                     <SwiperSlide key={index}>
-                                                        <img
+                                                        <Image
                                                             src={image}
                                                             alt={`Thumbnail ${index + 1}`}
                                                             style={{
@@ -372,6 +377,8 @@ const handleSliderChange2 = (event) => {
                                                                 borderRadius: '5px',
                                                             }}
                                                             className='d-block mx-auto'
+                                                             width={80}
+                                                height={150}
                                                         />
                                                     </SwiperSlide>
                                                 ))}
