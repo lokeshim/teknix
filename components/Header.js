@@ -7,7 +7,7 @@ const Header = () => {
        <>
        <section className="top-section ">
   <div className="container ">
-    <nav className="navbar navbar-expand-lg narbar-light  py-md-4    fixed-top px-md-5">
+    <nav className="navbar navbar-expand-lg narbar-dark  py-md-4    fixed-top px-md-5">
       {/* Left-side Menu (visible on large screens) */}
       <div className="d-none d-lg-flex ">
         <ul className="navbar-nav   ">
