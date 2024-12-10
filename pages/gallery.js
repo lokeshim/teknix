@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 import Image from 'next/image';
-import { Navigation, Thumbs } from 'swiper/modules';
+import { Autoplay,Navigation, Thumbs } from 'swiper/modules';
 import SimpleCarousel from '../components/SimpleCarousel';
 export default function GalleryPage() {
     const myslides = [
@@ -20,90 +20,90 @@ export default function GalleryPage() {
             id: 1,
             name: 'Optima',
             images: [
-                'img/gal/elevator/optima/1.webp',
-                'img/gal/elevator/optima/2.webp',
-                'img/gal/elevator/optima/3.webp',
-                'img/gal/elevator/optima/4.webp',
-                'img/gal/elevator/optima/5.webp',
-                'img/gal/elevator/optima/6.webp',
-                'img/gal/elevator/optima/7.webp',
-                'img/gal/elevator/optima/8.webp',
-                'img/gal/elevator/optima/9.webp',
-                'img/gal/elevator/optima/10.webp',
-                'img/gal/elevator/optima/11.webp',
-                'img/gal/elevator/optima/12.webp',
+                '/img/gal/elevator/optima/1.webp',
+                '/img/gal/elevator/optima/2.webp',
+                '/img/gal/elevator/optima/3.webp',
+                '/img/gal/elevator/optima/4.webp',
+                '/img/gal/elevator/optima/5.webp',
+                '/img/gal/elevator/optima/6.webp',
+                '/img/gal/elevator/optima/7.webp',
+                '/img/gal/elevator/optima/8.webp',
+                '/img/gal/elevator/optima/9.webp',
+                '/img/gal/elevator/optima/10.webp',
+                '/img/gal/elevator/optima/11.webp',
+                '/img/gal/elevator/optima/12.webp',
             ],
         },
         {
             id: 2,
             name: 'Vertix',
             images: [
-                'img/gal/elevator/vertix/1.webp',
-                'img/gal/elevator/vertix/2.webp',
-                'img/gal/elevator/vertix/3.webp',
-                'img/gal/elevator/vertix/4.webp',
-                'img/gal/elevator/vertix/5.webp',
-                'img/gal/elevator/vertix/6.webp',
-                'img/gal/elevator/vertix/7.webp',
-                'img/gal/elevator/vertix/8.webp',
-                'img/gal/elevator/vertix/9.webp',
-                'img/gal/elevator/vertix/10.webp',
-                'img/gal/elevator/vertix/11.webp',
-                'img/gal/elevator/vertix/12.webp',
+                '/img/gal/elevator/vertix/1.webp',
+                '/img/gal/elevator/vertix/2.webp',
+                '/img/gal/elevator/vertix/3.webp',
+                '/img/gal/elevator/vertix/4.webp',
+                '/img/gal/elevator/vertix/5.webp',
+                '/img/gal/elevator/vertix/6.webp',
+                '/img/gal/elevator/vertix/7.webp',
+                '/img/gal/elevator/vertix/8.webp',
+                '/img/gal/elevator/vertix/9.webp',
+                '/img/gal/elevator/vertix/10.webp',
+                '/img/gal/elevator/vertix/11.webp',
+                '/img/gal/elevator/vertix/12.webp',
             ],
         },
         {
             id: 3,
             name: 'Greentek',
             images: [
-                'img/gal/elevator/greentek/1.webp',
-                'img/gal/elevator/greentek/2.webp',
-                'img/gal/elevator/greentek/3.webp',
-                'img/gal/elevator/greentek/4.webp',
-                'img/gal/elevator/greentek/5.webp',
-                'img/gal/elevator/greentek/6.webp',
-                'img/gal/elevator/greentek/7.webp',
-                'img/gal/elevator/greentek/8.webp',
-                'img/gal/elevator/greentek/9.webp',
-                'img/gal/elevator/greentek/10.webp',
-                'img/gal/elevator/greentek/11.webp',
-                'img/gal/elevator/greentek/12.webp',
+                '/img/gal/elevator/greentek/1.webp',
+                '/img/gal/elevator/greentek/2.webp',
+                '/img/gal/elevator/greentek/3.webp',
+                '/img/gal/elevator/greentek/4.webp',
+                '/img/gal/elevator/greentek/5.webp',
+                '/img/gal/elevator/greentek/6.webp',
+                '/img/gal/elevator/greentek/7.webp',
+                '/img/gal/elevator/greentek/8.webp',
+                '/img/gal/elevator/greentek/9.webp',
+                '/img/gal/elevator/greentek/10.webp',
+                '/img/gal/elevator/greentek/11.webp',
+                '/img/gal/elevator/greentek/12.webp',
             ],
         },
         {
             id: 4,
             name: 'Hytex',
             images: [
-                'img/gal/elevator/HYTEX/1.webp',
-                'img/gal/elevator/HYTEX/2.webp',
-                'img/gal/elevator/HYTEX/3.webp',
-                'img/gal/elevator/HYTEX/4.webp',
-                'img/gal/elevator/HYTEX/5.webp',
-                'img/gal/elevator/HYTEX/6.webp',
-                'img/gal/elevator/HYTEX/7.webp',
-                'img/gal/elevator/HYTEX/8.webp',
-                'img/gal/elevator/HYTEX/9.webp',
-                'img/gal/elevator/HYTEX/10.webp',
-                'img/gal/elevator/HYTEX/11.webp',
-                'img/gal/elevator/HYTEX/12.webp',
+                '/img/gal/elevator/HYTEX/1.webp',
+                '/img/gal/elevator/HYTEX/2.webp',
+                '/img/gal/elevator/HYTEX/3.webp',
+                '/img/gal/elevator/HYTEX/4.webp',
+                '/img/gal/elevator/HYTEX/5.webp',
+                '/img/gal/elevator/HYTEX/6.webp',
+                '/img/gal/elevator/HYTEX/7.webp',
+                '/img/gal/elevator/HYTEX/8.webp',
+                '/img/gal/elevator/HYTEX/9.webp',
+                '/img/gal/elevator/HYTEX/10.webp',
+                '/img/gal/elevator/HYTEX/11.webp',
+                '/img/gal/elevator/HYTEX/12.webp',
             ],
         },
         {
             id: 5,
             name: 'Villa Matek',
             images: [
-                'img/gal/elevator/VMT/1.webp',
-                'img/gal/elevator/VMT/2.webp',
-                'img/gal/elevator/VMT/3.webp',
-                'img/gal/elevator/VMT/4.webp',
-                'img/gal/elevator/VMT/5.webp',
-                'img/gal/elevator/VMT/6.webp',
-                'img/gal/elevator/VMT/7.webp',
-                'img/gal/elevator/VMT/8.webp',
-                'img/gal/elevator/VMT/9.webp',
-                'img/gal/elevator/VMT/10.webp',
-                'img/gal/elevator/VMT/11.webp',
-                'img/gal/elevator/VMT/12.webp',
+                '/img/gal/elevator/VMT/1.webp',
+                '/img/gal/elevator/VMT/2.webp',
+                '/img/gal/elevator/VMT/3.webp',
+                '/img/gal/elevator/VMT/4.webp',
+                '/img/gal/elevator/VMT/5.webp',
+                '/img/gal/elevator/VMT/6.webp',
+                '/img/gal/elevator/VMT/7.webp',
+                '/img/gal/elevator/VMT/8.webp',
+                '/img/gal/elevator/VMT/9.webp',
+                '/img/gal/elevator/VMT/10.webp',
+                '/img/gal/elevator/VMT/11.webp',
+                '/img/gal/elevator/VMT/12.webp',
             ],
         },
         
@@ -114,54 +114,54 @@ export default function GalleryPage() {
             id: 1,
             name: 'T20',
             images: [
-                   'img/gal/escalators/T20/1.webp',
-        'img/gal/escalators/T20/2.webp',
-        'img/gal/escalators/T20/3.webp',
-        'img/gal/escalators/T20/4.webp',
-         'img/gal/escalators/T20/5.webp',
-        'img/gal/escalators/T20/6.webp',
-        'img/gal/escalators/T20/7.webp',
-        'img/gal/escalators/T20/8.webp',
-         'img/gal/escalators/T20/9.webp',
-        'img/gal/escalators/T20/10.webp',
-        'img/gal/escalators/T20/11.webp',
-        'img/gal/escalators/T20/12.webp',
+                   '/img/gal/escalators/T20/1.webp',
+        '/img/gal/escalators/T20/2.webp',
+        '/img/gal/escalators/T20/3.webp',
+        '/img/gal/escalators/T20/4.webp',
+         '/img/gal/escalators/T20/5.webp',
+        '/img/gal/escalators/T20/6.webp',
+        '/img/gal/escalators/T20/7.webp',
+        '/img/gal/escalators/T20/8.webp',
+         '/img/gal/escalators/T20/9.webp',
+        '/img/gal/escalators/T20/10.webp',
+        '/img/gal/escalators/T20/11.webp',
+        '/img/gal/escalators/T20/12.webp',
             ],
         },
         {
             id: 2,
             name: 'T15',
             images: [
-                'img/gal/escalators/T15/1.webp',
-        'img/gal/escalators/T15/2.webp',
-        'img/gal/escalators/T15/3.webp',
-        'img/gal/escalators/T15/4.webp',
-         'img/gal/escalators/T15/5.webp',
-        'img/gal/escalators/T15/6.webp',
-        'img/gal/escalators/T15/7.webp',
-        'img/gal/escalators/T15/8.webp',
-         'img/gal/escalators/T15/9.webp',
-        'img/gal/escalators/T15/10.webp',
-        'img/gal/escalators/T15/11.webp',
-        'img/gal/escalators/T15/12.webp',
+                '/img/gal/escalators/T15/1.webp',
+        '/img/gal/escalators/T15/2.webp',
+        '/img/gal/escalators/T15/3.webp',
+        '/img/gal/escalators/T15/4.webp',
+         '/img/gal/escalators/T15/5.webp',
+        '/img/gal/escalators/T15/6.webp',
+        '/img/gal/escalators/T15/7.webp',
+        '/img/gal/escalators/T15/8.webp',
+         '/img/gal/escalators/T15/9.webp',
+        '/img/gal/escalators/T15/10.webp',
+        '/img/gal/escalators/T15/11.webp',
+        '/img/gal/escalators/T15/12.webp',
             ],
         },
         {
             id: 3,
             name: 'T50',
             images: [
-                 'img/gal/escalators/T50/1.webp',
-        'img/gal/escalators/T50/2.webp',
-        'img/gal/escalators/T50/3.webp',
-        'img/gal/escalators/T50/4.webp',
-         'img/gal/escalators/T50/5.webp',
-        'img/gal/escalators/T50/6.webp',
-        'img/gal/escalators/T50/7.webp',
-        'img/gal/escalators/T50/8.webp',
-         'img/gal/escalators/T50/9.webp',
-        'img/gal/escalators/T50/10.webp',
-        'img/gal/escalators/T50/11.webp',
-        'img/gal/escalators/T50/12.webp',
+                 '/img/gal/escalators/T50/1.webp',
+        '/img/gal/escalators/T50/2.webp',
+        '/img/gal/escalators/T50/3.webp',
+        '/img/gal/escalators/T50/4.webp',
+         '/img/gal/escalators/T50/5.webp',
+        '/img/gal/escalators/T50/6.webp',
+        '/img/gal/escalators/T50/7.webp',
+        '/img/gal/escalators/T50/8.webp',
+         '/img/gal/escalators/T50/9.webp',
+        '/img/gal/escalators/T50/10.webp',
+        '/img/gal/escalators/T50/11.webp',
+        '/img/gal/escalators/T50/12.webp',
             ],
         },
        
@@ -214,9 +214,9 @@ const handleSliderChange2 = (event) => {
                 <section className="section position-relative mygallery">
                     <div className='container'>
                         <div className='row'>
-                            <div className='col-md-4 offset-md-2'>
+                            <div className='col-md-4 offset-md-2 col-12'>
                                 {/* Dropdown for Group 1 */}
-                                <div style={{ textAlign: 'center', marginBottom: '20px' }} className='container '>
+                                <div style={{ textAlign: 'center', marginBottom: '20px' }} className=' '>
                                     <label htmlFor="slider1-select" style={{ marginRight: '10px', fontSize: '16px' }}>
                                         Select Slider 1:
                                     </label>
@@ -225,6 +225,8 @@ const handleSliderChange2 = (event) => {
                                         onChange={handleSliderChange1}
                                         style={{ padding: '8px 12px', fontSize: '16px' }}
                                     >
+                                     <optgroup label="Elevator"></optgroup>
+                                   
                                         {slidersGroup1.map((slider) => (
                                             <option key={slider.id} value={slider.id}>
                                                 {slider.name}
@@ -234,7 +236,7 @@ const handleSliderChange2 = (event) => {
                                 </div>
 
                             </div>
-                            <div className='col-md-4 '>
+                            <div className='col-md-4  col-12'>
                                 {/* Dropdown for Group 2 */}
                                 <div style={{ marginBottom: '20px', textAlign: 'center', }}>
                                     <label htmlFor="slider2-select" style={{ marginRight: '10px', fontSize: '16px' }}>
@@ -244,13 +246,15 @@ const handleSliderChange2 = (event) => {
                                         id="slider2-select"
                                         onChange={handleSliderChange2}
                                         style={{ padding: '8px 12px', fontSize: '16px' }}
-                                    >
-                                    
+                                    > 
+                                    <optgroup label="Escalator">
+                                     
                                         {slidersGroup2.map((slider) => (
                                             <option key={slider.id} value={slider.id}>
                                                 {slider.name}
                                             </option>
                                         ))}
+                                        </optgroup>
                                     </select>
                                 </div>
                             </div>
@@ -267,7 +271,9 @@ const handleSliderChange2 = (event) => {
                                 <div className='container position-relative' onClick={toggleSliderVisibility} style={{ cursor: 'pointer',  gap: '10px' }}>
                                     {/* Show first 3 images with their respective classes */}
                                     <div className='row '>
+                                    <p className='text-center other-heading'>{selectedSlider.name}</p>
                                        <div className='col-md-3 d-block mx-auto img-box my-4'> 
+                                       
                                    {selectedSlider.images.slice(0, 3).map((image, index) => {
                                         let className = '';
                                         if (index === 0) className = 'img-fluid img-main rounded-4 d-block mx-auto';
@@ -306,11 +312,15 @@ const handleSliderChange2 = (event) => {
                                     <div className="row">
                                         <div className="col-md-4 d-block mx-auto">
                                             <Swiper
-                                                modules={[Navigation, Thumbs]}
+                                                modules={[Autoplay,Navigation, Thumbs]}
                                                 navigation={false}
                                                 thumbs={{ swiper: thumbsSwiper }}
                                                 slidesPerView={1}
                                                 spaceBetween={30}
+                                                 autoplay={{
+                                                    delay: 2500,
+                                                    disableOnInteraction: false,
+                                                    }}
                                                 loop
                                                 breakpoints={{
                                                     640: {
@@ -344,26 +354,29 @@ const handleSliderChange2 = (event) => {
 
 
                                     <div className="row">
-                                        <div className="col-md-12 d-block mx-auto">
+                                        <div className="col-md-12 d-block mx-auto" id="thumbnail-img">
                                             <Swiper
                                                 onSwiper={setThumbsSwiper}
-                                                slidesPerView={12}
-                                                spaceBetween={30}
+                                               slidesPerView={4}
+                                                spaceBetween={10}
                                                 freeMode
                                                 watchSlidesProgress
                                                 loop
-                                                breakpoints={{
-                                                    640: {
-                                                        slidesPerView: 4,
-                                                    },
-                                                    768: {
-                                                        slidesPerView: 6,
-                                                    },
-                                                    1024: {
-                                                        slidesPerView: 12,
-                                                    },
-                                                }}
-                                                style={{ marginTop: '10px' }}
+                                               breakpoints={{
+                                            640: {
+                                                slidesPerView: 4,
+                                                spaceBetween: 15,
+                                            },
+                                            768: {
+                                                slidesPerView: 6,
+                                                spaceBetween: 20,
+                                            },
+                                            1024: {
+                                                slidesPerView: 12,
+                                                spaceBetween: 30,
+                                            },
+                                            }}
+                                                style={{ marginTop: '20px' }}
                                             >
                                                 {selectedSlider.images.map((image, index) => (
                                                     <SwiperSlide key={index}>

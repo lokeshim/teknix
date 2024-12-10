@@ -5,7 +5,8 @@ import { useEffect } from 'react';
 
 const Footer = () => {
   const { register, handleSubmit, formState: { errors }, reset } = useForm();
-
+  const current_date = new Date(); // Create a new Date object
+const current_year = current_date.getFullYear(); // Get the current year
   // Add scroll event listener for navbar
   useEffect(() => {
     const handleScroll = () => {
@@ -28,14 +29,7 @@ const Footer = () => {
   const onSubmit = (data) => {
     const { name, email, phone, message } = data;
 
-    // Construct WhatsApp URL
-    const whatsappUrl = `https://wa.me/917090122133?text=Full Name: ${encodeURIComponent(name)}%0AMobile Number: ${encodeURIComponent(phone)}%0AEmail ID: ${encodeURIComponent(email)}%0AMessage: ${encodeURIComponent(message)}`;
-
-    // Open WhatsApp URL in a new tab
-    window.open(whatsappUrl, '_blank');
-
-    // Reset form fields after successful submission
-    reset();
+   
   };
 
   return (
@@ -72,8 +66,8 @@ const Footer = () => {
         <div className="row ">
           <div className="col-md-12 ">
             <Image
-              width={150}
-                  height={50}
+              width={115}
+                  height={80}
               src="/img/logo-white.png"
               className="d-block ms-md-0 mx-auto img-fluid"
               alt="teknix logo" layout="intrinsic"
@@ -84,7 +78,7 @@ const Footer = () => {
     </div>
     <div className="row ">
       <div className="col-md-5 offset-md-1 d-flex align-items-center">
-        <div>
+        <div className='w-100'>
           <div className="heading d-md-none ">
             <h2 className="other-heading2 text-center ">
               Our exclusive services <br />
@@ -99,7 +93,7 @@ const Footer = () => {
                 placeholder="E-mail Addresss "
               />
               <div className="row   m-10">
-                <div className="w-100  form-check">
+                <div className="w-100 d-none form-check">
                   <input
                     type="checkbox"
                     className="form-check-input"
@@ -107,7 +101,7 @@ const Footer = () => {
                     required=""
                   />
                   <p
-                    className="form-check-label font-11 text-justify font-light-color d-none"
+                    className="form-check-label font-11 text-justify font-light-color "
                     htmlFor="terms"
                   >
                     By providing Global Collective your contact information, you
@@ -239,7 +233,7 @@ const Footer = () => {
     <div className="row p-20 d-flex align-items-center text-center">
       <div className="col-md-12 col-12  d-block mx-auto">
         <p className="text-white font-normal text-center py-3">
-          Copyright © 2024 Teknix Elevators. All rights reserved.
+          Copyright © {current_year} Teknix Elevators. All rights reserved.
         </p>
       </div>
     </div>

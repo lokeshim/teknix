@@ -120,7 +120,7 @@ const ElevatorSection = () => {
                           layout="responsive"
                           width={1920}
                           height={1080}
-                          className="d-block w-100"
+                          className="d-block w-100 mb-5"
                         />
                       </div>
                     ))}

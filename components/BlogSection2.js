@@ -29,7 +29,7 @@ const BlogSection = () => {
             {sortedPosts.length > 0 && (
               <div>
                 <Image
-               src="/img/blog-main.png"
+               src="/img/Blog - home elevator.jpg"
                   alt="Blog main image"
                   width={956}
                   height={587}
@@ -42,16 +42,17 @@ const BlogSection = () => {
           </div>
 
           {/* Other Blog Posts */}
-          <div className="col-md-6">
+        <div className="col-md-6">
             {sortedPosts.slice(1, 4).map((post, index) => (
-              <div className="row mb-5" key={index}>
-                <div className="col-md-8 offset-md-2 border-bottom border-light border-opacity-25 px-0">
-                  <p className="font-35">{post.title}</p>
+              <div className="row align-items-center" key={index}>
+                <div className="col-md-9 offset-md-1 d-flex align-tems-center">
+                <div class=" border-bottom border-light border-opacity-25 p-20">    <p className="font-28">{post.title}</p>
                   <p className="my-md-4 my-3">
                     <Link href={`/blog/${post.slug}`} className="text-danger text-decoration-none font-12 fw-normal letter-spacing">
                       READ ARTICLE
                     </Link>
-                  </p>
+                  </p></div>
+                
                 </div>
               </div>
             ))}

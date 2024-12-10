@@ -23,13 +23,13 @@ const BlogSection = () => {
         </div>
 
         {/* Dynamic Blog Content */}
-        <div className="row py-md-5">
+        <div className="row ">
           {/* Main Blog Post */}
           <div className="col-md-6 px-0">
             {sortedPosts.length > 0 && (
               <div>
                 <Image
-               src="/img/blog-main.png"
+               src="/img/Blog - home elevator.jpg"
                   alt="Blog main image"
                   width={956}
                   height={587}
@@ -37,11 +37,11 @@ const BlogSection = () => {
                   className="w-100"
                 />
                 <div className="row">
-                  <div className="col-md-9 my-5 offset-md-3">
-                    <p className="other-heading2">
+                  <div className="col-md-10  offset-md-2 mt-5 mb-3">
+                    <p className="font-44 ">
                       {posts[0].title}
                     </p>
-                    <p className="my-3 text-start my-5">
+                    <p className="my-3 my-md-5 text-start ">
                       <Link href={`/blog/${posts[0].slug}`} className="text-danger text-decoration-none font-12 fw-normal letter-spacing">
                         READ ARTICLE
                       </Link>
@@ -55,14 +55,15 @@ const BlogSection = () => {
           {/* Other Blog Posts */}
           <div className="col-md-6">
             {sortedPosts.slice(1, 4).map((post, index) => (
-              <div className="row mb-5" key={index}>
-                <div className="col-md-8 offset-md-2 border-bottom border-light border-opacity-25 px-0">
-                  <p className="font-35">{post.title}</p>
+              <div className="row align-items-center" key={index}>
+                <div className="col-md-9 offset-md-1 d-flex align-tems-center mt-3">
+                <div class=" border-bottom border-light border-opacity-25 p-20">    <p className="font-28">{post.title}</p>
                   <p className="my-md-4 my-3">
                     <Link href={`/blog/${post.slug}`} className="text-danger text-decoration-none font-12 fw-normal letter-spacing">
                       READ ARTICLE
                     </Link>
-                  </p>
+                  </p></div>
+                
                 </div>
               </div>
             ))}

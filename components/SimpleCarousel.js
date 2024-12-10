@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const SimpleCarousel = ({ slides, showIndicators = true, showControls = true }) => {
   return (
-    <div id="simpleCarousel" className="carousel slide" data-bs-ride="carousel">
+    <div id="simpleCarousel" className="carousel slide" data-bs-ride="carousel" style={{marginTop:'20px'}}>
       {/* Carousel Indicators */}
       {showIndicators && (
         <div className="carousel-indicators">

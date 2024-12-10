@@ -143,7 +143,7 @@ const Header = () => {
       </div>
       {/* Center Logo */}
       <a className="navbar-brand mx-md-auto " href="./">
-        <Image src="/img/Web-teknix-logo.svg" alt="Logo" width={150} height={50} layout="intrinsic" style={{ width: 150 }} />
+        <Image src="/img/Web-teknix-logo.svg" alt="Logo" width={150} height={50}  style={{ width: 150,height: '50px'  }} />
       </a>
       {/* Right-side Menu (hamburger icon for small screens) */}
       <button
@@ -233,7 +233,7 @@ const Header = () => {
         {/* Left-side Menu for small screens */}
         <ul className="navbar-nav d-lg-none ">
           <li className="nav-item">
-            <Link className="nav-link text-white" href="index">
+            <Link className="nav-link text-white" href="./">
               HOME
             </Link>
           </li>
@@ -305,17 +305,8 @@ const Header = () => {
               </li>
             </ul>
           </li>
-          {/*?php /*
-                  <li class="nav-item"*/}
-          <Link className="nav-link text-white" href="eleveators">
-            ELEVATORS
-          </Link>
-          <li className="nav-item">
-            <Link className="nav-link text-white" href="escalators">
-              ESCALATORS
-            </Link>
-          </li>{" "}
-          */ ?&gt;
+         
+          
           <li className="nav-item dropdown">
             <Link
               className="nav-link dropdown-toggle text-white"

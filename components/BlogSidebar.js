@@ -32,13 +32,13 @@ const BlogSection = () => {
                         </div>
                         <div className="sidebar__post-content">
                           
-                            <h5 class="title">
+                            <h5 class="title mt-2 mb-3">
                               <a href={`/blog/${sortedPosts[0].slug}`} passHref class="text-white">
                                  {sortedPosts[0].title}
                               </a>
                             </h5>
                            
-                            <span class="date font-15"><i class="flaticon-time"></i>  {sortedPosts[0].date}</span>
+                            
                         </div>
                     </div>
 
@@ -65,13 +65,13 @@ const BlogSection = () => {
               </div>
                 <div className="sidebar__post-content">
                           
-                            <h5 class="title">
+                            <h5 class="title mt-2 mb-3">
                               <a href={`/blog/${sortedPosts[0].slug}`} passHref class="text-decoration-none text-white">
                                  {post.title}
                               </a>
                             </h5>
                            
-                            <span class="date font-15"><i class="flaticon-time"></i>  {sortedPosts[0].date}</span>
+                            <span class="date font-15 my-2"><i class="flaticon-time"></i>  {sortedPosts[0].date}</span>
                         </div>
 
          

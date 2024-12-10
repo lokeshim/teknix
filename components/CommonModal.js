@@ -38,7 +38,7 @@ const CashAgainstCreditCardFeeCalculator = () => {
               <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               <div className="box-outer">
                 <div className="form-box-t">
-                  <h2>Easy Swipe</h2>
+                  <h2>Enquire Now</h2>
                   <form id="popup-form" onSubmit={handleSubmit(onSubmit)}>
                     <div id="popup-note"></div>
                     <div className="box">

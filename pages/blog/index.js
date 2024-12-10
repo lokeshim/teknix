@@ -44,7 +44,7 @@ export default function Blog() {
 
         <div className="col-lg-4 col-md-6 col-sm-6 mb-4" key={post.slug} data-aos="fade-up" data-aos-delay={200}>
           <div className="post-box blog-bottom">
-            <p className="date-color m2-image font-12">{post.date}</p>
+            <p className="date-color m2-image font-12 py-1">{post.date}</p>
             <div className="post-img">
              
                 <Image
