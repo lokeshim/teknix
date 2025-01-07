@@ -38,18 +38,18 @@ export default function Blog() {
     </div>
 
     {/* Blog Posts */}
-    <div className="row">
+    <div className="row m-20">
       {sortedPosts.map((post) => (
        
 
         <div className="col-lg-4 col-md-6 col-sm-6 mb-4" key={post.slug} data-aos="fade-up" data-aos-delay={200}>
           <div className="post-box blog-bottom">
-            <p className="date-color m2-image font-12 py-1">{post.date}</p>
+            <p className="date-color m2-image">{post.date}</p>
             <div className="post-img">
              
                 <Image
                   src={`img/blogs_image/${post.image}`}
-                  className="img-fluid mb-3"
+                  className="img-fluid m-20"
                   alt={post.title}
                   width={500}
                   height={500}

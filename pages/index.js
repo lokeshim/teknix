@@ -5,7 +5,22 @@ import ElevatorCarousel from '../components/ElevatorCarousel';
 import BlogSection from '../components/BlogSection';
 import Testimonials from '../components/Testimonials';
 import ConnectForm from '../components/ConnectForm';
+import SimpleCarousel from '../components/SimpleCarousel';
 export default function Home() {
+  const slides = [
+    {
+      mobile: 'img/mobile/Banner Mobile 1 - Optima.png',
+      desktop: 'img/Elevators/o/Banner 1.webp',
+    },
+    {
+     mobile: 'img/mobile/Banner Mobile 2 - Optima.png',
+      desktop: 'img/Elevators/o/Banner 2.webp',
+    },
+    {
+    mobile: 'img/mobile/Banner Mobile 3 - Optima.png',
+      desktop: 'img/Elevators/o/Banner 3.webp',
+    },
+  ];
     return (
         <>
             <Head>
@@ -178,53 +193,53 @@ export default function Home() {
     <span className="visually-hidden">Next</span>
   </button>
 </div>
+
 <section className="section">
   <div className="container-fluid ">
     <div className="row">
       <div className="col-md-11 offset-md-1 d-block mx-auto">
-        <p className="text-center text-danger font-28   ">
-          WELCOME TO TEKNIX ELEVATORS
-        </p>
+        <p className="text-center text-danger font-28   ">WELCOME TO TEKNIX ELEVATORS</p>
         <div className="home-about-heading ">
-          <h2 className=" text-center   ">
-            UNPARALLELED LUXURY THROUGH A SEAMLESS BLEND OF INNOVATION
-            AND&nbsp;ENGINEERING
-          </h2>
-          <p className="font-small text-center w-100 w-md-50 d-block mx-auto light-white font-14  d-none">
-            In an era of constant evolution and urban sophistication, Teknix
-            stands as a beacon for those who aspire to excellence and remarkable
-            achievements in vertical transportation.
+          <h2 className=" text-center   ">UNPARALLELED LUXURY THROUGH A SEAMLESS BLEND OF INNOVATION AND&nbsp;ENGINEERING</h2>
+          <p className="font-small text-center w-100 w-md-50 d-block mx-auto light-white font-14  d-none">In an era of constant evolution and urban sophistication, Teknix stands as a beacon for those who aspire to excellence and remarkable achievements in vertical transportation.
           </p>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+
 <section className="section position-relative" id="experience">
   <div className="container text-center p-0">
     <div className="row">
       <div className="col-md-12 d-block mx-auto">
         <div className="row sub-section">
-          <p className=" other-heading">Quality Excellence</p>
-          <p className="  text-light w-35">
-            Quality is the foundation of our business and we strive to achieve
-            market leadership through superior products and exceptional service.
+          <p className=" other-heading">
+            Quality Excellence
           </p>
+          <p className="  text-light ">Quality is the foundation of our business and we
+            strive to achieve market leadership
+            through superior
+            products and exceptional service.</p>
         </div>
         <div className="row sub-section">
-          <p className=" other-heading">Safety &amp; Reliability</p>
-          <p className="  text-light w-35">
-            Using the latest technology, each product undergoes vigorous testing
-            in order to reach all the safety norms which has been our prime
-            goal.
+          <p className=" other-heading">
+            Safety &amp; Reliability
           </p>
+          <p className="  text-light ">Using the latest technology, each product undergoes
+            vigorous testing in order to reach
+            all the safety norms
+            which has been our prime goal.</p>
         </div>
         <div className="row  sub-section">
-          <p className=" other-heading">Innovative Thinking</p>
-          <p className="  text-light w-35">
-            Our handpicked team of qualified, technically competent and talented
-            engineers with vast knowledge bring out latest innovations.
+          <p className=" other-heading">
+            Innovative Thinking
           </p>
+          <p className="  text-light ">Our handpicked team of qualified, technically
+            competent and talented engineers
+            with vast
+            knowledge bring out latest innovations.</p>
         </div>
       </div>
     </div>
@@ -232,72 +247,24 @@ export default function Home() {
       <div className="col-md-12">
         <p className="text-center text-danger font-28   ">Teknix</p>
         <div className="home-about-heading ">
-          <h2 className=" text-center   ">
-            Elevating the Future of Vertical Transportation
+          <h2 className=" text-center   ">Elevating the Future of Vertical Transportation
           </h2>
-          <p className=" text-center w-100 w-md-50 d-block mx-auto light-white   ">
-            At Teknix, we are redefining the standards of vertical
-            transportation with a visionary approach that seamlessly blends
-            cutting-edge innovation and enduring values. In partnership with SRH
-            Aufzüge GmbH, we design and deliver luxury elevators that go beyond
-            mere utility. Each Teknix elevator enhances spaces and enriches
-            lifestyles, embodying our unwavering commitment to excellence,
-            sophistication, and unmatched quality.
+          <p className=" text-center w-100 w-md-50 d-block mx-auto light-white   ">At Teknix, we are redefining the standards of vertical transportation with a visionary approach that seamlessly blends cutting-edge innovation and enduring values. In partnership with SRH Aufzüge GmbH, we design and deliver luxury elevators that go beyond mere utility. Each Teknix elevator enhances spaces and enriches lifestyles, embodying our unwavering commitment to excellence, sophistication, and unmatched quality.
           </p>
-          <p className="text-center  text-danger fs-3  py-0">
-            Where Craftsmanship Meets Innovation
-          </p>
-          <p className="text-center ">
-            <span>
-              Every Teknix elevator exemplifies meticulous engineering and
-              innovation, whether it&apos;s a bespoke design or a part of our
-              vertical transportation portfolio. Our dedicated in-house R&amp;D
-              team ensures reliability, elegance, and advanced performance
-              through rigorous testing. Key features of our state-of-the-art
-              manufacturing facilities include:
-            </span>
-          </p>
-          <p className="text-center fw-bold ">
-            <strong>
-              A 65,000 sq. ft. facility in Bangalore, complemented by over
-              2,025,000 sq. ft. across Suzhou, China, and Bremen, Germany.
-            </strong>
-          </p>
-          <p className="text-center ">
-            <strong>
-              Advanced production lines from Salvagnini, Bodor, Dener, and
-              Amada.
-            </strong>
-          </p>
-          <p className="text-center ">
-            <strong>
-              A fully equipped elevator testing tower to uphold the highest
-              safety and performance standards.
-            </strong>
-          </p>
-          <p className="text-center ">
-            <strong>Global Expertise, Local Excellence</strong>
-            <br />
-            <span>Partnering with</span>
-            <strong> SRH Aufzüge GmbH</strong>
-            <span>
-              {" "}
-              and backed by global expertise, Teknix is a leader in luxury
-              elevators tailored to the discerning Indian market. Our elevators,
-              capable of speeds up to 8 m/s, set new standards in sophistication
-              and German-engineered precision. As a distinguished member of
-              VFA-Interlift, SRH Axufzüge helps us shape industry standards and
-              redefine experiences. At Teknix, each elevator is an invitation to
-              ascend in style, combining opulence, reliability, and an
-              exceptional commitment to quality. Join us in elevating not just
-              buildings but lifestyles.
-            </span>
+          <p className="text-center  text-danger fs-3  py-0">Where Craftsmanship Meets Innovation</p>
+          <p className="text-center "><span>Every Teknix elevator exemplifies meticulous engineering and innovation, whether it's a bespoke design or a part of our vertical transportation portfolio. Our dedicated in-house R&amp;D team ensures reliability, elegance, and advanced performance through rigorous testing. Key features of our state-of-the-art manufacturing facilities include:</span></p>
+          <p className="text-center fw-bold "><strong>A 65,000 sq. ft. facility in Bangalore, complemented by over 2,025,000 sq. ft. across Suzhou, China, and Bremen, Germany.</strong></p>
+          <p className="text-center "><strong>Advanced production lines from Salvagnini, Bodor, Dener, and Amada.</strong></p>
+          <p className="text-center "><strong>A fully equipped elevator testing tower to uphold the highest safety and performance standards.</strong>
+          </p><p className="text-center "><strong>Global Expertise, Local Excellence</strong><br />
+            <span>Partnering with</span><strong> SRH Aufzüge GmbH</strong><span> and backed by global expertise, Teknix is a leader in luxury elevators tailored to the discerning Indian market. Our elevators, capable of speeds up to 8 m/s, set new standards in sophistication and German-engineered precision. As a distinguished member of VFA-Interlift, SRH Axufzüge helps us shape industry standards and redefine experiences. At Teknix, each elevator is an invitation to ascend in style, combining opulence, reliability, and an exceptional commitment to quality. Join us in elevating not just buildings but lifestyles.</span>
           </p>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 
 
 <ElevatorCarousel></ElevatorCarousel>

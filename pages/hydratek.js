@@ -169,7 +169,7 @@ export default function Home() {
 <section className="section position-relative" id="eleveators">
   <div className="container px-2  ">
     <div className="row sub-section">
-      <h6 className="other-heading2 text-white opacity-100">Top Features of Hydratek
+      <h6 className="other-heading2 text-white opacity-100 text-center">Top Features of Hydratek
       </h6>
     </div>
     {/*?php
@@ -177,33 +177,33 @@ export default function Home() {
   ?*/}
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">Hydraulic
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">Hydraulic
           System</h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">Teknix Hydra consumes 20% lower power compared to the traditional hydraulic elevators, and comes with optional electronically controlled valve.</p>
+        <p className="p-20 text-md-start text-center font-28">Teknix Hydra consumes 20% lower power compared to the traditional hydraulic elevators, and comes with optional electronically controlled valve.</p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Smooth
           Ride
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">Teknix hydra provides one of the smoothest rides in the hydraulic elevator units by using the most advanced mechanical oil flow valve system and additionally an option for electronically controlled valve making it a value propostions.</p>
+        <p className="p-20 text-md-start text-center font-28">Teknix hydra provides one of the smoothest rides in the hydraulic elevator units by using the most advanced mechanical oil flow valve system and additionally an option for electronically controlled valve making it a value propostions.</p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Headroom
           Height
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">Another outstanding feature of the Teknix Hydra is the Zero headroom height that means no extra machine room or extensions on the terrace, which adds space for you to use, And that’s completely hassle free &amp; space saving.</p>
+        <p className="p-20 text-md-start text-center font-28">Another outstanding feature of the Teknix Hydra is the Zero headroom height that means no extra machine room or extensions on the terrace, which adds space for you to use, And that’s completely hassle free &amp; space saving.</p>
       </div>
     </div>
   </div>
@@ -218,7 +218,7 @@ export default function Home() {
           <thead className="thead-dark text-large">
             <tr className>
               <th scope="col fs-2 font-title">
-                <p className="other-heading text-start">
+                <p className="other-heading  text-center">
                   Functions of Hydratek
                 </p>
               </th>
@@ -227,87 +227,87 @@ export default function Home() {
           <tbody>
             <tr>
               <td>
-                <p className="text-start mb-0"><strong>Control system</strong> : Multiple microcomputer based close-loop control system with direct landing technology</p>
+                <p className="text-md-start text-center mb-0"><strong>Control system</strong> : Multiple microcomputer based close-loop control system with direct landing technology</p>
               </td>
             </tr>
             <tr>
               <td>
-                <p className="text-start mb-0"><strong>Drive </strong>: Frequency controlled permanent magnet synchronous motor based gearless traction machine with dual vented disc brakes</p>
+                <p className="text-md-start text-center mb-0"><strong>Drive </strong>: Frequency controlled permanent magnet synchronous motor based gearless traction machine with dual vented disc brakes</p>
               </td>
             </tr>
             <tr>
               <td>
-                <p className="text-start mb-0"><strong>Curve Generation</strong> : Microcomputer senses the load in the elevator &amp; generates the S curve based on the torque required automatically</p>
+                <p className="text-md-start text-center mb-0"><strong>Curve Generation</strong> : Microcomputer senses the load in the elevator &amp; generates the S curve based on the torque required automatically</p>
               </td>
             </tr>
             <tr>
               <td>
-                <p className="text-start mb-0"><strong>Door Operator</strong> : VVVF door operating system with close loop control</p>
+                <p className="text-md-start text-center mb-0"><strong>Door Operator</strong> : VVVF door operating system with close loop control</p>
               </td>
             </tr>
             <tr>
               <td>
-                <p className="text-start mb-0"><strong>Door Protection</strong> : Full length infrared light curtain provided for safety of passengers</p>
+                <p className="text-md-start text-center mb-0"><strong>Door Protection</strong> : Full length infrared light curtain provided for safety of passengers</p>
               </td>
             </tr>
             <tr>
               <td>
-                <p className="text-start mb-0"><strong>Human Interface Device</strong> : Stylish Integrated Car operating Panel &amp; Surface mounted Landing Operating Panel with auto atiendant key and auto light and fan function</p>
+                <p className="text-md-start text-center mb-0"><strong>Human Interface Device</strong> : Stylish Integrated Car operating Panel &amp; Surface mounted Landing Operating Panel with auto atiendant key and auto light and fan function</p>
               </td>
             </tr>
             <tr>
               <td>
-                <p className="text-start mb-0"><strong>Operation</strong> : Full Collective Selective</p>
+                <p className="text-md-start text-center mb-0"><strong>Operation</strong> : Full Collective Selective</p>
               </td>
             </tr>
             <tr>
               <td>
-                <p className="text-start mb-0"><strong>Direction Indicators</strong> : Car &amp; Landing Operating Panels will be equipped with direction and floor indication display for easy facilitation of passengers</p>
+                <p className="text-md-start text-center mb-0"><strong>Direction Indicators</strong> : Car &amp; Landing Operating Panels will be equipped with direction and floor indication display for easy facilitation of passengers</p>
               </td>
             </tr>
             <tr>
               <td>
-                <p className="text-start mb-0" ><strong>Call Cancellation </strong>: Wrong Destination call can be cancelled by double press of destination button</p>
+                <p className="text-md-start text-center mb-0" ><strong>Call Cancellation </strong>: Wrong Destination call can be cancelled by double press of destination button</p>
               </td>
             </tr>
             <tr>
               <td>
-                <p className=" text-start mb-0"><strong>Auto on/off </strong>: Ventilation &amp; lighting would have automatic on/off function</p>
+                <p className=" text-md-start text-center mb-0"><strong>Auto on/off </strong>: Ventilation &amp; lighting would have automatic on/off function</p>
               </td>
             </tr>
             <tr>
               <td>
-                <p className="text-start mb-0"><strong>Overspeed Protection</strong> : When elevator speed is more then the calibrated speed, the device will automatically stop the elevator motor and activate the car safety device in turn activating the unintended car movement device to stop the car from moving further</p>
+                <p className="text-md-start text-center mb-0"><strong>Overspeed Protection</strong> : When elevator speed is more then the calibrated speed, the device will automatically stop the elevator motor and activate the car safety device in turn activating the unintended car movement device to stop the car from moving further</p>
               </td>
             </tr>
             <tr>
               <td>
-                <p className="text-start mb-0"><strong>Automatic Rescue Device</strong> : Wrong Destination call can be cancelled by double press of destination button</p>
+                <p className="text-md-start text-center mb-0"><strong>Automatic Rescue Device</strong> : Wrong Destination call can be cancelled by double press of destination button</p>
               </td>
             </tr>
             <tr>
               <td>
-                <p className="text-start mb-0"><strong>Car Illumination</strong> : LED power saving lighting inside the car for illumination</p>
+                <p className="text-md-start text-center mb-0"><strong>Car Illumination</strong> : LED power saving lighting inside the car for illumination</p>
               </td>
             </tr>
             <tr>
               <td>
-                <p className="text-start mb-0"><strong>Car Ventilation</strong> : Cross Flow Ventilation system in the car</p>
+                <p className="text-md-start text-center mb-0"><strong>Car Ventilation</strong> : Cross Flow Ventilation system in the car</p>
               </td>
             </tr>
             <tr>
               <td>
-                <p className="text-start mb-0"><strong>Power Supply</strong> : AC415V, 3phase &amp; AC220V , 1phase , 50HZ AC</p>
+                <p className="text-md-start text-center mb-0"><strong>Power Supply</strong> : AC415V, 3phase &amp; AC220V , 1phase , 50HZ AC</p>
               </td>
             </tr>
             <tr>
               <td>
-                <p className="text-start mb-0"><strong>Phase Loss Protection</strong> : Automatic Phase loss protection system stop the elevator when it senses the loss of one of the three phases</p>
+                <p className="text-md-start text-center mb-0"><strong>Phase Loss Protection</strong> : Automatic Phase loss protection system stop the elevator when it senses the loss of one of the three phases</p>
               </td>
             </tr>
             <tr>
               <td>
-                <p className="text-start mb-0"><strong>Over – run Protection system</strong> : Up/Down overrun protection System with triple layer limit switch for extra safety</p>
+                <p className="text-md-start text-center mb-0"><strong>Over – run Protection system</strong> : Up/Down overrun protection System with triple layer limit switch for extra safety</p>
               </td>
             </tr>
           </tbody>

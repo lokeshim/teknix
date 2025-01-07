@@ -10,7 +10,7 @@ export default function Home() {
    const slides = [
     {
       mobile: 'img/mobile/Banner Mobile 1 - Optima.png',
-      desktop: 'img/Elevators/o/Banner 1.webp',
+      desktop: 'img/optima banner.png',
     },
     {
      mobile: 'img/mobile/Banner Mobile 2 - Optima.png',
@@ -259,8 +259,8 @@ export default function Home() {
     <div className="container px-2  ">
       <div className="row">
         <div className="col-md-12 sub-section">
-          <h6 className="other-heading2 text-white ">UNCOMPROMISING SAFETY FOR ULTIMATE OCCUPANT PROTECTION</h6>
-          <p>
+          <h6 className="other-heading2 text-white  text-center">UNCOMPROMISING SAFETY FOR ULTIMATE OCCUPANT PROTECTION</h6>
+          <p className=' text-center'>
             In a world where safety is paramount, Teknix stands at the forefront of occupant protection. Each component of our elite suite is meticulously engineered to exceed industry standards, ensuring peace of mind through innovative solutions that proactively mitigate risks. From state-of-the-art braking systems to advanced emergency protocols, every detail reflects our commitment to creating a secure, dependable environment for all.
           </p>
         </div>
@@ -270,127 +270,127 @@ export default function Home() {
   ?*/}
       <div className="row">
         <div className="col-md-7 d-flex align-items-center">
-          <h2 className="other-heading2 text-white m-20 active text-start">Dynamic Motion Safeguard</h2>
+          <h2 className="other-heading2 text-white m-20 active text-md-start text-center">Dynamic Motion Safeguard</h2>
         </div>
         <div className="col-md-5 d-flex align-items-center">
-          <p className="p-20 text-start font-28">The UCM Device provides advanced protection against unintended car movement due to brake failure or cable snapping.
+          <p className="p-20 text-md-start text-center font-28">The UCM Device provides advanced protection against unintended car movement due to brake failure or cable snapping.
           </p>
         </div>
       </div>
       <div className="row">
         <div className="col-md-7 d-flex align-items-center">
-          <h2 className="other-heading2 text-white m-20 active text-start">
+          <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
             Centrifugal Over-Speed Safety Shield
           </h2>
         </div>
         <div className="col-md-5 d-flex align-items-center">
-          <p className="p-20 text-start font-28">A solenoid-controlled bi-directional mechanism ensures maximum occupant security in the event of rope failure.</p>
+          <p className="p-20 text-md-start text-center font-28">A solenoid-controlled bi-directional mechanism ensures maximum occupant security in the event of rope failure.</p>
         </div>
       </div>
       <div className="row">
         <div className="col-md-7 d-flex align-items-center">
-          <h2 className="other-heading2 text-white m-20 active text-start">
+          <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
             Electromechanical Integrity Lock System
           </h2>
         </div>
         <div className="col-md-5 d-flex align-items-center">
-          <p className="p-20 text-start font-28"> Twin crimper locking technology guarantees unwavering safety for passengers during emergency situations.
+          <p className="p-20 text-md-start text-center font-28"> Twin crimper locking technology guarantees unwavering safety for passengers during emergency situations.
           </p>
         </div>
       </div>
       <div className="row">
         <div className="col-md-7 d-flex align-items-center">
-          <h2 className="other-heading2 text-white m-20 active text-start">
+          <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
             Anti-Squeeze Protection Protocol
           </h2>
         </div>
         <div className="col-md-5 d-flex align-items-center">
-          <p className="p-20 text-start font-28">A cutting-edge door system, combined with light curtains, reverses movement upon detecting any obstruction, ensuring safety for passengers.
+          <p className="p-20 text-md-start text-center font-28">A cutting-edge door system, combined with light curtains, reverses movement upon detecting any obstruction, ensuring safety for passengers.
           </p>
         </div>
       </div>
       <div className="row">
         <div className="col-md-7 d-flex align-items-center">
-          <h2 className="other-heading2 text-white m-20 active text-start">
+          <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
             Under Door Safety Barrier
           </h2>
         </div>
         <div className="col-md-5 d-flex align-items-center">
-          <p className="p-20 text-start font-28"> An innovative fascia design that provides enhanced protection from potential injuries.</p>
+          <p className="p-20 text-md-start text-center font-28"> An innovative fascia design that provides enhanced protection from potential injuries.</p>
         </div>
       </div>
       <div className="row">
         <div className="col-md-7 d-flex align-items-center">
-          <h2 className="other-heading2 text-white m-20 active text-start">
+          <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
             Teknix Emergency Retrieval System
           </h2>
         </div>
         <div className="col-md-5 d-flex align-items-center">
-          <p className="p-20 text-start font-28">A fully automated rescue mechanism that efficiently brings the elevator to the nearest floor during power outages.</p>
+          <p className="p-20 text-md-start text-center font-28">A fully automated rescue mechanism that efficiently brings the elevator to the nearest floor during power outages.</p>
         </div>
       </div>
       <div className="row">
         <div className="col-md-7 d-flex align-items-center">
-          <h2 className="other-heading2 text-white m-20 active text-start">
+          <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
             Dual Vented Brake Precision Technology
           </h2>
         </div>
         <div className="col-md-5 d-flex align-items-center">
-          <p className="p-20 text-start font-28">High-performance dual disc brakes provide smooth, reliable deceleration and superior control.</p>
+          <p className="p-20 text-md-start text-center font-28">High-performance dual disc brakes provide smooth, reliable deceleration and superior control.</p>
         </div>
       </div>
       <div className="row">
         <div className="col-md-7 d-flex align-items-center">
-          <h2 className="other-heading2 text-white m-20 active text-start">
+          <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
             SMARTSENSE Braking Intelligence
           </h2>
         </div>
         <div className="col-md-5 d-flex align-items-center">
-          <p className="p-20 text-start font-28">An intelligent braking system that engages automatically to prevent unintended descent during motor power loss.
+          <p className="p-20 text-md-start text-center font-28">An intelligent braking system that engages automatically to prevent unintended descent during motor power loss.
           </p>
         </div>
       </div>
       <div className="row">
         <div className="col-md-7 d-flex align-items-center">
-          <h2 className="other-heading2 text-white m-20 active text-start">
+          <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
             Precision Overrun Protection System
           </h2>
         </div>
         <div className="col-md-5 d-flex align-items-center">
-          <p className="p-20 text-start font-28">A sophisticated three-stage terminal limit cutoff ensures passenger safety during overshoot or undershoot incidents.
+          <p className="p-20 text-md-start text-center font-28">A sophisticated three-stage terminal limit cutoff ensures passenger safety during overshoot or undershoot incidents.
           </p>
         </div>
       </div>
       <div className="row">
         <div className="col-md-7 d-flex align-items-center">
-          <h2 className="other-heading2 text-white m-20 active text-start">
+          <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
             Quad-Fastening Motor Stabilization Technology
           </h2>
         </div>
         <div className="col-md-5 d-flex align-items-center">
-          <p className="p-20 text-start font-28">An industry-leading innovation that enhances motor stability, ensuring consistent and safe operation.
+          <p className="p-20 text-md-start text-center font-28">An industry-leading innovation that enhances motor stability, ensuring consistent and safe operation.
           </p>
         </div>
       </div>
       <div className="row">
         <div className="col-md-7 d-flex align-items-center">
-          <h2 className="other-heading2 text-white m-20 active text-start">
+          <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
             Invisible Safety Barrier Technology
           </h2>
         </div>
         <div className="col-md-5 d-flex align-items-center">
-          <p className="p-20 text-start font-28">A dense infrared curtain creates an invisible safety net at the entrance, responding instantaneously to any presence in its detection zone.
+          <p className="p-20 text-md-start text-center font-28">A dense infrared curtain creates an invisible safety net at the entrance, responding instantaneously to any presence in its detection zone.
           </p>
         </div>
       </div>
       <div className="row">
         <div className="col-md-7 d-flex align-items-center">
-          <h2 className="other-heading2 text-white m-20 active text-start">
+          <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
             CAR Guard Door Safety Locking Mechanism
           </h2>
         </div>
         <div className="col-md-5 d-flex align-items-center">
-          <p className="p-20 text-start font-28">A pioneering system designed to secure children and other occupants within the elevator, enhancing overall safety.
+          <p className="p-20 text-md-start text-center font-28">A pioneering system designed to secure children and other occupants within the elevator, enhancing overall safety.
           </p>
         </div>
       </div>
@@ -407,7 +407,7 @@ export default function Home() {
       <div className="col-md-12">
         {/* Section Title */}
         <div className="">
-          <p className="other-heading text-start font-title">
+          <p className="other-heading text-md-start text-center font-title">
             Functions of Optima
           </p>
         </div>
@@ -415,70 +415,70 @@ export default function Home() {
         {/* Functions List */}
         <div className="functions-list">
           <div className="p-10 border-bottom">
-            <p className="text-start mb-0">
+            <p className="text-md-start text-center mb-0">
               <strong>Control system:</strong> Multiple microcomputer-based
               close-loop control system with direct landing technology
             </p>
           </div>
           <div className="p-10 border-bottom">
-            <p className="text-start mb-0">
+            <p className="text-md-start text-center mb-0">
               <strong>Drive:</strong> Frequency-controlled permanent magnet
               synchronous motor-based gearless traction machine with dual vented
               disc brakes
             </p>
           </div>
           <div className="p-10 border-bottom">
-            <p className="text-start mb-0">
+            <p className="text-md-start text-center mb-0">
               <strong>Curve Generation:</strong> Microcomputer senses the load
               in the elevator & generates the S curve based on the torque
               required automatically
             </p>
           </div>
           <div className="p-10 border-bottom">
-            <p className="text-start mb-0">
+            <p className="text-md-start text-center mb-0">
               <strong>Door Operator:</strong> VVVF door operating system with
               close-loop control
             </p>
           </div>
           <div className="p-10 border-bottom">
-            <p className="text-start mb-0">
+            <p className="text-md-start text-center mb-0">
               <strong>Door Protection:</strong> Full-length infrared light
               curtain provided for the safety of passengers
             </p>
           </div>
           <div className="p-10 border-bottom">
-            <p className="text-start mb-0">
+            <p className="text-md-start text-center mb-0">
               <strong>Human Interface Device:</strong> Stylish Integrated Car
               Operating Panel & Surface-mounted Landing Operating Panel with
               auto attendant key and auto light and fan function
             </p>
           </div>
           <div className="p-10 border-bottom">
-            <p className="text-start mb-0">
+            <p className="text-md-start text-center mb-0">
               <strong>Operation:</strong> Full Collective Selective
             </p>
           </div>
           <div className="p-10 border-bottom">
-            <p className="text-start mb-0">
+            <p className="text-md-start text-center mb-0">
               <strong>Direction Indicators:</strong> Car & Landing Operating
               Panels will be equipped with direction and floor indication
               display for easy facilitation of passengers
             </p>
           </div>
           <div className="p-10 border-bottom">
-            <p className="text-start mb-0">
+            <p className="text-md-start text-center mb-0">
               <strong>Call Cancellation:</strong> Wrong Destination call can be
               cancelled by double pressing the destination button
             </p>
           </div>
           <div className="p-10 border-bottom">
-            <p className="text-start mb-0">
+            <p className="text-md-start text-center mb-0">
               <strong>Auto on/off:</strong> Ventilation & lighting would have an
               automatic on/off function
             </p>
           </div>
           <div className="p-10 border-bottom">
-            <p className="text-start mb-0">
+            <p className="text-md-start text-center mb-0">
               <strong>Overspeed Protection:</strong> When the elevator speed is
               more than the calibrated speed, the device will automatically stop
               the elevator motor and activate the car safety device in turn
@@ -487,38 +487,38 @@ export default function Home() {
             </p>
           </div>
           <div className="p-10 border-bottom">
-            <p className="text-start mb-0">
+            <p className="text-md-start text-center mb-0">
               <strong>Automatic Rescue Device:</strong> Wrong Destination call
               can be cancelled by double pressing the destination button
             </p>
           </div>
           <div className="p-10 border-bottom">
-            <p className="text-start mb-0">
+            <p className="text-md-start text-center mb-0">
               <strong>Car Illumination:</strong> LED power-saving lighting
               inside the car for illumination
             </p>
           </div>
           <div className="p-10 border-bottom">
-            <p className="text-start mb-0">
+            <p className="text-md-start text-center mb-0">
               <strong>Car Ventilation:</strong> Cross Flow Ventilation system in
               the car
             </p>
           </div>
           <div className="p-10 border-bottom">
-            <p className="text-start mb-0">
+            <p className="text-md-start text-center mb-0">
               <strong>Power Supply:</strong> AC415V, 3phase & AC220V, 1phase,
               50HZ AC
             </p>
           </div>
           <div className="p-10 border-bottom">
-            <p className="text-start mb-0">
+            <p className="text-md-start text-center mb-0">
               <strong>Phase Loss Protection:</strong> Automatic Phase loss
               protection system stops the elevator when it senses the loss of
               one of the three phases
             </p>
           </div>
           <div className="p-10 ">
-            <p className="text-start mb-0">
+            <p className="text-md-start text-center mb-0">
               <strong>Over – run Protection system:</strong> Up/Down overrun
               protection System with triple-layer limit switch for extra safety
             </p>

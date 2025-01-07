@@ -179,8 +179,8 @@ export default function Home() {
   <section className="section position-relative" id="eleveators">
   <div className="container   ">
     <div className="row sub-section">
-      <h6 className="other-heading2 text-white">INTRODUCING THE GREENTEK X2: LUXURY REDEFINED IN GEARLESS, MACHINE-ROOM-LESS ELEVATION</h6>
-      <p>
+      <h6 className="other-heading2 text-white text-center">INTRODUCING THE GREENTEK X2: LUXURY REDEFINED IN GEARLESS, MACHINE-ROOM-LESS ELEVATION</h6>
+      <p className='text-center'>
         The GREENTEK X2 represents the pinnacle of luxury and precision in vertical transportation. This advanced, gearless, machine-room-less elevator is meticulously designed to enhance both spatial efficiency and performance, setting new industry benchmarks.
       </p>
     </div>
@@ -189,167 +189,167 @@ export default function Home() {
   ?*/}
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">Spatial Efficiency Technology</h2>
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">Spatial Efficiency Technology</h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28"> Innovative machine-room-less design optimizes usable space and reduces construction costs.
+        <p className="p-20 text-md-start text-center font-28"> Innovative machine-room-less design optimizes usable space and reduces construction costs.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Performance Maximization System
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">Equipped with cutting-edge PM-Servo motor technology for superior speed and reliability.
+        <p className="p-20 text-md-start text-center font-28">Equipped with cutting-edge PM-Servo motor technology for superior speed and reliability.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Intelligent Control Mechanism
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">Advanced controllers with direct landing technology and self-diagnostic capabilities maximize operational uptime.
+        <p className="p-20 text-md-start text-center font-28">Advanced controllers with direct landing technology and self-diagnostic capabilities maximize operational uptime.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           IoT-Enhanced Microcontroller:
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">Proactively reduces breakdowns through an intelligent, seamless operating system.
+        <p className="p-20 text-md-start text-center font-28">Proactively reduces breakdowns through an intelligent, seamless operating system.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Precision Leveling Engine
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">Real-time RPM feedback via rotary encoder ensures smooth starts/stops and precise leveling.
+        <p className="p-20 text-md-start text-center font-28">Real-time RPM feedback via rotary encoder ensures smooth starts/stops and precise leveling.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Reliability Enhancement Technology
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">Surface Mount Technology (SMT) for top-tier performance and scalability.
+        <p className="p-20 text-md-start text-center font-28">Surface Mount Technology (SMT) for top-tier performance and scalability.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Aerospace-Grade Safety Circuit
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">Actel Class FPGA chip-based design ensures fail-safe, aerospace-grade safety standards.
+        <p className="p-20 text-md-start text-center font-28">Actel Class FPGA chip-based design ensures fail-safe, aerospace-grade safety standards.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Whisper-Quiet Operation System
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">PWM Dead Time Compensation minimizes noise and energy loss.
+        <p className="p-20 text-md-start text-center font-28">PWM Dead Time Compensation minimizes noise and energy loss.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Rapid Processing Engine
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">Cortex M4 MCU-driven control system for quick, dependable response times.
+        <p className="p-20 text-md-start text-center font-28">Cortex M4 MCU-driven control system for quick, dependable response times.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Ultra-Smooth Ride Technology
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">Rotary SINCOS encoder delivers precise leveling and a flawless ride.
+        <p className="p-20 text-md-start text-center font-28">Rotary SINCOS encoder delivers precise leveling and a flawless ride.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Direct Adaptive Landing Interface
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">Eliminates creeping speed for a refined S-curve ride experience.
+        <p className="p-20 text-md-start text-center font-28">Eliminates creeping speed for a refined S-curve ride experience.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Closed-Loop Drive Integration
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">
+        <p className="p-20 text-md-start text-center font-28">
           Multi-computer integration for the smoothest starts and stops.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Vibration Isolation System
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">
+        <p className="p-20 text-md-start text-center font-28">
           Sorbothane guide shoes (endorsed by NASA) ensure silent, vibration-free movement.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Continuous Lubrication Technology 
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">
+        <p className="p-20 text-md-start text-center font-28">
           Automatic lubrication system maintains optimal, smooth performance.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Fluidic Door Operation System
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">
+        <p className="p-20 text-md-start text-center font-28">
           Roll control and PMS motor technology guarantee reliable, effortless door operation with Active Motion Variable Frequency Drive.
         </p>
       </div>
@@ -365,72 +365,77 @@ export default function Home() {
             <thead className="thead-dark text-large">
               <tr className>
                 <th scope="col fs-2 font-title">
-                  <p className="other-heading text-start">
+                  <p className="other-heading text-center">
                     UNMATCHED SAFETY FEATURES OF THE GREENTEK X2
                   </p>
-                  <p className="text-start">The GREENTEK X2 is equipped with a comprehensive suite of safety features, ensuring the highest standards of passenger security and reliability in every journey.</p>
+                 
                 </th>
               </tr>
             </thead>
             <tbody>
-              <tr>
+            <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>Dynamic Motion Safeguard:</strong><span> UCM Device provides rigorous protection against unintended car movement caused by brake failure or cable snapping. </span></p>
+                  <p className="text-md-start text-center mb-0"><strong>The GREENTEK X2 </strong><span> is equipped with a comprehensive suite of safety features, ensuring the highest standards of passenger security and reliability in every journey.</span></p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>Centrifugal Over-Speed Safety Shield:</strong><span> A solenoid-controlled, bi-directional mechanism to secure occupants in the event of rope failure. </span></p>
+                  <p className="text-md-start text-center mb-0"><strong>Dynamic Motion Safeguard:</strong><span> UCM Device provides rigorous protection against unintended car movement caused by brake failure or cable snapping. </span></p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>Electromechanical Integrity Lock System:</strong><span> Twin crimper locking technology ensures absolute passenger safety in emergencies. </span></p>
+                  <p className="text-md-start text-center mb-0"><strong>Centrifugal Over-Speed Safety Shield:</strong><span> A solenoid-controlled, bi-directional mechanism to secure occupants in the event of rope failure. </span></p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>Anti-Squeeze Protection Protocol:</strong><span> Advanced door system paired with light curtains, reversing movement upon any obstruction detection. </span></p>
+                  <p className="text-md-start text-center mb-0"><strong>Electromechanical Integrity Lock System:</strong><span> Twin crimper locking technology ensures absolute passenger safety in emergencies. </span></p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>Under Door Safety Barrier:</strong><span> Specially designed fascia provides added protection against potential injuries. </span></p>
+                  <p className="text-md-start text-center mb-0"><strong>Anti-Squeeze Protection Protocol:</strong><span> Advanced door system paired with light curtains, reversing movement upon any obstruction detection. </span></p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>Teknix Emergency Retrieval System:</strong><span> Automatic rescue mechanism that swiftly returns the elevator to the nearest floor during power outages. </span></p>
+                  <p className="text-md-start text-center mb-0"><strong>Under Door Safety Barrier:</strong><span> Specially designed fascia provides added protection against potential injuries. </span></p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>Dual Vented Brake Precision Technology:</strong><span> High-performance dual disc brakes ensure smooth, reliable deceleration and enhanced control. </span></p>
+                  <p className="text-md-start text-center mb-0"><strong>Teknix Emergency Retrieval System:</strong><span> Automatic rescue mechanism that swiftly returns the elevator to the nearest floor during power outages. </span></p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>SMARTSENSE Braking Intelligence:</strong><span> Smart braking system that engages automatically to prevent unintended descent during motor power loss. </span></p>
+                  <p className="text-md-start text-center mb-0"><strong>Dual Vented Brake Precision Technology:</strong><span> High-performance dual disc brakes ensure smooth, reliable deceleration and enhanced control. </span></p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>Precision Overrun Protection System:</strong><span> Three-stage terminal limit cutoff for safe response to overshoot or undershoot incidents. </span></p>
+                  <p className="text-md-start text-center mb-0"><strong>SMARTSENSE Braking Intelligence:</strong><span> Smart braking system that engages automatically to prevent unintended descent during motor power loss. </span></p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>Quad-Fastening Motor Stabilization Technology:</strong><span> An industry-first innovation enhancing motor stability and overall safety. </span></p>
+                  <p className="text-md-start text-center mb-0"><strong>Precision Overrun Protection System:</strong><span> Three-stage terminal limit cutoff for safe response to overshoot or undershoot incidents. </span></p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>Invisible Safety Barrier Technology:</strong><span> Dense infrared curtain creates an invisible safety net at the entrance, responding instantly to presence. </span></p>
+                  <p className="text-md-start text-center mb-0"><strong>Quad-Fastening Motor Stabilization Technology:</strong><span> An industry-first innovation enhancing motor stability and overall safety. </span></p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>CARGuard Door Safety Locking Mechanism:</strong><span> Specifically designed to secure children and passengers, ensuring enhanced occupant safety. </span></p>
+                  <p className="text-md-start text-center mb-0"><strong>Invisible Safety Barrier Technology:</strong><span> Dense infrared curtain creates an invisible safety net at the entrance, responding instantly to presence. </span></p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p className="text-md-start text-center mb-0"><strong>CARGuard Door Safety Locking Mechanism:</strong><span> Specifically designed to secure children and passengers, ensuring enhanced occupant safety. </span></p>
                 </td>
               </tr>
             </tbody>
@@ -451,25 +456,74 @@ export default function Home() {
           <p className="text-center  p-10"><span>The GREENTEK X2 goes beyond traditional safety standards, setting a new benchmark in elevator security and reliability. Experience a refined sense of safety with Teknix, where cutting-edge technology meets peace of mind.</span></p>
           <p className="text-center p-10"><span>At Teknix, our commitment to sustainability drives every aspect of our design and engineering. Understanding the importance of energy conservation for a healthier planet, we create products that minimise&nbsp; energy consumption while advancing toward a carbon-negative future. As an IGBC-certified company on the Green Building Product list, Teknix proudly leads the way in environmental stewardship with advanced, eco-friendly solutions.</span></p>
         </div>
-        <p className="text-center"><strong>Key Eco-Friendly Features:</strong></p>
-        <ul className="list-unstyled">
-          <li className="text-center">
-            <p className="text-center p-10"><strong>Ultra-Efficient Motors:</strong><span> Our motors are engineered for minimal power usage, reducing environmental impact while ensuring top-tier performance.</span></p>
-          </li>
-          <li className="text-center">
-            <p className="text-center p-10"><strong>Hibernation Mode:</strong><span> Teknix elevators include a Hibernation Mode that conserves energy during inactivity, directly supporting carbon neutrality.</span></p>
-          </li>
-          <li className="text-center">
-            <p className="text-center p-10"><strong>Automatic Fan and Light Controls:</strong><span> Smart technology deactivates fans and lights when idle, significantly cutting energy use and emissions.</span></p>
-          </li>
-          <li className="text-center">
-            <p className="text-center p-10"><strong>Auto Car Display Cut-Off:</strong><span> The display system powers down in Hibernation Mode, maximizing energy savings without compromising functionality.</span></p>
-          </li>
-          <li className="text-center">
-            <p className="text-center p-10"><strong>Eco-Friendly LED Lighting:</strong><span> State-of-the-art green LED lights provide optimal illumination with low power consumption, reducing carbon footprints.</span></p>
-          </li>
-        </ul>
-        <p className="text-center p-10"><span>Choosing Teknix means selecting both high performance and a sustainable future. Together, we can create energy-efficient spaces that make a positive impact on the planet. Embrace the future of eco-conscious innovation with Teknix and join us in shaping a carbon-negative tomorrow.</span></p>
+     
+
+        <div>
+  <p className="font-28 text-center mt-3"><strong>Key Eco-Friendly Features:</strong></p>
+  <div className="row my-3 justify-content-center align-items-center">
+    <div className="col-md-4 mb-4">
+      <div className=" py-3 px-3">
+        <img src="img/icon 80x80-31-31.webp" alt style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
+        <p className="font-24 py-3 text-center ">Ultra-Efficient Motor</p>
+        <p className="text font-15 text-center ">Our advanced motors are designed for
+          ultra-low power consumption, ensuring
+          they operate with minimal environmental
+          impact while delivering outstanding
+          performance.
+          E</p>
+      </div>
+    </div>
+    <div className="col-md-4 mb-4">
+      <div className=" py-3 px-3">
+        <img src="img/icon 80x80-32.webp" alt style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
+        <p className="font-24 py-3 text-center "> Hibernation Mode</p>
+        <p className="text font-15 text-center ">
+          Elevators from Teknix come standard with
+          a Hibernation Mode, reducing energy use
+          to the bare minimum during periods of
+          inactivity, thus actively contributing to
+          carbon neutrality</p>
+      </div>
+    </div>
+    <div className="col-md-4 mb-4">
+      <div className=" py-3 px-3">
+        <img src="img/icon 80x80-33.webp" alt style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
+        <p className="font-24 py-3 text-center ">Auto Car Display Cut-Off</p>
+        <p className="text font-15 text-center ">The car display intelligently turns off in
+          Hibernation Mode, maximizing energy
+          savings without sacrificing functionality.</p>
+      </div>
+    </div>
+  </div>
+  <div className="row my-3 justify-content-center align-items-center">
+    <div className="col-md-4 mb-4">
+      <div className=" py-3 px-3">
+        <img src="img/icon 80x80-34.webp" alt style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
+        <p className="font-24 py-3 text-center ">Eco-Friendly LED Lighting</p>
+        <p className="text font-15 text-center mb-0">
+          Utilizing cutting-edge green LED lights, our
+          elevators provide brilliant illumination while
+          consuming negligible power, further minimizing
+          carbon footprints.</p>
+      </div>
+    </div>
+    <div className="col-md-4 mb-4">
+      <div className=" py-3 px-3">
+        <img src="img/icon 80x80-35.webp" alt style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
+        <p className="font-24 py-3 text-center ">Automatic
+          Fan and Light Controls</p>
+        <p className="text font-15 text-center mb-0">
+          Smart systems that deactivate fans and
+          lights when not in use, significantly
+          reducing energy consumption and carbon
+          emissions.</p>
+      </div>
+    </div>
+  </div>
+  <p className="text-center"><span>Choosing Teknix means selecting both high performance and a sustainable future. Together, we can create energy-efficient spaces that make a positive impact on the planet. Embrace the future of eco-conscious innovation with Teknix and join us in shaping a carbon-negative tomorrow.</span></p>
+</div>
+
+       
       </div>
     </div>
   </section>

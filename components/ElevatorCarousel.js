@@ -21,26 +21,27 @@ const ElevatorSection = () => {
     },
     vertix: {
       name:'Vertix',
-      description: 'The all-new, next-generation VERTIX range of elevators from Teknix, in collaboration with SRH Aufzüge GmbH, brings you the pinnacle of German engineering and craftsmanship. Designed with cutting-edge, eco-friendly technology, the VERTIX elevators offer an unparalleled combination of essential features and unrivaled comfort, ensuring a smooth and luxurious ride every time. This version enhances the premium feel, emphasizing the innovation, luxury, and eco-friendly aspects of the product.',
+      description: `The all-new, next-generation VERTIX range of elevators from Teknix, in collaboration with SRH Aufzüge GmbH, brings you the pinnacle of German engineering and craftsmanship. Designed with cutting-edge, eco-friendly technology, the VERTIX elevators offer an unparalleled combination of essential features and unrivaled comfort, ensuring a smooth and luxurious ride every time."
+This version enhances the premium feel, emphasizing the innovation, luxury, and eco-friendly aspects of the product. `,
       carouselId: 'carouselExampleVertix',
       images: ['/img/VERTIX BANNER 1.png', '/img/VERTIX BANNER 2.png', '/img/VERTIX BANNER 3.jpg'], // update with actual image paths
     },
     greentek: {
          name:'Greentek',
-      description: 'Teknix GREENTEK exemplifies the pinnacle of German engineering, blending precision craftsmanship with years of innovation. With cutting-edge features like the VVVF drive with DTI, Direct Landing Technology, and sleek interface devices, it delivers an unparalleled, ultra-smooth ride—setting a new benchmark in luxury elevators.',
+      description: 'Teknix GREENTEK exemplifies the pinnacle of German engineering, blending precision craftsmanship with years of innovation. With cutting-edge features like the VVVF drive with DTI, Direct Landing Technology, and sleek interface devices, it delivers an unparalleled, ultra-smooth ride—setting a new benchmark in luxury elevators.',
       carouselId: 'carouselExampleGreentek',
-      images: ['/img/Greentek banner 1.png', '/img/Greentek banner 2.png', '/img/Greentek banner 3.png'], // update with actual image paths
+      images: ['/img/Greentek banner 1.png', '/img/Greentek banner 2.png', '/img/Greentek banner 3.jpg'], // update with actual image paths
     },
     hydratek: {
             name:'Hydratek',
-      description: 'Teknix GREENTEK exemplifies the pinnacle of German engineering, blending precision craftsmanship with years of innovation. With cutting-edge features like the VVVF drive with DTI, Direct Landing Technology, and sleek interface devices, it delivers an unparalleled, ultra-smooth ride—setting a new benchmark in luxury elevators.',
+      description: 'Teknix Hydratek is an advanced vertical transportation system, crafted with precision using cutting-edge German technology and Italian craftsmanship, based on progressive fluid dynamics.',
       images: ['/img/Hydratek banner 1.png', '/img/Hydratek banner 2.png', '/img/Hydratek banner 3.png'], // update with actual image paths
     },
     villa_matek: {
        name:'Villa Matek',
       description: 'TEKNIX VILLAMATEK, designed exclusively for residential use, combines technology, aesthetics, and craftsmanship to enhance accessibility for residents with mobility challenges. Available in gearless models and a variety of cabin styles to suit diverse preferences.',
       carouselId: 'carouselExampleVillaMatek',
-      images: ['/img/Elevators/Vm/1.webp', '/img/Elevators/Vm/2.webp','/img/Elevators/Vm/1.webp'], // update with actual image paths
+      images: ['/img/Elevators/Vm/1.webp', '/img/Elevators/Vm/2.webp','/img/Elevators/Vm/3.webp'], // update with actual image paths
     },
   };
 

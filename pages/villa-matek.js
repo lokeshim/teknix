@@ -10,15 +10,15 @@ export default function Home() {
    const slides = [
     {
       mobile: 'img/mobile/Banner Mobile 1 - Villa Matek.png',
-      desktop: 'img/Elevators/Vm/1.webp',
+      desktop: 'img/Banner 1 - Villa Matek.png',
     },
     {
       mobile: 'img/mobile/Banner Mobile 2 - Villa Matek.png',
-      desktop: 'img/Elevators/Vm/2.webp',
+      desktop: 'img/Banner 2 - Villa Matek.png',
     },
     {
       mobile: 'img/mobile/Banner Mobile 3 - Villa Matek.png',
-      desktop: 'img/Elevators/Vm/3.webp',
+      desktop: 'img/Banner 3 - Villa Matek (1).png',
     },
   ];
     return (
@@ -171,51 +171,51 @@ export default function Home() {
   <section className="section position-relative" id="eleveators">
   <div className="container px-2  ">
     <div className="row sub-section">
-      <p className="other-heading2 text-white opacity-100"> Top Features of Villa Matek</p>
+      <p className="other-heading2 text-white opacity-100 text-center"> Top Features of Villa Matek</p>
     </div>
     {/*?php
 
   ?*/}
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">Power
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">Power
           Saver</h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">Powered by a gearless PMS MOTOR, saving up to 40% power</p>
+        <p className="p-20 text-md-start text-center font-28">Powered by a gearless PMS MOTOR, saving up to 40% power</p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Smooth &amp; silent
           Operations
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">Teknix Villa elevator comes with Gearless PMSM machine giving ultra silent ride</p>
+        <p className="p-20 text-md-start text-center font-28">Teknix Villa elevator comes with Gearless PMSM machine giving ultra silent ride</p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Spacious
           Car
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">Designed to keep space utilization in mind giving the maximum usable space considering a wheelchair for physically impaired.</p>
+        <p className="p-20 text-md-start text-center font-28">Designed to keep space utilization in mind giving the maximum usable space considering a wheelchair for physically impaired.</p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Wide
           Range
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">Wide range of aesthetic options available in doors and fitings</p>
+        <p className="p-20 text-md-start text-center font-28">Wide range of aesthetic options available in doors and fitings</p>
       </div>
     </div>
   </div>
@@ -228,7 +228,7 @@ export default function Home() {
             <thead className="thead-dark text-large">
               <tr className>
                 <th scope="col fs-2 font-title">
-                  <p className="other-heading text-start">
+                  <p className="other-heading  text-center">
                     Functions of Villa Matek
                   </p>
                 </th>
@@ -237,87 +237,87 @@ export default function Home() {
             <tbody>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>Control system</strong> : Multiple microcomputer based close-loop control system with direct landing technology</p>
+                  <p className="text-md-start text-center mb-0"><strong>Control system</strong> : Multiple microcomputer based close-loop control system with direct landing technology</p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>Drive </strong>: Frequency controlled permanent magnet synchronous motor based gearless traction machine with dual vented disc brakes</p>
+                  <p className="text-md-start text-center mb-0"><strong>Drive </strong>: Frequency controlled permanent magnet synchronous motor based gearless traction machine with dual vented disc brakes</p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>Curve Generation</strong> : Microcomputer senses the load in the elevator &amp; generates the S curve based on the torque required automatically</p>
+                  <p className="text-md-start text-center mb-0"><strong>Curve Generation</strong> : Microcomputer senses the load in the elevator &amp; generates the S curve based on the torque required automatically</p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>Door Operator</strong> : VVVF door operating system with close loop control</p>
+                  <p className="text-md-start text-center mb-0"><strong>Door Operator</strong> : VVVF door operating system with close loop control</p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>Door Protection</strong> : Full length infrared light curtain provided for safety of passengers</p>
+                  <p className="text-md-start text-center mb-0"><strong>Door Protection</strong> : Full length infrared light curtain provided for safety of passengers</p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>Human Interface Device</strong> : Stylish Integrated Car operating Panel &amp; Surface mounted Landing Operating Panel with auto atiendant key and auto light and fan function</p>
+                  <p className="text-md-start text-center mb-0"><strong>Human Interface Device</strong> : Stylish Integrated Car operating Panel &amp; Surface mounted Landing Operating Panel with auto atiendant key and auto light and fan function</p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>Operation</strong> : Full Collective Selective</p>
+                  <p className="text-md-start text-center mb-0"><strong>Operation</strong> : Full Collective Selective</p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>Direction Indicators</strong> : Car &amp; Landing Operating Panels will be equipped with direction and floor indication display for easy facilitation of passengers</p>
+                  <p className="text-md-start text-center mb-0"><strong>Direction Indicators</strong> : Car &amp; Landing Operating Panels will be equipped with direction and floor indication display for easy facilitation of passengers</p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>Call Cancellation </strong> : Wrong Destination call can be cancelled by double press of destination button</p>
+                  <p className="text-md-start text-center mb-0"><strong>Call Cancellation </strong> : Wrong Destination call can be cancelled by double press of destination button</p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className=" text-start mb-0"><strong>Auto on/off </strong>: Ventilation &amp; lighting would have automatic on/off function</p>
+                  <p className=" text-md-start text-center mb-0"><strong>Auto on/off </strong>: Ventilation &amp; lighting would have automatic on/off function</p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>Overspeed Protection</strong> : When elevator speed is more then the calibrated speed, the device will automatically stop the elevator motor and activate the car safety device in turn activating the unintended car movement device to stop the car from moving further</p>
+                  <p className="text-md-start text-center mb-0"><strong>Overspeed Protection</strong> : When elevator speed is more then the calibrated speed, the device will automatically stop the elevator motor and activate the car safety device in turn activating the unintended car movement device to stop the car from moving further</p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>Automatic Rescue Device</strong> : Wrong Destination call can be cancelled by double press of destination button</p>
+                  <p className="text-md-start text-center mb-0"><strong>Automatic Rescue Device</strong> : Wrong Destination call can be cancelled by double press of destination button</p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>Car Illumination</strong> : LED power saving lighting inside the car for illumination</p>
+                  <p className="text-md-start text-center mb-0"><strong>Car Illumination</strong> : LED power saving lighting inside the car for illumination</p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>Car Ventilation</strong> : Cross Flow Ventilation system in the car</p>
+                  <p className="text-md-start text-center mb-0"><strong>Car Ventilation</strong> : Cross Flow Ventilation system in the car</p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>Power Supply</strong> : AC415V, 3phase &amp; AC220V , 1phase , 50HZ AC</p>
+                  <p className="text-md-start text-center mb-0"><strong>Power Supply</strong> : AC415V, 3phase &amp; AC220V , 1phase , 50HZ AC</p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>Phase Loss Protection</strong> : Automatic Phase loss protection system stop the elevator when it senses the loss of one of the three phases</p>
+                  <p className="text-md-start text-center mb-0"><strong>Phase Loss Protection</strong> : Automatic Phase loss protection system stop the elevator when it senses the loss of one of the three phases</p>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <p className="text-start mb-0"><strong>Over – run Protection system</strong> : Up/Down overrun protection System with triple layer limit switch for extra safety</p>
+                  <p className="text-md-start text-center mb-0"><strong>Over – run Protection system</strong> : Up/Down overrun protection System with triple layer limit switch for extra safety</p>
                 </td>
               </tr>
             </tbody>

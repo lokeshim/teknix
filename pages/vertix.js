@@ -181,9 +181,9 @@ export default function Home() {
   <div className="container px-2  ">
     <div className="row sub-section">
       <div className="col-md-12">
-        <h6 className="other-heading2 text-white opacity-100">VERTIX 2200 GEARLESS ELEVATOR
+        <h6 className="other-heading2 text-white opacity-100 text-center">VERTIX 2200 GEARLESS ELEVATOR
         </h6>
-        <p className="text-white  opacity-100">Introducing the Vertix 2200: a distinguished gearless, machine-room-less elevator that embodies luxury and precision in vertical transportation.</p>
+        <p className="text-white text-center opacity-100">Introducing the Vertix 2200: a distinguished gearless, machine-room-less elevator that embodies luxury and precision in vertical transportation.</p>
         <p className="fw-bold" />
       </div>
     </div>
@@ -192,172 +192,172 @@ export default function Home() {
   ?*/}
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">Spatial Efficiency Technology</h2>
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">Spatial Efficiency Technology</h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">Innovative machine-room-less design optimizes usable space and reduces construction costs.
+        <p className="p-20 text-md-start text-center font-28">Innovative machine-room-less design optimizes usable space and reduces construction costs.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Performance Maximization System
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">Equipped with cutting-edge PM-Servo motor technology for superior speed and reliability.
+        <p className="p-20 text-md-start text-center font-28">Equipped with cutting-edge PM-Servo motor technology for superior speed and reliability.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Intelligent Control Mechanism
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">Advanced controllers with direct landing technology and self-diagnostic capabilities maximize operational uptime.
+        <p className="p-20 text-md-start text-center font-28">Advanced controllers with direct landing technology and self-diagnostic capabilities maximize operational uptime.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           IoT-Enhanced Microcontroller
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">Proactively reduces breakdowns through an intelligent, seamless operating system.
+        <p className="p-20 text-md-start text-center font-28">Proactively reduces breakdowns through an intelligent, seamless operating system.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Precision Leveling Engine
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">Real-time RPM feedback via rotary encoder ensures smooth starts/stops and precise leveling.
+        <p className="p-20 text-md-start text-center font-28">Real-time RPM feedback via rotary encoder ensures smooth starts/stops and precise leveling.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Reliability Enhancement Technology
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28"> Surface Mount Technology (SMT) for top-tier performance and scalability.
+        <p className="p-20 text-md-start text-center font-28"> Surface Mount Technology (SMT) for top-tier performance and scalability.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Aerospace-Grade Safety Circuit
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">Actel Class FPGA chip-based design ensures fail-safe, aerospace-grade safety standards.
+        <p className="p-20 text-md-start text-center font-28">Actel Class FPGA chip-based design ensures fail-safe, aerospace-grade safety standards.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Whisper-Quiet Operation System
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">PWM Dead Time Compensation minimizes noise and energy loss.
+        <p className="p-20 text-md-start text-center font-28">PWM Dead Time Compensation minimizes noise and energy loss.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Rapid Processing Engine 
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">Cortex M4 MCU-driven control system for quick, dependable response times.
+        <p className="p-20 text-md-start text-center font-28">Cortex M4 MCU-driven control system for quick, dependable response times.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Ultra-Smooth Ride Technology
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">
+        <p className="p-20 text-md-start text-center font-28">
           Rotary SINCOS encoder delivers precise leveling and a flawless ride.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Direct Adaptive Landing Interface 
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">
+        <p className="p-20 text-md-start text-center font-28">
           Eliminates creeping speed for a refined S-curve ride experience.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Closed-Loop Drive Integration
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">Multi-computer integration for the smoothest starts and stops.
+        <p className="p-20 text-md-start text-center font-28">Multi-computer integration for the smoothest starts and stops.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Vibration Isolation System
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28"> Sorbothane guide shoes (endorsed by NASA) ensure silent, vibration-free movement.
+        <p className="p-20 text-md-start text-center font-28"> Sorbothane guide shoes (endorsed by NASA) ensure silent, vibration-free movement.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Continuous Lubrication Technology
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">Automatic lubrication system maintains optimal, smooth performance.
+        <p className="p-20 text-md-start text-center font-28">Automatic lubrication system maintains optimal, smooth performance.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
-        <h2 className="other-heading2 text-white m-20 active text-start">
+        <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
           Fluidic Door Operation System
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-start font-28">Roll control and PMS motor technology guarantee reliable, effortless door operation with Active Motion Variable Frequency Drive.
+        <p className="p-20 text-md-start text-center font-28">Roll control and PMS motor technology guarantee reliable, effortless door operation with Active Motion Variable Frequency Drive.
         </p>
       </div>
     </div>
     <div className="row">
       <div className="col-md-12 d-flex align-items-center">
-        <p className="p-20 text-start ">Elevate your project with the Vertix 2200, where cutting-edge innovation harmonizes with unparalleled luxury and reliability.
+        <p className="py-md-3 py-2 font-32 text-center  ">Elevate your project with the Vertix 2200, where cutting-edge innovation harmonizes with unparalleled luxury and reliability.
         </p>
       </div>
     </div>
@@ -385,16 +385,18 @@ export default function Home() {
     <div className="container p-0">
       <div className="row">
         <div className="col-md-12 table-responsive">
-          <p /><p /><p /><p /><p /><p /><p /><p /><p /><p /><p /><p /><table className="table text-start post-title text-medium text-extra-dark-gray ">
+          <p /><p /><p /><p /><p /><p /><p /><p /><p /><p /><p /><p /><table className="table text-md-start text-center post-title text-medium text-extra-dark-gray ">
             <thead className="thead-dark text-large">
               <tr className>
                 <th scope="col fs-2 font-title">
-                  <p className="other-heading text-white  text-start">KEY SAFETY FEATURES</p>
+                  <p className="other-heading text-white   text-center">KEY SAFETY FEATURES</p>
                 </th>
               </tr>
             </thead>
             <tbody>
+          
               <tr>
+                
                 <td>
                   <p className="mb-0"><strong>Dynamic Motion Safeguard:</strong><span> UCM Device provides rigorous protection against unintended car movement caused by brake failure or cable snapping.</span>
                   </p></td>

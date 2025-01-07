@@ -37,11 +37,11 @@ const BlogSection = () => {
                   className="w-100"
                 />
                 <div className="row">
-                  <div className="col-md-10  offset-md-2 mt-5 mb-3">
+                  <div className="col-md-10  offset-md-2 mt-4  mb-3">
                     <p className="font-44 ">
                       {posts[0].title}
                     </p>
-                    <p className="my-3 my-md-5 text-start ">
+                    <p className="  text-start m-20">
                       <Link href={`/blog/${posts[0].slug}`} className="text-danger text-decoration-none font-12 fw-normal letter-spacing">
                         READ ARTICLE
                       </Link>
@@ -57,8 +57,8 @@ const BlogSection = () => {
             {sortedPosts.slice(1, 4).map((post, index) => (
               <div className="row align-items-center" key={index}>
                 <div className="col-md-9 offset-md-1 d-flex align-tems-center mt-3">
-                <div class=" border-bottom border-light border-opacity-25 p-20">    <p className="font-28">{post.title}</p>
-                  <p className="my-md-4 my-3">
+                <div class="  border-bottom border-light border-opacity-25 p-20">    <p className="font-28 p-10">{post.title}</p>
+                  <p className=" p-10 ">
                     <Link href={`/blog/${post.slug}`} className="text-danger text-decoration-none font-12 fw-normal letter-spacing">
                       READ ARTICLE
                     </Link>

@@ -50,7 +50,7 @@ export default function Home() {
                     data-aos="fade-up"
                     data-aos-duration={2000}
                   >
-                    Our Centres
+                    State of the Art Facility 
                   </h2>
                   
                   <p
@@ -58,21 +58,14 @@ export default function Home() {
                     data-aos="fade-up"
                     data-aos-duration={3000}
                   >
-                    Teknix comes up with first of its kind Elevator Experience center,
-                    with 12 unique cutting edge elevators on display, with a touch and
-                    feel of every single component that goes into the making of a
-                    technologically advanced German engineered elevator.
+                   Teknix comes up with first of its kind Elevator Experience center, with 12 unique cutting edge elevators on display, with a touch and feel of every single component that goes into the making of a technologically advanced German engineered elevator.
                   </p>
                   <p
                     className="p-10 text-light"
                     data-aos="fade-up"
                     data-aos-duration={3000}
                   >
-                    Teknix with its unique design language for its range of Greentek
-                    elevators has carved a niche in the market for premium and super
-                    premium elevators. Come, Experience the complete unique range of
-                    elevators and the technologically advanced state-of-the-art
-                    materials that go into making of a True German engineered product
+                   Teknix with its unique design language for its range of Greentek elevators has carved a niche in the market for premium and super premium elevators. Come, Experience the complete unique range of elevators and the technologically advanced state-of-the-art materials that go into making of a True German engineered product
                   </p>
                 </div>
 
@@ -150,7 +143,7 @@ export default function Home() {
           data-aos="fade-right"
           data-aos-duration={2500}
         >
-          <div className="container-fluid px-md-5 p-0">
+          <div className="container-fluid px-md-5 p-0 d-none">
             <Image src="/img/map.png" alt="" className="w-100"  width={1920} height={850} />
           </div>
         </section>

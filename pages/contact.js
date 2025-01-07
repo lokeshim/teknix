@@ -108,7 +108,7 @@ export default function Home() {
         </div>
         <div className="col-md-4 offset-md-2 " data-aos="fade-left" data-aos-duration={2500}>
            <h2 className="other-heading2">UAE</h2>
-          <p className="border-secondary p-10">Teknix Prime Lifts Trading Co. LLC<br />Office no. F29, Al Khaima Bldg, 2 Al Barsha,<br />Dubai- UAE</p>
+          <p className="border-secondary p-10">TEKNIX PRIME LIFTS TRADING CO. LLC<br />Office No. 131, Vesla business center. Al quoz,  <br />Dubai- UAE</p>
           <p className="p-10">Email:<br />sales.dxb@teknixelevators.com</p>
           <p className="border-secondary ">Mobile Number : +971-56 981 8705</p>
         </div>

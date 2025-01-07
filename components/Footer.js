@@ -34,38 +34,28 @@ const current_year = current_date.getFullYear(); // Get the current year
 
   return (
     <>
-     <section className="section  footer">
+    <section className="section  footer">
   <div className="container-fluid px-md-5">
     <div className="row ">
       <div className="col-md-5 offset-md-1 d-none d-md-block">
         <div className="heading">
-          <h2 className="other-heading2  ">
-            Our exclusive services <br />
-            directly to your inbox.
-          </h2>
+          <h2 className="other-heading2  ">Our exclusive services <br />
+            directly to your inbox.</h2>
         </div>
       </div>
       <div className="col-md-4 d-flex align-items-center justify-content-center justify-content-md-start">
         <div className="row ">
-          <div className="col-md-9 ps-md-4 align-items-center  text-md-start text-center   p-10">
-            <a
-              className="lh-lg text-danger font-13"
-              href="sales@teknixelevators.com"
-            >
-              sales@teknixelevators.com
-            </a>{" "}
-            <br />
-            <a className="lh-lg text-danger  font-13" href="tel:+919148788011">
-              {" "}
-              +91-9148788011
-            </a>
+          <div className="col-md-9 ps-md-0 align-items-center  text-md-start text-center   p-10">
+            <a className="lh-lg text-danger font-13  " href="sales@teknixelevators.com" style={{"display":"block ruby"}}> <i className="bi bi-envelope-at px-2" /> sales@teknixelevators.com</a> <br />
+            <a className="lh-lg text-danger  font-13" href="tel:+919148788011"><i className="bi bi-telephone px-2" /> +91-9148788011</a> <br />
+            <a className="lh-lg text-danger  font-13" href="tel:+919141413435"> <i className="bi bi-telephone px-2" /> +919141413435 </a>
           </div>
         </div>
       </div>
       <div className="col-md-2 d-flex align-items-center justify-content-center justify-content-md-start p-10">
         <div className="row ">
           <div className="col-md-12 ">
-            <Image
+          <Image
               width={115}
                   height={80}
               src="/img/logo-white.png"
@@ -78,56 +68,24 @@ const current_year = current_date.getFullYear(); // Get the current year
     </div>
     <div className="row ">
       <div className="col-md-5 offset-md-1 d-flex align-items-center">
-        <div className='w-100'>
+        <div className="w-100">
           <div className="heading d-md-none ">
-            <h2 className="other-heading2 text-center ">
-              Our exclusive services <br />
-              directly to your inbox.
-            </h2>
+            <h2 className="other-heading2 text-center ">Our exclusive services <br />
+              directly to your inbox.</h2>
           </div>
           <div className="footer-email m-20">
             <form className="position-relative">
-              <input
-                type="text"
-                className="form-control bg-transparent border-bottom border-top-0 rounded-0 border-start-0 border-end-0   border-opacity-25 p-20 m-10 w-100"
-                placeholder="E-mail Addresss "
-              />
+              <input type="text" className="form-control bg-transparent border-bottom border-top-0 rounded-0 border-start-0 border-end-0   border-opacity-25 p-20 m-10 w-100" placeholder="E-mail Addresss " />
               <div className="row   m-10">
-                <div className="w-100 d-none form-check">
-                  <input
-                    type="checkbox"
-                    className="form-check-input"
-                    id="terms"
-                    required=""
-                  />
-                  <p
-                    className="form-check-label font-11 text-justify font-light-color "
-                    htmlFor="terms"
-                  >
-                    By providing Global Collective your contact information, you
-                    acknowledge and agree to our Privacy Policy and consent to
-                    receiving marketing communications, including through
-                    automated calls, texts, and emails, some of which may use
-                    artificial or prerecorded voices. This consent isn’t
-                    necessary for purchasing any products or services and you
-                    may opt out at any time. To opt out from texts, you can
-                    reply, ‘stop’ at any time. To opt out from emails, you can
-                    click on the unsubscribe link in the emails. Message and
-                    data rates may apply.
+                <div className=" d-none form-check">
+                  <input type="checkbox" className="form-check-input" id="terms" required />
+                  <p className="form-check-label font-11 text-justify font-light-color" htmlFor="terms">
+                    &nbsp;
                   </p>
                 </div>
               </div>
-              <button
-                className="border-0 "
-                style={{
-                  backgroundColor: "black",
-                  position: "absolute",
-                  right: 10,
-                  top: "10%"
-                }}
-                type="button"
-              >
-                <Image src="img/right-carousel.png" className="w-12" alt=""   width={16}
+              <button className="border-0 " style={{"background-color":"black","position":"absolute","right":"10px","top":"10%"}} type="button">
+              <Image src="img/right-carousel.png" className="w-12" alt=""   width={16}
                   height={16} />
               </button>
             </form>
@@ -138,93 +96,24 @@ const current_year = current_date.getFullYear(); // Get the current year
         <div className="row ">
           <div className="col-md-4 d-flex align-items-center justify-content-center justify-content-md-start">
             <ul>
-              <li>
-                {" "}
-                <a className="lh-lg text-light font-13" href="#">
-                  Home
-                </a>
-              </li>
-              <li>
-                {" "}
-                <a className="lh-lg text-light font-13" href="#">
-                  Elevators
-                </a>
-              </li>
-              <li>
-                {" "}
-                <a className="lh-lg text-light font-13" href="#">
-                  Escalators
-                </a>
-              </li>
+              <li> <a className="lh-lg text-light font-13" href="#">Home</a></li>
+              <li> <a className="lh-lg text-light font-13" href="#">Elevators</a></li>
+              <li> <a className="lh-lg text-light font-13" href="#">Escalators</a></li>
             </ul>
           </div>
           <div className="col-md-4 d-flex align-items-center justify-content-center justify-content-md-start">
             <ul>
-              <li>
-                {" "}
-                <a
-                  className="lh-lg text-light font-13 text-decoration-none"
-                  href="#"
-                >
-                  Experience Centre
-                </a>
-              </li>
-              <li>
-                {" "}
-                <a className="lh-lg text-light font-13" href="#">
-                  Blog
-                </a>
-              </li>
-              <li>
-                {" "}
-                <a className="lh-lg text-light font-13" href="#">
-                  Contact
-                </a>
-              </li>
+              <li> <a className="lh-lg text-light font-13 text-decoration-none" href="#">Experience Centre</a></li>
+              <li> <a className="lh-lg text-light font-13" href="#">Blog</a></li>
+              <li> <a className="lh-lg text-light font-13" href="#">Contact</a></li>
             </ul>
           </div>
           <div className="col-md-4 d-flex align-items-center justify-content-center justify-content-md-start">
             <ul>
-              <li>
-                {" "}
-                <a
-                  className="lh-lg text-light font-16 text-decoration-none"
-                  href="https://www.facebook.com/teknixelevators/"
-                  target="_blank"
-                >
-                  <i className="bi bi-facebook" />
-                </a>
-              </li>
-              <li>
-                {" "}
-                <a
-                  className="lh-lg text-light font-16 text-decoration-none"
-                  href="https://twitter.com/TeknixE"
-                  target="_blank"
-                >
-                  <i className="bi bi-twitter-x" />
-                </a>
-              </li>
-              <li>
-                {" "}
-                <a
-                  className="lh-lg text-light font-19 text-decoration-none"
-                  href="https://www.linkedin.com/company/teknixelevators/"
-                  target="_blank"
-                >
-                  <i className="bi bi-linkedin" />
-                </a>
-              </li>
-              <li>
-                {" "}
-                <a
-                  className="lh-lg text-light font-19 text-decoration-none"
-                  href="https://www.instagram.com/teknixelevators_india/"
-                  target="_blank"
-                >
-                  <i className="bi bi-instagram" />
-                </a>
-              </li>
+              <li> <a className="lh-lg text-light font-16 text-decoration-none" href="https://www.facebook.com/teknixelevators/" target="_blank"><i className="bi bi-facebook" /></a></li>
+              <li> <a className="lh-lg text-light font-16 text-decoration-none" href="https://twitter.com/TeknixE" target="_blank"><i className="bi bi-twitter-x" /></a></li>
+              <li> <a className="lh-lg text-light font-19 text-decoration-none" href="https://www.linkedin.com/company/teknixelevators/" target="_blank"><i className="bi bi-linkedin" /></a></li>
+              <li> <a className="lh-lg text-light font-19 text-decoration-none" href="https://www.instagram.com/teknixelevators_india/" target="_blank"><i className="bi bi-instagram" /></a></li>
             </ul>
           </div>
         </div>
@@ -232,13 +121,13 @@ const current_year = current_date.getFullYear(); // Get the current year
     </div>
     <div className="row p-20 d-flex align-items-center text-center">
       <div className="col-md-12 col-12  d-block mx-auto">
-        <p className="text-white font-normal text-center py-3">
-          Copyright © {current_year} Teknix Elevators. All rights reserved.
-        </p>
+        <p className="text-white font-normal text-center py-3">Copyright © 2024 Teknix Elevators. All rights reserved.</p>
       </div>
     </div>
   </div>
 </section>
+
+     
 
     </>
   );
