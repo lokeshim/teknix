@@ -24,9 +24,9 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>teknix</title>
-                <meta name="description" content="teknix" />
-                <meta name="keywords" content="teknix" />
+                <title>HYDRATEK | Top Elevators Company in India - Teknix Elevators</title>
+                <meta name="description" content="Teknix Elevators Top Elevators Company in India. Hydratek is a new Generation vertical transportation system based on advanced progressive Fluid dynamics." />
+                <meta name="keywords" content="Top elevators in bangalore, Top elevators company in India, Top elevators company in Bangalore" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
                 <link rel="canonical" href="#" />

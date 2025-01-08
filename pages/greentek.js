@@ -24,9 +24,9 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>teknix</title>
-                <meta name="description" content="teknix" />
-                <meta name="keywords" content="teknix" />
+                <title>GREENTEK | Passenger Lift Manufacturers In Bangalore</title>
+                <meta name="description" content="Teknix Elevators GREENTEK is a new generation Passenger Lift Manufacturers In Bangalore made with the finest German craftship years of research & development" />
+                <meta name="keywords" content="Lift Manufacturers In Bangalore, Lift Manufacturers In Hyderabad, Passenger Lift Manufacturers In Bangalore, Lift Company In Bangalore" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
                 <link rel="canonical" href="#" />

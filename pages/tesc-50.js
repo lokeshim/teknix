@@ -24,9 +24,9 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>teknix</title>
-                <meta name="description" content="teknix" />
-                <meta name="keywords" content="teknix" />
+                <title>TESC 50 | Escalators for Offices and Commercial - Teknix</title>
+                <meta name="description" content="These Escalators are designed for Heavy usage like Malls, Airports, Subway stations & Railway stations where public flow is very high & maximum 20 hours daily" />
+                <meta name="keywords" content="" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
                 <link rel="canonical" href="#" />

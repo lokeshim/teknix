@@ -24,9 +24,9 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>teknix</title>
-                <meta name="description" content="teknix" />
-                <meta name="keywords" content="teknix" />
+                <title>Best Elevator Company in Bangalore India - Teknix Elevators</title>
+                <meta name="description" content="Teknix Elevators is one of the leading elevator suppliers in Bangalore. we know the market and can provide you with the best-quality elevator at a competitive price." />
+                <meta name="keywords" content="Best elevator companies in india, Best elevator company in bangalore, Best home elevators in bangalore,Elevator suppliers in bangalore" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
                 <link rel="canonical" href="#" />

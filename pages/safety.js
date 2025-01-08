@@ -17,9 +17,9 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>teknix</title>
-                <meta name="description" content="teknix" />
-                <meta name="keywords" content="teknix" />
+                <title>Elevator Companies in Hyderabad India | Teknix Elevators</title>
+                <meta name="description" content="Our focus on protecting and caring for people has made Teknix a leader in safety. 4-passenger lift size, Elevator Companies in Hyderabad India" />
+                <meta name="keywords" content="4 passenger lift size, elevator companies in hyderabad, elevator manufacturers in hyderabad,  lift manufacturers in hyderabad, residential elevators in hyderabad" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
                 <link rel="canonical" href="#" />

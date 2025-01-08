@@ -34,7 +34,7 @@ const BlogPost = ({ post }) => {
   return (
     <>
         <Head>
-            <title>{post.meta_title}</title>
+            <title>{post.title}</title>
             <meta name="description" content={post.description} />
             <meta name="keywords" content={post.keywords} />
             <meta name="robots" content="index, follow" />

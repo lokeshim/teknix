@@ -24,9 +24,9 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>teknix</title>
-                <meta name="description" content="teknix" />
-                <meta name="keywords" content="teknix" />
+                <title>TMW 15 | Escalators for offices and commercial - Teknix Elevators</title>
+                <meta name="description" content="Escalator manufacturers in Bangalore and elevator manufacturers in Bangalore. Teknix Moving walks Horizontal Span is up to 150 meters and can run for 16 hours" />
+                <meta name="keywords" content="" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
                 <link rel="canonical" href="#" />

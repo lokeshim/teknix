@@ -21,9 +21,9 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>teknix</title>
-        <meta name="description" content="teknix" />
-        <meta name="keywords" content="teknix" />
+        <title>Experience Center | Elevators Dealer & Supplier In Bangalore</title>
+        <meta name="description" content="Welcome to Teknix Experience Center, Bangalore Experience our latest world class products. Elevators Dealer & Supplier, Bangalore Lift Companies" />
+        <meta name="keywords" content="Elevator suppliers in bangalore, Bangalore elevator companies, Bangalore lift companies, Elevator in bangalore" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="#" />

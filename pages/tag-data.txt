@@ -1,0 +1,189 @@
+  <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-2380HZFKGF"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-2380HZFKGF');
+        </script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-56YWDJD60F"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-56YWDJD60F');
+        </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-91053723-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-91053723-1');
+        </script>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-TSZHBV4');
+        </script>
+        <!-- End Google Tag Manager -->
+        <script type="text/javascript">
+            (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "cc320zj0c8");
+        </script>
+
+
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-WFZZVN43');</script>
+        <!-- End Google Tag Manager -->
+
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Teknix Elevators",
+          "alternateName": "Elevator In Bangalore",
+          "url": "https://www.teknixelevators.com/",
+          "logo": "https://www.teknixelevators.com/images/logo.png",
+          "sameAs": [
+            "https://www.facebook.com/teknixelevators/",
+            "https://twitter.com/TeknixE",
+            "https://www.linkedin.com/company/teknixelevators/",
+            "https://www.instagram.com/teknixelevators_india/"
+          ]
+        }
+        </script>
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/",
+          "@type": "WebSite",
+          "name": "Teknix Elevators",
+          "url": "https://www.teknixelevators.com/",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.teknixelevators.com/contact-us-best-home-elevators{search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+        </script>
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/", 
+          "@type": "BreadcrumbList", 
+          "itemListElement": [{
+            "@type": "ListItem", 
+            "position": 1, 
+            "name": "Home",
+            "item": "https://www.teknixelevators.com/"  
+          },{
+            "@type": "ListItem", 
+            "position": 2, 
+            "name": "About-us",
+            "item": "https://www.teknixelevators.com/about-us"  
+          },{
+            "@type": "ListItem", 
+            "position": 3, 
+            "name": "Corporate-Profile",
+            "item": "https://www.teknixelevators.com/corporate-profile"  
+          },{
+            "@type": "ListItem", 
+            "position": 4, 
+            "name": "Quality-policy",
+            "item": "https://www.teknixelevators.com/quality-policy"  
+          },{
+            "@type": "ListItem", 
+            "position": 5, 
+            "name": "Sustainability",
+            "item": "https://www.teknixelevators.com/sustainability"  
+          },{
+            "@type": "ListItem", 
+            "position": 6, 
+            "name": "Optima",
+            "item": "https://www.teknixelevators.com/optima-home-elevators"  
+          },{
+            "@type": "ListItem", 
+            "position": 7, 
+            "name": "Vertix",
+            "item": "https://www.teknixelevators.com/vertix-residential-elevators-bangalore"  
+          },{
+            "@type": "ListItem", 
+            "position": 8, 
+            "name": "Greentek",
+            "item": "https://www.teknixelevators.com/greentek-passenger-lift-manufacturers"  
+          },{
+            "@type": "ListItem", 
+            "position": 9, 
+            "name": "Hydratek",
+            "item": "https://www.teknixelevators.com/hydratek-elevators-lifts-services"  
+          },{
+            "@type": "ListItem", 
+            "position": 10, 
+            "name": "Villa-matek",
+            "item": "https://www.teknixelevators.com/villa-matek-lift-services"  
+          },{
+            "@type": "ListItem", 
+            "position": 11, 
+            "name": "Tesc-20",
+            "item": "https://www.teknixelevators.com/tesc-20-escalators"  
+          },{
+            "@type": "ListItem", 
+            "position": 12, 
+            "name": "Tesc-50",
+            "item": "https://www.teknixelevators.com/tesc-50-escalators"  
+          },{
+            "@type": "ListItem", 
+            "position": 13, 
+            "name": "Tmw-15",
+            "item": "https://www.teknixelevators.com/tmw-15-escalators"  
+          },{
+            "@type": "ListItem", 
+            "position": 14, 
+            "name": "service-And-maintenance",
+            "item": "https://www.teknixelevators.com/lifts-service-and-maintenance"  
+          },{
+            "@type": "ListItem", 
+            "position": 15, 
+            "name": "Safety",
+            "item": "https://www.teknixelevators.com/safety-security-elevators"  
+          },{
+            "@type": "ListItem", 
+            "position": 16, 
+            "name": "Experience-Center",
+            "item": "https://www.teknixelevators.com/elevators-experience-center"  
+          },{
+            "@type": "ListItem", 
+            "position": 17, 
+            "name": "Contact",
+            "item": "https://www.teknixelevators.com/contact-us-best-home-elevators"  
+          },{
+            "@type": "ListItem", 
+            "position": 18, 
+            "name": "Blogs",
+            "item": "https://www.teknixelevators.com/blogs-elevator-manufacturers-india"  
+          },{
+            "@type": "ListItem", 
+            "position": 19, 
+            "name": "Privacy-Policy",
+            "item": "https://www.teknixelevators.com/privacy-policy"  
+          },{
+            "@type": "ListItem", 
+            "position": 20, 
+            "name": "UAE",
+            "item": "https://www.teknixelevators.com/uae_official_landingpage/"  
+          }]
+        }
+        </script>

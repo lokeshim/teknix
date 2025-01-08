@@ -24,9 +24,9 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>teknix</title>
-                <meta name="description" content="teknix" />
-                <meta name="keywords" content="teknix" />
+                <title>VILLA MATEK | Elevator Manufacturers in India - Teknix</title>
+                <meta name="description" content="TEKNIX VILLA MATEK is specially designed for residential use; Elevator Manufacturers in India & Elevator Suppliers in Bangalore mix of German Technology" />
+                <meta name="keywords" content="Elevator companies in hyderabad, Elevator manufacturers in bangalore, Elevators company in bangalore, Elevator suppliers in bangalore, Elevators manufacturer in Bangalore, Elevator manufacturers in india" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
                 <link rel="canonical" href="#" />

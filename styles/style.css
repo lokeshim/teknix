@@ -1006,3 +1006,10 @@ object-position: center;
   transform: scale(1.2); /* Zooms the image by 1.2 */
   transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
 }
+.myform .form-control {
+  color: #fff !important;
+}
+
+.myform .form-control:focus {
+  box-shadow: none !important;
+}

@@ -17,9 +17,9 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>teknix</title>
-                <meta name="description" content="teknix" />
-                <meta name="keywords" content="teknix" />
+                <title>Elevators & Escalators Service & Maintenance in Bangalore</title>
+                <meta name="description" content="Teknix Elevators is a leading provider of elevators and escalators in Bangalore. We offer service and maintenance for all types of elevators." />
+                <meta name="keywords" content="Elevator Companies In India, Lift For Home Price In Bangalore, Elevator Manufacturers In India, Residential Elevators In Hyderabad, Top Elevators Company In India" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
                 <link rel="canonical" href="#" />

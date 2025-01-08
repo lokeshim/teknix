@@ -17,9 +17,9 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>teknix</title>
-                <meta name="description" content="teknix" />
-                <meta name="keywords" content="teknix" />
+                <title>Corporate Profile | Elevators Dealer & Supplier Bangalore</title>
+                <meta name="description" content="Teknix Elevators Pvt. Ltd. Management team brings deep expertise in the field of Vertical Transport Technology. 4-passenger Lift Sizes with Excellent Quality" />
+                <meta name="keywords" content="4 passenger lift size, Elevator suppliers in bangalore" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
                 <link rel="canonical" href="#" />

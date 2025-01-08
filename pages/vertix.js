@@ -24,9 +24,9 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>teknix</title>
-                <meta name="description" content="teknix" />
-                <meta name="keywords" content="teknix" />
+                <title>VERTIX | Residential Elevators in Hyderabad - Teknix Elevators</title>
+                <meta name="description" content="TEKNIX VERTIX ELEVATORS is specially designed for residential use, Elevator Manufacturers in Hyderabad & Suppliers in Bangalore. Mix of German Technology" />
+                <meta name="keywords" content="Residential Elevators In Hyderabad, Residential Lifts In Bangalore, Elevator Manufacturers In Hyderabad, Elevator Suppliers In Bangalore" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
                 <link rel="canonical" href="#" />

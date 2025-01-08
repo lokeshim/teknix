@@ -24,9 +24,9 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>teknix</title>
-                <meta name="description" content="teknix" />
-                <meta name="keywords" content="teknix" />
+                <title>OPTIMA | Best Home Elevators in Bangalore | Teknix Elevators</title>
+                <meta name="description" content="Teknix Elevators is Best Home Elevators in Bangalore manufacturer and of modern passenger and freight elevators. Elevator and Lift Manufacturers in Hyderabad" />
+                <meta name="keywords" content="Best Elevator Companies In India, Best Elevator Company In Bangalore, Best Home Elevators In Bangalore, Elevator Companies In India, Home Elevators In Bangalore" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
                 <link rel="canonical" href="#" />
