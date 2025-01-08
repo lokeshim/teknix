@@ -1013,3 +1013,4 @@ object-position: center;
 .myform .form-control:focus {
   box-shadow: none !important;
 }
+.blog-content p {margin-bottom:10px !important}

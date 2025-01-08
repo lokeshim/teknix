@@ -95,7 +95,7 @@ const BlogPost = ({ post }) => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-      <style>{` p {margin-bottom:10px !important} `} </style>
+      
       <section className="section">
         <div className="container">
           <div className="row">
@@ -112,7 +112,7 @@ const BlogPost = ({ post }) => {
                   <h2 className="text-main fs-2 fw-bold my-4">{post.title}</h2>
                 </div>
                 
-                <div dangerouslySetInnerHTML={{ __html: post.content }} />
+                <div class="blog-content" dangerouslySetInnerHTML={{ __html: post.content }} />
               </div>
             </div>
             <BlogSidebar />
