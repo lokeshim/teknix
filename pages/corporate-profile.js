@@ -91,7 +91,7 @@ export default function Home() {
     <div className="container-fluid px-md-5  text-center p-0">
       <div className="row">
         <div className="col-md-12">
-          <img src="img/research-center.webp" alt className="d-block mx-auto img-fluid" />
+          <Image src="img/research-center.webp" alt="teknix" className="d-block mx-auto img-fluid" />
         </div>
       </div>
     </div>
@@ -109,19 +109,19 @@ export default function Home() {
         <div className="col-md-12 d-block mx-auto" data-aos="fade-right" data-aos-duration={2000}>
           <div className="row " data-aos="fade-left" data-aos-duration={2500}>
             <p className="text-white text-center p-10">At Teknix, we redefine the essence of vertical transportation through a vision that marries</p>
-            <p className="text-white text-center p-10">innovation with uncompromising values. In esteemed collaboration with SRH Aufzüge GmbH, we are dedicated to crafting luxurious elevators that not only elevate spaces but also enhance lifestyles, embodying a commitment to excellence and sophistication.</p>
+            <p className="text-white text-center p-10">innovation with uncompromising values. In esteemed collaboration with SRH Aufzüge  GmbH, we are dedicated to crafting luxurious elevators that not only elevate spaces but also enhance lifestyles, embodying a commitment to excellence and sophistication.</p>
             <p className="text-white font-20 p-10 text-center"><strong className="text-white">Craftsmanship Meets Cutting-Edge Technology</strong></p>
-            <p className="text-white text-center p-10">Every Teknix elevator is a testament to meticulous engineering, whether it is a bespoke creation tailored to our clients' unique specifications or an integral part of our illustrious vertical transportation portfolio. Our in-house R&amp;D team rigorously tests each product, ensuring it exemplifies reliability, elegance, and state-of-the-art performance.</p>
+            <p className="text-white text-center p-10">Every Teknix elevator is a testament to meticulous engineering, whether it is a bespoke creation tailored to our clients&apos; unique specifications or an integral part of our illustrious vertical transportation portfolio. Our in-house R & D team rigorously tests each product, ensuring it exemplifies reliability, elegance, and state-of-the-art performance.</p>
             <p className="text-white font-20 p-10 text-center"><strong className="text-white">State-of-the-Art Manufacturing Facilities</strong></p>
             <p className="text-white text-center p-10">Our manufacturing facility in Bangalore, India, spans an impressive 65,000 sq. ft., while our international units in Suzhou, China, and Bremen, Germany, collectively boast over 2,025,000 sq. ft. These state-of-the-art facilities feature:</p>
             <p className="text-white ps-5 text-center m-10 text-center"> <strong className="text-white ">Advanced Manufacturing Lines</strong> from renowned brands such as Salvagnini (Italy), Bodor (Switzerland), Dener (Turkey), and Amada (Japan).</p>
             <p className="text-white text-center  ps-5  m-10"> A fully equipped elevator testing tower, ensuring that every elevator meets the highest safety and performance standards.</p>
-            <p className="text-white text-center  ps-5 m-10"> Comprehensive R&amp;D capabilities that drive continuous innovation.</p>
+            <p className="text-white text-center  ps-5 m-10"> Comprehensive R & D capabilities that drive continuous innovation.</p>
             <p className="text-white font-20 p-10 text-center"><strong className="text-white">Global Expertise, Local Excellence</strong></p>
-            <p className="text-white text-center p-10">As a distinguished member of VFA-Interlift in Germany, SRH Aufzüge has been instrumental in shaping EU standards for elevators. With a global presence that includes manufacturing units in Germany and P.R. China under the prestigious brand Sicher Elevator, our partnership with SRH Aufzüge GmbH empowers us to offer cutting-edge technology tailored for the discerning Indian market. Our elevators, capable of speeds up to 8 m/s, are a hallmark of German engineering and design prowess, setting new benchmarks in luxury vertical transport.</p>
+            <p className="text-white text-center p-10">As a distinguished member of VFA-Interlift in Germany, SRH Aufzüge  has been instrumental in shaping EU standards for elevators. With a global presence that includes manufacturing units in Germany and P.R. China under the prestigious brand Sicher Elevator, our partnership with SRH Aufzüge  GmbH empowers us to offer cutting-edge technology tailored for the discerning Indian market. Our elevators, capable of speeds up to 8 m/s, are a hallmark of German engineering and design prowess, setting new benchmarks in luxury vertical transport.</p>
             <p className="text-white font-20 p-10 text-center"><strong className="text-white">Elevating Experiences</strong></p>
             <p className="text-white text-center p-10">At Teknix, we do more than provide elevators; we create an experience of opulence and sophistication that transforms the way people interact with their environments. Our commitment to superior quality and unparalleled service ensures that every ascent is a journey marked by elegance and reliability.</p>
-            <p className="text-white text-center p-10">Join us in elevating not just buildings, but lifestyles—where every Teknix elevator is an invitation to experience the extraordinary.</p>
+            <p className="text-white text-center p-10">Join us in elevating not just buildings, but lifestyles-where every Teknix elevator is an invitation to experience the extraordinary.</p>
           </div>
         </div>
       </div>

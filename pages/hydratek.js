@@ -45,7 +45,7 @@ export default function Home() {
           <p className="text-center text-danger font-28" data-aos="fade-up" data-aos-duration={2000}>HYDRATEK</p>
           <div className="home-about-heading ">
             <h2 className=" text-center" data-aos="fade-up" data-aos-duration={2500}>FLUIDIC AND STYLISH ELEVATOR RIDE.</h2>
-            <p className="font-small text-center w-35 d-block mx-auto light-white font-14  " data-aos="fade-up" data-aos-duration={3000}>Teknix Hydratek is a new Generation vertical transportation system based on advanced progressive Fluid dynamics, researched and developed with the finest German Technology and Italian Craftmanship. Hydratek is born with state of the art critical components like new generation Ultra High Precision Submerged Drive for Smooth fluid pressure with advanced Fluid control valves &amp; stylish touch sensitive human interface devices together with technologically advanced components outperform to give you a impeccable elevator ride.</p>
+            <p className="font-small text-center w-35 d-block mx-auto light-white font-14  " data-aos="fade-up" data-aos-duration={3000}>Teknix Hydratek is a new Generation vertical transportation system based on advanced progressive Fluid dynamics, researched and developed with the finest German Technology and Italian Craftmanship. Hydratek is born with state of the art critical components like new generation Ultra High Precision Submerged Drive for Smooth fluid pressure with advanced Fluid control valves  &  stylish touch sensitive human interface devices together with technologically advanced components outperform to give you a impeccable elevator ride.</p>
           </div>
         </div>
       </div>
@@ -203,7 +203,7 @@ export default function Home() {
         </h2>
       </div>
       <div className="col-md-5 d-flex align-items-center">
-        <p className="p-20 text-md-start text-center font-28">Another outstanding feature of the Teknix Hydra is the Zero headroom height that means no extra machine room or extensions on the terrace, which adds space for you to use, And that’s completely hassle free &amp; space saving.</p>
+        <p className="p-20 text-md-start text-center font-28">Another outstanding feature of the Teknix Hydra is the Zero headroom height that means no extra machine room or extensions on the terrace, which adds space for you to use, And that’s completely hassle free  &  space saving.</p>
       </div>
     </div>
   </div>
@@ -237,7 +237,7 @@ export default function Home() {
             </tr>
             <tr>
               <td>
-                <p className="text-md-start text-center mb-0"><strong>Curve Generation</strong> : Microcomputer senses the load in the elevator &amp; generates the S curve based on the torque required automatically</p>
+                <p className="text-md-start text-center mb-0"><strong>Curve Generation</strong> : Microcomputer senses the load in the elevator  &  generates the S curve based on the torque required automatically</p>
               </td>
             </tr>
             <tr>
@@ -252,7 +252,7 @@ export default function Home() {
             </tr>
             <tr>
               <td>
-                <p className="text-md-start text-center mb-0"><strong>Human Interface Device</strong> : Stylish Integrated Car operating Panel &amp; Surface mounted Landing Operating Panel with auto atiendant key and auto light and fan function</p>
+                <p className="text-md-start text-center mb-0"><strong>Human Interface Device</strong> : Stylish Integrated Car operating Panel  &  Surface mounted Landing Operating Panel with auto atiendant key and auto light and fan function</p>
               </td>
             </tr>
             <tr>
@@ -262,7 +262,7 @@ export default function Home() {
             </tr>
             <tr>
               <td>
-                <p className="text-md-start text-center mb-0"><strong>Direction Indicators</strong> : Car &amp; Landing Operating Panels will be equipped with direction and floor indication display for easy facilitation of passengers</p>
+                <p className="text-md-start text-center mb-0"><strong>Direction Indicators</strong> : Car  &  Landing Operating Panels will be equipped with direction and floor indication display for easy facilitation of passengers</p>
               </td>
             </tr>
             <tr>
@@ -272,7 +272,7 @@ export default function Home() {
             </tr>
             <tr>
               <td>
-                <p className=" text-md-start text-center mb-0"><strong>Auto on/off </strong>: Ventilation &amp; lighting would have automatic on/off function</p>
+                <p className=" text-md-start text-center mb-0"><strong>Auto on/off </strong>: Ventilation  &  lighting would have automatic on/off function</p>
               </td>
             </tr>
             <tr>
@@ -297,7 +297,7 @@ export default function Home() {
             </tr>
             <tr>
               <td>
-                <p className="text-md-start text-center mb-0"><strong>Power Supply</strong> : AC415V, 3phase &amp; AC220V , 1phase , 50HZ AC</p>
+                <p className="text-md-start text-center mb-0"><strong>Power Supply</strong> : AC415V, 3phase  &  AC220V , 1phase , 50HZ AC</p>
               </td>
             </tr>
             <tr>

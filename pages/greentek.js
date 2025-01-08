@@ -463,7 +463,7 @@ export default function Home() {
   <div className="row my-3 justify-content-center align-items-center">
     <div className="col-md-4 mb-4">
       <div className=" py-3 px-3">
-        <img src="img/icon 80x80-31-31.webp" alt style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
+        <Image src="img/icon 80x80-31-31.webp" alt="teknix" style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
         <p className="font-24 py-3 text-center ">Ultra-Efficient Motor</p>
         <p className="text font-15 text-center ">Our advanced motors are designed for
           ultra-low power consumption, ensuring
@@ -475,7 +475,7 @@ export default function Home() {
     </div>
     <div className="col-md-4 mb-4">
       <div className=" py-3 px-3">
-        <img src="img/icon 80x80-32.webp" alt style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
+        <Image src="img/icon 80x80-32.webp" alt="teknix" style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
         <p className="font-24 py-3 text-center "> Hibernation Mode</p>
         <p className="text font-15 text-center ">
           Elevators from Teknix come standard with
@@ -487,7 +487,7 @@ export default function Home() {
     </div>
     <div className="col-md-4 mb-4">
       <div className=" py-3 px-3">
-        <img src="img/icon 80x80-33.webp" alt style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
+        <Image src="img/icon 80x80-33.webp" alt="teknix" style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
         <p className="font-24 py-3 text-center ">Auto Car Display Cut-Off</p>
         <p className="text font-15 text-center ">The car display intelligently turns off in
           Hibernation Mode, maximizing energy
@@ -498,7 +498,7 @@ export default function Home() {
   <div className="row my-3 justify-content-center align-items-center">
     <div className="col-md-4 mb-4">
       <div className=" py-3 px-3">
-        <img src="img/icon 80x80-34.webp" alt style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
+        <Image src="img/icon 80x80-34.webp" alt="teknix" style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
         <p className="font-24 py-3 text-center ">Eco-Friendly LED Lighting</p>
         <p className="text font-15 text-center mb-0">
           Utilizing cutting-edge green LED lights, our
@@ -509,7 +509,7 @@ export default function Home() {
     </div>
     <div className="col-md-4 mb-4">
       <div className=" py-3 px-3">
-        <img src="img/icon 80x80-35.webp" alt style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
+        <Image src="img/icon 80x80-35.webp" alt="teknix" style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
         <p className="font-24 py-3 text-center ">Automatic
           Fan and Light Controls</p>
         <p className="text font-15 text-center mb-0">

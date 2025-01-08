@@ -225,7 +225,7 @@ export default function Home() {
         </div>
         <div className="row sub-section">
           <p className=" other-heading">
-            Safety &amp; Reliability
+            Safety  &  Reliability
           </p>
           <p className="  text-light ">Using the latest technology, each product undergoes
             vigorous testing in order to reach
@@ -252,7 +252,7 @@ export default function Home() {
           <p className=" text-center w-100 w-md-50 d-block mx-auto light-white   ">At Teknix, we are redefining the standards of vertical transportation with a visionary approach that seamlessly blends cutting-edge innovation and enduring values. In partnership with SRH Aufzüge GmbH, we design and deliver luxury elevators that go beyond mere utility. Each Teknix elevator enhances spaces and enriches lifestyles, embodying our unwavering commitment to excellence, sophistication, and unmatched quality.
           </p>
           <p className="text-center  text-danger fs-3  py-0">Where Craftsmanship Meets Innovation</p>
-          <p className="text-center "><span>Every Teknix elevator exemplifies meticulous engineering and innovation, whether it's a bespoke design or a part of our vertical transportation portfolio. Our dedicated in-house R&amp;D team ensures reliability, elegance, and advanced performance through rigorous testing. Key features of our state-of-the-art manufacturing facilities include:</span></p>
+          <p className="text-center "><span>Every Teknix elevator exemplifies meticulous engineering and innovation, whether it&apos;s a bespoke design or a part of our vertical transportation portfolio. Our dedicated in-house R & D team ensures reliability, elegance, and advanced performance through rigorous testing. Key features of our state-of-the-art manufacturing facilities include:</span></p>
           <p className="text-center fw-bold "><strong>A 65,000 sq. ft. facility in Bangalore, complemented by over 2,025,000 sq. ft. across Suzhou, China, and Bremen, Germany.</strong></p>
           <p className="text-center "><strong>Advanced production lines from Salvagnini, Bodor, Dener, and Amada.</strong></p>
           <p className="text-center "><strong>A fully equipped elevator testing tower to uphold the highest safety and performance standards.</strong>

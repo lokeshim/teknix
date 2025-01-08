@@ -188,7 +188,7 @@ export default function Home() {
     <div className="row">
       <div className="col-md-7 d-flex align-items-center">
         <h2 className="other-heading2 text-white m-20 active text-md-start text-center">
-          Smooth &amp; silent
+          Smooth  &  silent
           Operations
         </h2>
       </div>
@@ -247,7 +247,7 @@ export default function Home() {
               </tr>
               <tr>
                 <td>
-                  <p className="text-md-start text-center mb-0"><strong>Curve Generation</strong> : Microcomputer senses the load in the elevator &amp; generates the S curve based on the torque required automatically</p>
+                  <p className="text-md-start text-center mb-0"><strong>Curve Generation</strong> : Microcomputer senses the load in the elevator  &  generates the S curve based on the torque required automatically</p>
                 </td>
               </tr>
               <tr>
@@ -262,7 +262,7 @@ export default function Home() {
               </tr>
               <tr>
                 <td>
-                  <p className="text-md-start text-center mb-0"><strong>Human Interface Device</strong> : Stylish Integrated Car operating Panel &amp; Surface mounted Landing Operating Panel with auto atiendant key and auto light and fan function</p>
+                  <p className="text-md-start text-center mb-0"><strong>Human Interface Device</strong> : Stylish Integrated Car operating Panel  &  Surface mounted Landing Operating Panel with auto atiendant key and auto light and fan function</p>
                 </td>
               </tr>
               <tr>
@@ -272,7 +272,7 @@ export default function Home() {
               </tr>
               <tr>
                 <td>
-                  <p className="text-md-start text-center mb-0"><strong>Direction Indicators</strong> : Car &amp; Landing Operating Panels will be equipped with direction and floor indication display for easy facilitation of passengers</p>
+                  <p className="text-md-start text-center mb-0"><strong>Direction Indicators</strong> : Car  &  Landing Operating Panels will be equipped with direction and floor indication display for easy facilitation of passengers</p>
                 </td>
               </tr>
               <tr>
@@ -282,7 +282,7 @@ export default function Home() {
               </tr>
               <tr>
                 <td>
-                  <p className=" text-md-start text-center mb-0"><strong>Auto on/off </strong>: Ventilation &amp; lighting would have automatic on/off function</p>
+                  <p className=" text-md-start text-center mb-0"><strong>Auto on/off </strong>: Ventilation  &  lighting would have automatic on/off function</p>
                 </td>
               </tr>
               <tr>
@@ -307,7 +307,7 @@ export default function Home() {
               </tr>
               <tr>
                 <td>
-                  <p className="text-md-start text-center mb-0"><strong>Power Supply</strong> : AC415V, 3phase &amp; AC220V , 1phase , 50HZ AC</p>
+                  <p className="text-md-start text-center mb-0"><strong>Power Supply</strong> : AC415V, 3phase  &  AC220V , 1phase , 50HZ AC</p>
                 </td>
               </tr>
               <tr>

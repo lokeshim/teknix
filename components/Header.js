@@ -125,7 +125,7 @@ const Header = () => {
                   className="dropdown-item"
                   href="/lifts-service-and-maintenance"
                 >
-                  SERVICE &amp; MAINTAINENCE
+                  SERVICE  &  MAINTAINENCE
                 </Link>
               </li>
               <li>
@@ -324,7 +324,7 @@ const Header = () => {
                   className="dropdown-item"
                   href="lifts-service-and-maintenance"
                 >
-                  SERVICE &amp; MAINTAINENCE
+                  SERVICE  &  MAINTAINENCE
                 </Link>
               </li>
               <li>

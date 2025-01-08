@@ -95,7 +95,7 @@ export default function Home() {
           <p className="font-small text-center w-35 d-block mx-auto light-white font-14 my-5 ">
             These escalators are designed for medium usage like offices and
             commercial buildings where the daily usage is maximum of 16 hours
-            &amp; Max Rise height of 10 Metres.{" "}
+             &  Max Rise height of 10 Metres.{" "}
           </p>
         </div>
       </div>

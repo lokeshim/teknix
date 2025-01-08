@@ -184,7 +184,7 @@ keywords:"",
 excerpt: "",
  content : `<p>Getting stuck in an elevator is one of those things that we all hope to avoid, unfortunately, it can&#39;t be avoided. Everyone&#39;s worst nightmare is getting stuck in an elevator. The emergency call button in front of you is your sole source of support as you hang several stories above the ground.&nbsp;</p>
 
-<p>While there are ethics issued by the Bureau of India Standards, these serve as rules &amp; are only mandatory if endorsed by the state legislation. &ldquo;Industry bodies like the Bureau of Indian Standards are trying to change this by driving required safety standards for the elevator industry &amp; looking for co-operation from the states.&nbsp;</p>
+<p>While there are ethics issued by the Bureau of India Standards, these serve as rules  &  are only mandatory if endorsed by the state legislation. &ldquo;Industry bodies like the Bureau of Indian Standards are trying to change this by driving required safety standards for the elevator industry  &  looking for co-operation from the states.&nbsp;</p>
 
 <p><strong>If a person uses an</strong><a href="https://news.abplive.com/lifestyle/stuck-in-an-elevator-heres-how-to-get-out-of-lift-that-has-stopped-in-between-floors-or-jammed-1382546"><strong> </strong><strong>elevator every day</strong></a><strong>, the odds are a 1 in 5,000 chance of getting stuck each month. If the person rides an elevator every workday for 25 years, your chances increase to 1 in 17 times.</strong></p>
 
@@ -360,7 +360,7 @@ excerpt: "",
 
 <p>In the same way, you want to know exactly how long it will take to install so that you can get ready to use it after a certain amount of time. Plus, you don&#39;t want the installation team to be in your house for weeks on end.</p>
 
-<p><strong>6. Elevator&rsquo;s gamut of safety &amp; security features</strong></p>
+<p><strong>6. Elevator&rsquo;s gamut of safety  &  security features</strong></p>
 
 <p>When you buy a home elevator, you should expect top-of-the-line safety, comfort, and security features. If your lift company can&#39;t tell you exactly what they are, or if what they tell you doesn&#39;t impress you, that will definitely be a deciding factor.</p>
 
@@ -372,7 +372,7 @@ excerpt: "",
 
 <p>A home elevator needs to be checked and fixed up on a regular basis to make sure it works well and is safe for you and your family. But if you have to schedule maintenance every few months or if you think your home elevator will break down more often, you might want to think again.</p>
 
-<p><strong>9. Dependable &amp; reachable customer service</strong>&nbsp;</p>
+<p><strong>9. Dependable  &  reachable customer service</strong>&nbsp;</p>
 
 <p>If it will be hard to get help once your elevator is set up, there is no point in going down that road. You should have a team of dedicated technicians who can figure out what&#39;s wrong and fix it. You should also be able to get help from a customer service team whenever you need it. Also, it is very important to find out, understand, and talk about what services are included in your quote.</p>
 
@@ -521,7 +521,7 @@ excerpt: "",
 
 <p>&nbsp;</p>
 
-<p>Teknix Elevators, a leading <strong>Passenger Elevator Manufacturer</strong> <strong>&amp; Supplier</strong> in Hyderabad, offers efficient passenger lifts to meet your specific needs. Your lift space will be very impressive thanks to our innovative engineering technology. Elegance and convenience can complement the effectiveness of our customized designs.</p>
+<p>Teknix Elevators, a leading <strong>Passenger Elevator Manufacturer</strong> <strong> &  Supplier</strong> in Hyderabad, offers efficient passenger lifts to meet your specific needs. Your lift space will be very impressive thanks to our innovative engineering technology. Elegance and convenience can complement the effectiveness of our customized designs.</p>
 
 <p>&nbsp;</p>
 

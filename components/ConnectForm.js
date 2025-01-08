@@ -85,7 +85,7 @@ const ConnectForm = () => {
                   href=""
                   className="text-light text-decoration-none font-11 fw-normal letter-spacing"
                 >
-                  We'll put you in touch with your acclaimed Global Collective™ member.
+                  We&apos;ll put you in touch with your acclaimed Global Collective™ member.
                 </a>
               </p>
             </div>
@@ -159,10 +159,10 @@ const ConnectForm = () => {
                   onChange={handleChange}
                 />
                 <label className="form-check-label font-11 font-light-color" htmlFor="terms">
-                  By providing Global Collective your contact information, you acknowledge and agree to our{' '}
+                  By providing Global Collective your contact information, you acknowledge and agree to our
                   <a href="#" className="text-white text-decoration-none fw-bold">
                     Privacy Policy
-                  </a>{' '}
+                  </a>
                   and consent to receiving marketing communications.
                 </label>
                 {errors.terms && <small className="text-danger">{errors.terms}</small>}

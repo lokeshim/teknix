@@ -164,10 +164,10 @@ export default function Home() {
               </tr>
               <tr>
                 <td className="font-weight-600">Illumination</td>
-                <td>Lighting Under Upper &amp; Lower Landing Steps</td>
+                <td>Lighting Under Upper  &  Lower Landing Steps</td>
               </tr>
               <tr>
-                <td className="font-weight-600 border-bottom-0">Inner &amp; Outer Decking</td>
+                <td className="font-weight-600 border-bottom-0">Inner  &  Outer Decking</td>
                 <td className=" border-bottom-0">Stainless Steel HL</td>
               </tr>
             </tbody>

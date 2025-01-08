@@ -46,7 +46,7 @@ export default function Home() {
           <p className="text-center text-danger font-28" data-aos="fade-up" data-aos-duration={2000}>TESC 50</p>
           <div className="home-about-heading text-center">
             <h2 className=" text-center" data-aos="fade-up" data-aos-duration={2500}>MOVING MADE SIMPLE AND EASY.</h2>
-            <p className="fs-5 text-center w-35 d-block mx-auto light-white font-14 text-center" data-aos="fade-up" data-aos-duration={3000}>These escalators are designed for Heavy usage like Malls, Airports, Subway stations &amp; Railyway stations where public flow is very high and has maximum operation capability of 20 hours daily and can go upto 27 metres rise height. </p>
+            <p className="fs-5 text-center w-35 d-block mx-auto light-white font-14 text-center" data-aos="fade-up" data-aos-duration={3000}>These escalators are designed for Heavy usage like Malls, Airports, Subway stations  &  Railyway stations where public flow is very high and has maximum operation capability of 20 hours daily and can go upto 27 metres rise height. </p>
           </div>
         </div>
       </div>
@@ -176,11 +176,11 @@ export default function Home() {
               </tr>
               <tr>
                 <td className="font-weight-600">Illumination</td>
-                <td>Lighting Under Upper &amp; Lower Landing Steps</td>
-                <td>Lighting Under Upper &amp; Lower Landing Steps</td>
+                <td>Lighting Under Upper  &  Lower Landing Steps</td>
+                <td>Lighting Under Upper  &  Lower Landing Steps</td>
               </tr>
               <tr>
-                <td className="font-weight-600">Inner &amp; Outer Decking</td>
+                <td className="font-weight-600">Inner  &  Outer Decking</td>
                 <td>Stainless Steel HL/Alluminuim#</td>
                 <td>Stainless Steel HL/Alluminuim#* only above</td>
               </tr>

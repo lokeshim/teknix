@@ -44,7 +44,7 @@ export default function Home() {
           <p className="text-center text-danger font-28" data-aos="fade-up" data-aos-duration={2000}>TESC 20</p>
           <div className="home-about-heading text-center">
             <h2 className=" text-center" data-aos="fade-up" data-aos-duration={2500}>MOVING MADE SIMPLE AND EASY</h2>
-            <p className="fs-5 text-center w-35 d-block mx-auto light-white font-14 text-center" data-aos="fade-up" data-aos-duration={3000}>These escalators are designed for medium usage like offices and commercial buildings where the daily usage is maximum of 16 hours &amp; Max Rise height of 10 Metres. </p>
+            <p className="fs-5 text-center w-35 d-block mx-auto light-white font-14 text-center" data-aos="fade-up" data-aos-duration={3000}>These escalators are designed for medium usage like offices and commercial buildings where the daily usage is maximum of 16 hours  &  Max Rise height of 10 Metres. </p>
           </div>
         </div>
       </div>
@@ -174,11 +174,11 @@ export default function Home() {
               </tr>
               <tr>
                 <td className="font-weight-600">Illumination</td>
-                <td>Lighting Under Upper &amp; Lower Landing Steps</td>
-                <td>Lighting Under Upper &amp; Lower Landing Steps</td>
+                <td>Lighting Under Upper  &  Lower Landing Steps</td>
+                <td>Lighting Under Upper  &  Lower Landing Steps</td>
               </tr>
               <tr>
-                <td className="font-weight-600 border-bottom-0">Inner &amp; Outer Decking</td>
+                <td className="font-weight-600 border-bottom-0">Inner  &  Outer Decking</td>
                 <td className=" border-bottom-0">Stainless Steel HL/Alluminuim#</td>
                 <td className=" border-bottom-0">Stainless Steel HL/Alluminuim#* only above</td>
               </tr>
