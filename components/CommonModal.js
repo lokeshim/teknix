@@ -1,97 +1,213 @@
-import React, { useState } from 'react';
-import Image from 'next/image';
-import { useForm } from 'react-hook-form';
+import { useState } from "react";
+import Image from "next/image";
+import emailjs from "emailjs-com";
 
-const CashAgainstCreditCardFeeCalculator = () => {
-  const [transactionAmount, setTransactionAmount] = useState(25000);
-  const [feePercentage, setFeePercentage] = useState(2);
-  const [feeAmount, setFeeAmount] = useState(500);
-  const [grandTotal, setGrandTotal] = useState(25500);
+const CommanModal = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+    terms: false,
+  });
 
-  const calculateAmount = () => {
-    const fee = (transactionAmount * feePercentage) / 100;
-    const total = transactionAmount + fee;
-    setFeeAmount(fee);
-    setGrandTotal(total);
+  const [errors, setErrors] = useState({});
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleChange = (e) => {
+    const { id, value, type, checked } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [id]: type === "checkbox" ? checked : value,
+    }));
   };
 
-  const { register, handleSubmit, formState: { errors }, reset } = useForm();
+  const validate = () => {
+    const errors = {};
+    if (!formData.name.trim()) errors.name = "Name is required";
+    if (!formData.email.trim()) {
+      errors.email = "Email is required";
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
+      errors.email = "Invalid email format";
+    }
+    if (!formData.phone.trim()) {
+      errors.phone = "Phone number is required";
+    } else if (!/^[0-9]+$/.test(formData.phone)) {
+      errors.phone = "Invalid phone number";
+    }
+    if (!formData.message.trim()) errors.message = "Message is required";
+    if (!formData.terms)
+      errors.terms = "You must accept the terms and conditions";
 
-  const onSubmit = (data) => {
-    const { name, email, phone, message } = data;
+    return errors;
+  };
 
-    // Construct WhatsApp URL
-    const whatsappUrl = `https://wa.me/911234657980?text=Full Name: ${encodeURIComponent(name)}%0AMobile Number: ${encodeURIComponent(phone)}%0AEmail ID: ${encodeURIComponent(email)}%0AMessage: ${encodeURIComponent(message)}`;
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const validationErrors = validate();
+    if (Object.keys(validationErrors).length > 0) {
+      setErrors(validationErrors);
+      return;
+    }
 
-    // Open WhatsApp URL in a new tab
-    window.open(whatsappUrl, '_blank');
-    reset(); 
+    setErrors({});
+    setIsSubmitting(true);
+
+    emailjs
+      .send(
+        "service_id027qq", // Replace with your EmailJS service ID
+        "template_s4cr05c", // Replace with your EmailJS template ID
+        formData,
+        "uHS1XaSG1S6EWQMSD" // Replace with your EmailJS public key
+      )
+      .then((response) => {
+        console.log("SUCCESS!", response.status, response.text);
+        alert("Message sent successfully!");
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          message: "",
+          terms: false,
+        });
+      })
+      .catch((err) => {
+        console.error("FAILED...", err);
+        alert("Failed to send message. Please try again later.");
+      })
+      .finally(() => setIsSubmitting(false));
   };
 
   return (
     <div>
       {/* Modal */}
-      <div className="modal fade" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div className="modal-dialog">
+      <div
+        className="modal fade"
+        id="exampleModal"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog border border-light">
           <div className="modal-content">
-            <div className="modal-body">
-              <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div className="modal-header bg-black">
+            <h2 className="text-white">Enquire Now</h2>
+              <button
+                type="button"
+                class="btn-close bg-white"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+
+            <div className="modal-body bg-black">
+            
               <div className="box-outer">
                 <div className="form-box-t">
-                  <h2>Enquire Now</h2>
-                  <form id="popup-form" onSubmit={handleSubmit(onSubmit)}>
-                    <div id="popup-note"></div>
-                    <div className="box">
+                  
+                  <form className="p-1 myform" onSubmit={handleSubmit}>
+                    <div className="mb-4">
+                      <label htmlFor="name" className="form-label">
+                        Name
+                      </label>
                       <input
                         type="text"
-                        className={`form-control form-group mb-3 ${errors.name ? 'is-invalid' : ''}`}
+                        className="form-control border-bottom rounded-0 bg-transparent border-light border-opacity-25 border-top-0 border-start-0 border-end-0 p-20"
+                        id="name"
                         placeholder="Name"
-                        {...register('name', { required: 'Name is required' })}
+                        value={formData.name}
+                        onChange={handleChange}
                       />
-                      {errors.name && <div className="invalid-feedback">{errors.name.message}</div>}
+                      {errors.name && (
+                        <small className="text-danger">{errors.name}</small>
+                      )}
                     </div>
-                    <div className="box">
+
+                    <div className="mb-4">
+                      <label htmlFor="email" className="form-label">
+                        Email
+                      </label>
                       <input
                         type="email"
-                        className={`form-control form-group mb-3 ${errors.email ? 'is-invalid' : ''}`}
+                        className="form-control border-bottom rounded-0 bg-transparent border-light border-opacity-25 border-top-0 border-start-0 border-end-0 p-20"
+                        id="email"
                         placeholder="Email"
-                        {...register('email', { required: 'Email is required', pattern: { value: /^\S+@\S+$/i, message: 'Invalid email address' } })}
+                        value={formData.email}
+                        onChange={handleChange}
                       />
-                      {errors.email && <div className="invalid-feedback">{errors.email.message}</div>}
+                      {errors.email && (
+                        <small className="text-danger">{errors.email}</small>
+                      )}
                     </div>
-                    <div className="box">
+
+                    <div className="mb-4">
+                      <label htmlFor="phone" className="form-label">
+                        Mobile
+                      </label>
                       <input
-                        type="tel"
-                        className={`form-control form-group mb-3 ${errors.phone ? 'is-invalid' : ''}`}
+                        type="text"
+                        className="form-control border-bottom rounded-0 bg-transparent border-light border-opacity-25 border-top-0 border-start-0 border-end-0 p-20"
+                        id="phone"
                         placeholder="Mobile"
-                        {...register('phone', { 
-                          required: 'Mobile number is required',
-                          minLength: {
-                            value: 10,
-                            message: 'Mobile number must be exactly 10 digits'
-                          },
-                          maxLength: {
-                            value: 10,
-                            message: 'Mobile number must be exactly 10 digits'
-                          },
-                          pattern: {
-                            value: /^[0-9]{10}$/,
-                            message: 'Mobile number must be exactly 10 numeric digits'
-                          }
-                        })}
+                        value={formData.phone}
+                        onChange={handleChange}
                       />
-                      {errors.phone && <div className="invalid-feedback">{errors.phone.message}</div>}
+                      {errors.phone && (
+                        <small className="text-danger">{errors.phone}</small>
+                      )}
                     </div>
-                    <div className="box-inner">
+
+                    <div className="mb-4">
+                      <label htmlFor="message" className="form-label">
+                        Message
+                      </label>
                       <textarea
-                        className={`form-control form-group mb-3 ${errors.message ? 'is-invalid' : ''}`}
-                        placeholder="Message"
-                        {...register('message', { required: 'Message is required' })}
+                        className="form-control border-bottom rounded-0 bg-transparent border-light border-opacity-25 border-top-0 border-start-0 border-end-0 p-20"
+                        id="message"
+                        rows={3}
+                        placeholder="Enter your message"
+                        value={formData.message}
+                        onChange={handleChange}
                       />
-                      {errors.message && <div className="invalid-feedback">{errors.message.message}</div>}
+                      {errors.message && (
+                        <small className="text-danger">{errors.message}</small>
+                      )}
                     </div>
-                    <div className="box-inner">
-                      <button className="btn btn-danger" type="submit">Submit</button>
+
+                    <div className="form-check mb-4">
+                      <input
+                        type="checkbox"
+                        className="form-check-input"
+                        id="terms"
+                        checked={formData.terms}
+                        onChange={handleChange}
+                      />
+                      <p
+                        className="form-check-label font-11 font-light-color text-white"
+                        htmlFor="terms"
+                      >
+                        By providing Global Collective your contact information,
+                        you acknowledge and agree to our{" "}
+                        <a
+                          href="#"
+                          className="text-white text-decoration-none fw-bold"
+                        >
+                          Privacy Policy
+                        </a>{" "}
+                        and consent to receiving marketing communications.
+                      </p>
+                      {errors.terms && (
+                        <small className="text-danger">{errors.terms}</small>
+                      )}
+                    </div>
+
+                    <div className="py-md-3 py-0 m-center text-center">
+                      <button
+                        type="submit"
+                        className="btn text-danger rounded-1 font-12 px-3 font-28 text-center"
+                        disabled={isSubmitting}
+                      >
+                        {isSubmitting ? "Sending..." : "SEND"}
+                      </button>
                     </div>
                   </form>
                 </div>
@@ -100,75 +216,8 @@ const CashAgainstCreditCardFeeCalculator = () => {
           </div>
         </div>
       </div>
-
-      <div className="modal fade" id="exampleModal1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div className="modal-dialog">
-          <div className="modal-content" style={{ background: '#f5ad01' }}>
-            <div className="modal-body" style={{ background: '#f5ad01' }}>
-              <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              <div className="box-outer">
-                <div className="form-box-t">
-                  <h2 className="fs-3 fw-bold text-main">Cash Against Credit Card Fee Calculator</h2>
-                  <div className="mb-3">
-                    <label htmlFor="totaltransectionamt" className="fs-6 text-main d-block mb-1">Transaction Amount (INR):</label>
-                    <div className="input-group">
-                      <input
-                        type="number"
-                        className="form-control"
-                        id="totaltransectionamt"
-                        value={transactionAmount}
-                        onChange={(e) => setTransactionAmount(Number(e.target.value))}
-                        placeholder=""
-                      />
-                      <span className="input-group-text p-0">₹</span>
-                    </div>
-                  </div>
-                  <div className="mb-3">
-                    <label htmlFor="feePercentage" className="fs-6 text-main mb-1 d-block">Percentage Fee (%):</label>
-                    <select
-                      className="form-select form-select-lg mb-3"
-                      id="feePercentage"
-                      value={feePercentage}
-                      onChange={(e) => setFeePercentage(Number(e.target.value))}
-                    >
-                      <option value="2">2 %</option>
-                      <option value="2.5">2.5 %</option>
-                      <option value="2.7">2.7 %</option>
-                      <option value="3">3 %</option>
-                      <option value="5">5 %</option>
-                    </select>
-                  </div>
-                  <div className="d-grid mb-3">
-                    <button className="btn btn-danger" onClick={calculateAmount}>Calculate</button>
-                  </div>
-                  <p className="text-muted mb-1 fw-bold text-main">Fee Amount: ₹ <span id="showPercentamt">{feeAmount}</span>/-</p>
-                  <p className="text-muted mb-0 text-main fw-bold">Grand Total Amount (including fee): ₹ <span id="showfinalamthere">{grandTotal}</span>/-</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Sidebar 
-      <div className="sidebar-box" style={{ position: 'fixed', top: '50%', right: '10px', zIndex: 99 }}>
-        <div className="sidebar d-none" id="sidebar">
-          <div className="sidebar-icon">
-            <a data-bs-toggle="modal" data-bs-target="#exampleModal1">
-              <Image src="/img/swipe-card.png" id="diceImage" className="img-fluid d-none" style={{ width: '50px' }} width={50} height={50} alt="Swipe Card" />
-            </a><br/><br/><br/><br/><br/><br/>
-            <a href="https://wa.me/911234657980">
-              <Image src="/img/watsappnew.png" id="diceImage" className="img-fluid" style={{ width: '50px' }} width={50} height={50} alt="Swipe Card" />
-            </a>
-            <br/><br/>
-            <a href="tel:+911234657980" className='ps-2 '>  <Image src="/img/phone-call.png" id="diceImage" className="img-fluid" style={{ width: '40px' }} width={40} height={40} alt="Swipe Card" />
-            </a>
-          </div>
-        </div>
-      </div>
-*/}
     </div>
   );
 };
 
-export default CashAgainstCreditCardFeeCalculator;
+export default CommanModal;

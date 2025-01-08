@@ -83,7 +83,7 @@ const ConnectForm = () => {
               <p className="py-3 text-start p-30">
                 <a
                   href=""
-                  className="text-light text-decoration-none font-11 fw-normal letter-spacing"
+                  className="text-light text-decoration-none font-11 d-none fw-normal letter-spacing"
                 >
                   We&apos;ll put you in touch with your acclaimed Global Collective™ member.
                 </a>
@@ -171,7 +171,7 @@ const ConnectForm = () => {
               <div className="py-md-5 py-0 m-center">
                 <button
                   type="submit"
-                  className="btn text-danger rounded-1 font-12 px-3"
+                  className="btn text-danger rounded-1 font-12 px-3 font-28"
                   disabled={isSubmitting}
                 >
                   {isSubmitting ? 'Sending...' : 'SEND'}
