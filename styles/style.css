@@ -581,6 +581,15 @@ z-index: 1;
 
   .footer ul {
     padding-left: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .footer .social ul {
+    display: flex;
+  }
+
+  .footer .social ul li {
+    padding-left: 10px;
   }
 
   .footer ul li {
