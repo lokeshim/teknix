@@ -24,7 +24,11 @@ body {
   height: 90px;
   padding-top: 30px !important;
 }
-.w-100 {object-fit:cover !important ;}
+
+.w-100 {
+  object-fit: cover !important;
+}
+
 .dropdown-menu .dropdown-item:hover {
   background-color: black !important;
   color: #ad9515 !important;
@@ -288,6 +292,7 @@ h6 {
 .font-24 {
   font-size: 24px !important;
 }
+
 .font-28 {
   font-size: 28px !important;
 }
@@ -303,10 +308,12 @@ h6 {
   color: #c2c2c2;
   font-family: "DM Sans", sans-serif;
 }
+
 .font-44 {
   font-size: 44px;
   line-height: 1.25;
 }
+
 .font-64 {
   font-size: 64px;
   line-height: 1.25;
@@ -319,6 +326,7 @@ h6 {
 .navbar {
   z-index: 99;
 }
+
 .navbar .nav-item a {
   color: #e4dfd8 !important;
 }
@@ -412,7 +420,7 @@ label {
   font-family: "DM Sans", sans-serif;
   font-size: 82px;
   font-weight: 400;
-  line-height: 1.25;
+  line-height: 1;
   color: #fff;
   padding: 20px 0;
 }
@@ -484,8 +492,9 @@ z-index: 1;
 }
 
 .filter .active {
-    color: #fff !important;
+  color: #fff !important;
 }
+
 @media (max-width: 767.98px) {
   .navbar-brand img {
     width: 180px;
@@ -497,7 +506,8 @@ z-index: 1;
 
   .filter .active {
     color: #fff !important;
-}
+  }
+
   .test-font {
     max-width: 100% !important;
     font-size: 20px !important;
@@ -526,13 +536,14 @@ z-index: 1;
   }
 
   .navbar-toggler-icon {
-    filter: brightness(0) saturate(100%) invert(100%) sepia(4%) saturate(324%)
-      hue-rotate(303deg) brightness(116%) contrast(100%);
+    filter: brightness(0) saturate(100%) invert(100%) sepia(4%) saturate(324%) hue-rotate(303deg) brightness(116%) contrast(100%);
     margin-top: 20px;
   }
+
   .sub-section {
     padding-bottom: 20px;
   }
+
   .section {
     padding: 40px 15px !important;
   }
@@ -558,6 +569,7 @@ z-index: 1;
     font-size: 22px;
     line-height: 1.25;
   }
+
   .font-28 {
     font-size: 20px !important;
     line-height: 1.25;
@@ -602,6 +614,7 @@ z-index: 1;
 }
 
 @media only screen and (min-width: 767px) {
+
   .elevator-carousel .carousel-control-prev,
   .elevator-carousel .carousel-control-next {
     top: -190% !important;
@@ -744,16 +757,18 @@ z-index: 1;
 .table {
   border-bottom: 1px solid #f2efef38;
 }
+
 .table th,
 .table td {
-    background-color: transparent !important;
-    color: #fff !;
+  background-color: transparent !important;
+  color: #fff !;
 }
 
 @media only screen and (max-width: 767px) {
   #eleveators .other-heading h2 {
     width: 100%;
   }
+
   #elevator-description {
     width: 100%;
   }
@@ -809,7 +824,7 @@ z-index: 1;
   max-width: 275px !important;
 }
 
-.table td{
+.table td {
   border-bottom: 1px solid #fff !important;
 }
 
@@ -933,6 +948,7 @@ object-position: center;
   width: 100%;
   z-index: 2;
 }
+
 #contactmap .owl-carousel .item img {
   width: 100%;
   height: auto;
@@ -942,12 +958,14 @@ object-position: center;
   width: 100%;
   height: auto;
   transition: transform 0.3s ease-in-out;
-  transform: scale(1); /* Default scale */
+  transform: scale(1);
+  /* Default scale */
 }
 
 /* Zoom effect for the active center item */
 #contactmap .owl-item .active .item img {
-  transform: scale(1.25); /* Zoom in */
+  transform: scale(1.25);
+  /* Zoom in */
 }
 
 #contactmap .location-info {
@@ -956,34 +974,41 @@ object-position: center;
   color: white;
   text-shadow: 1px 1px 2px black;
 }
+
 #contactmap .owl-nav {
   text-align: center;
 }
+
 #contactmap .owl-prev span {
   font-size: 50px !important;
   margin: 0 10px;
   color: #fff;
 }
+
 #contactmap .owl-next span {
   font-size: 50px !important;
   margin: 0 10px;
   color: #fff;
 }
+
 #contactmap .carousel-overlay {
   background: rgba(0, 0, 0, 0);
   /* Semi-transparent background for better readability */
   padding: 10px 0;
 }
+
 @media only screen and (max-width: 768px) {
   #carouselExampleCaptions .carousel-item img {
     height: 100% !important;
   }
+
   #map-iframe {
     width: 100%;
     height: 70vh !important;
     border: none;
     margin: 50px 0;
   }
+
   #contactmap .carousel-container {
     position: absolute;
     bottom: 1% !important;
@@ -995,22 +1020,36 @@ object-position: center;
   }
 }
 
-.filter  h2:hover {cursor: pointer !important;}
+.filter h2:hover {
+  cursor: pointer !important;
+}
+
 .post-box {
   min-height: 480px;
 }
-#gmap {position: absolute;bottom:-10%}
+
+#gmap {
+  position: absolute;
+  bottom: -10%
+}
+
 #gmap .swiper-slide-active {
   background: none;
   box-shadow: none;
-  transform: scale(1.2); /* Zooms the image by 1.2 */
-  transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+  transform: scale(1.2);
+  /* Zooms the image by 1.2 */
+  transition: transform 0.3s ease;
+  /* Smooth transition for the zoom effect */
 }
+
 .myform .form-control {
   color: #fff !important;
 }
 
 .myform .form-control:focus {
-  box-shadow: none !important;
+  box-shadow: none !important;
 }
-.blog-content p {margin-bottom:10px !important}
+
+.blog-content p {
+  margin-bottom: 10px !important
+}
