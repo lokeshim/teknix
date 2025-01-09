@@ -85,7 +85,7 @@ const current_year = current_date.getFullYear(); // Get the current year
                 </div>
               </div>
               <button className="border-0 " style={{"background-color":"black","position":"absolute","right":"10px","top":"10%"}} type="button">
-              <Image src="img/right-carousel.png" className="w-12" alt=""   width={16}
+              <Image src="/img/right-carousel.png" className="w-12" alt=""   width={16}
                   height={16} />
               </button>
             </form>
@@ -127,7 +127,7 @@ const current_year = current_date.getFullYear(); // Get the current year
   </div>
 </section>
 
-     <Link href="https://wa.me/911234657980?text=hi" style={{position:"fixed",right:"10px",bottom:"100px"}}><Image src="img/whatsapp.png" width={80} height={80} alt="whatsapp" /></Link>
+     <Link href="https://wa.me/911234657980?text=hi" style={{position:"fixed",right:"10px",bottom:"100px"}}><Image src="/img/whatsapp.png" width={80} height={80} alt="whatsapp" /></Link>
      <a data-bs-toggle="modal" data-bs-target="#exampleModal" style={{position:"fixed",right:"22px",bottom:"200px",}}><i class="fa-solid fa-envelope" style={{fontSize:"28px",width:"50px", height:"50px",borderRadius:"50%",border:'1px solid #fff',padding:"10px 10px"}}></i></a>
     </>
   );

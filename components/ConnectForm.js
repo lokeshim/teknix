@@ -150,7 +150,7 @@ const ConnectForm = () => {
                 {errors.message && <small className="text-danger">{errors.message}</small>}
               </div>
 
-              <div className="form-check mb-4">
+              <div className="form-check mb-4 d-none">
                 <input
                   type="checkbox"
                   className="form-check-input"

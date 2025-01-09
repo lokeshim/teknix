@@ -173,7 +173,7 @@ const CommanModal = () => {
                       )}
                     </div>
 
-                    <div className="form-check mb-4">
+                    <div className="form-check mb-4 d-none">
                       <input
                         type="checkbox"
                         className="form-check-input"
@@ -182,7 +182,7 @@ const CommanModal = () => {
                         onChange={handleChange}
                       />
                       <p
-                        className="form-check-label font-11 font-light-color text-white"
+                        className="form-check-label font-11 font-light-color text-white "
                         htmlFor="terms"
                       >
                         By providing Global Collective your contact information,

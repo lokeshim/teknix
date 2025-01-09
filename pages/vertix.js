@@ -9,16 +9,16 @@ import SimpleCarousel from '../components/SimpleCarousel';
 export default function Home() {
    const slides = [
     {
-      mobile: 'img/mobile/Banner Mobile 1 - Vertix.png',
-      desktop: 'img/Elevators/v/Banner 1.webp',
+      mobile: '/img/mobile/Banner Mobile 1 - Vertix.png',
+      desktop: '/img/Elevators/v/Banner 1.webp',
     },
     {
-      mobile: 'img/mobile/Banner Mobile 2 - Vertix.png',
-      desktop: 'img/Elevators/v/Banner 2.webp',
+      mobile: '/img/mobile/Banner Mobile 2 - Vertix.png',
+      desktop: '/img/Elevators/v/Banner 2.webp',
     },
     {
-      mobile: 'img/mobile/Banner Mobile 3 - Vertix.png',
-      desktop: 'img/Elevators/v/Banner 3.webp',
+      mobile: '/img/mobile/Banner Mobile 3 - Vertix.png',
+      desktop: '/img/Elevators/v/Banner 3.webp',
     },
   ];
     return (
