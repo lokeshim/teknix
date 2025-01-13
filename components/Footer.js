@@ -121,7 +121,7 @@ const Footer = () => {
           </div>
           <div className="row p-20 d-flex align-items-center text-center">
             <div className="col-md-12 col-12  d-block mx-auto">
-              <p className="text-white font-normal text-center py-3">Copyright © 2024 Teknix Elevators. All rights reserved.</p>
+              <p className="text-white font-normal text-center py-3">Copyright © 2025 Teknix Elevators. All rights reserved.</p>
             </div>
           </div>
         </div>
