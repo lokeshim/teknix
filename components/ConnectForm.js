@@ -8,17 +8,16 @@ const ConnectForm = () => {
     email: '',
     phone: '',
     message: '',
-    terms: false,
   });
 
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleChange = (e) => {
-    const { id, value, type, checked } = e.target;
+    const { id, value } = e.target;
     setFormData((prevData) => ({
       ...prevData,
-      [id]: type === 'checkbox' ? checked : value,
+      [id]: value,
     }));
   };
 
@@ -36,7 +35,6 @@ const ConnectForm = () => {
       errors.phone = 'Invalid phone number';
     }
     if (!formData.message.trim()) errors.message = 'Message is required';
-    if (!formData.terms) errors.terms = 'You must accept the terms and conditions';
 
     return errors;
   };
@@ -54,15 +52,15 @@ const ConnectForm = () => {
 
     emailjs
       .send(
-        'service_id027qq', // Replace with your EmailJS service ID
-        'template_s4cr05c', // Replace with your EmailJS template ID
+        'service_8lcfj6u', // Replace with your EmailJS service ID
+        'template_t1sz67w', // Replace with your EmailJS template ID
         formData,
-        'uHS1XaSG1S6EWQMSD' // Replace with your EmailJS public key
+        'pquFSqnl_trAaTU9T' // Replace with your EmailJS public key
       )
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
         alert('Message sent successfully!');
-        setFormData({ name: '', email: '', phone: '', message: '', terms: false });
+        setFormData({ name: '', email: '', phone: '', message: '' });
       })
       .catch((err) => {
         console.error('FAILED...', err);
@@ -148,24 +146,6 @@ const ConnectForm = () => {
                   onChange={handleChange}
                 />
                 {errors.message && <small className="text-danger">{errors.message}</small>}
-              </div>
-
-              <div className="form-check mb-4 d-none">
-                <input
-                  type="checkbox"
-                  className="form-check-input"
-                  id="terms"
-                  checked={formData.terms}
-                  onChange={handleChange}
-                />
-                <label className="form-check-label font-11 font-light-color" htmlFor="terms">
-                  By providing Global Collective your contact information, you acknowledge and agree to our
-                  <a href="#" className="text-white text-decoration-none fw-bold">
-                    Privacy Policy
-                  </a>
-                  and consent to receiving marketing communications.
-                </label>
-                {errors.terms && <small className="text-danger">{errors.terms}</small>}
               </div>
 
               <div className="py-md-5 py-0 m-center">
