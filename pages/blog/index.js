@@ -17,16 +17,17 @@ export default function Blog() {
     return (
         <>
             <Head>
-                <title>Blogs</title>
+                <title>Blog |  Elevator Manufacturers In India | Home Lifts Price In Bangalore</title>
                 <meta name="description" content="Explore insights on luxury and efficiency through our blogs." />
                 <meta name="keywords" content="blogs, elevators, technology, luxury, efficiency" />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="" />
+                <link rel="canonical" href="https://teknixelevators.com/blog" />
             </Head>
 
           
 
     <SimpleCarousel slides={slides} showIndicators={false} showControls={false} />
+    <h1 className='d-none'>Blog</h1>
 <BlogSection2></BlogSection2>
         
 

@@ -29,14 +29,14 @@ export default function Home() {
                 <meta name="keywords" content="" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="#" />
+                <link rel="canonical" href="https://teknixelevators.com/tesc-20" />
 
             </Head>
       <>
 
 
 <SimpleCarousel slides={slides} showIndicators={true} showControls={true} />
-
+<h1 className='d-none'>TESC 20 </h1>
   <section className="section" data-aos="fade-up" data-aos-duration={1500}>
     <div className="container-fluid  ">
       <div className="row">

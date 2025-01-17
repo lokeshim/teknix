@@ -29,7 +29,7 @@ export default function Home() {
                 <meta name="keywords" content="Lift Manufacturers In Bangalore, Lift Manufacturers In Hyderabad, Passenger Lift Manufacturers In Bangalore, Lift Company In Bangalore" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="#" />
+                <link rel="canonical" href="https://teknixelevators.com/greentek" />
 
             </Head>
       <>
@@ -39,7 +39,7 @@ export default function Home() {
 
 
 
-
+<h1 className='d-none'>GREENTEK</h1>
 
  
   <section className="section" data-aos="fade-up" data-aos-duration={1500}>
@@ -463,7 +463,7 @@ export default function Home() {
   <div className="row my-3 justify-content-center align-items-center">
     <div className="col-md-4 mb-4">
       <div className=" py-3 px-3">
-        <Image src="img/icon 80x80-31-31.webp" alt="teknix" style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
+        <Image src="img/icon 80x80-31-31.webp" width={80} height={80} alt="teknix" style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
         <p className="font-24 py-3 text-center ">Ultra-Efficient Motor</p>
         <p className="text font-15 text-center ">Our advanced motors are designed for
           ultra-low power consumption, ensuring
@@ -475,7 +475,7 @@ export default function Home() {
     </div>
     <div className="col-md-4 mb-4">
       <div className=" py-3 px-3">
-        <Image src="img/icon 80x80-32.webp" alt="teknix" style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
+        <Image src="img/icon 80x80-32.webp" width={80} height={80} alt="teknix" style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
         <p className="font-24 py-3 text-center "> Hibernation Mode</p>
         <p className="text font-15 text-center ">
           Elevators from Teknix come standard with
@@ -487,7 +487,7 @@ export default function Home() {
     </div>
     <div className="col-md-4 mb-4">
       <div className=" py-3 px-3">
-        <Image src="img/icon 80x80-33.webp" alt="teknix" style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
+        <Image src="img/icon 80x80-33.webp" width={80} height={80} alt="teknix" style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
         <p className="font-24 py-3 text-center ">Auto Car Display Cut-Off</p>
         <p className="text font-15 text-center ">The car display intelligently turns off in
           Hibernation Mode, maximizing energy
@@ -498,7 +498,7 @@ export default function Home() {
   <div className="row my-3 justify-content-center align-items-center">
     <div className="col-md-4 mb-4">
       <div className=" py-3 px-3">
-        <Image src="img/icon 80x80-34.webp" alt="teknix" style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
+        <Image src="img/icon 80x80-34.webp" width={80} height={80} alt="teknix" style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
         <p className="font-24 py-3 text-center ">Eco-Friendly LED Lighting</p>
         <p className="text font-15 text-center mb-0">
           Utilizing cutting-edge green LED lights, our
@@ -509,7 +509,7 @@ export default function Home() {
     </div>
     <div className="col-md-4 mb-4">
       <div className=" py-3 px-3">
-        <Image src="img/icon 80x80-35.webp" alt="teknix" style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
+        <Image src="img/icon 80x80-35.webp" width={80} height={80} alt="teknix" style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
         <p className="font-24 py-3 text-center ">Automatic
           Fan and Light Controls</p>
         <p className="text font-15 text-center mb-0">

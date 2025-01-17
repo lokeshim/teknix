@@ -29,7 +29,7 @@ export default function Home() {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="#" />
+        <link rel="canonical" href="https://teknixelevators.com/sustainability" />
       </Head>
       <>
         <SimpleCarousel
@@ -37,7 +37,7 @@ export default function Home() {
           showIndicators={false}
           showControls={false}
         />
-
+<h1 className='d-none'>Sustainability</h1>
         <section
           className="section position-relative"
           id="experience"

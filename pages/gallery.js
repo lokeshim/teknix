@@ -205,12 +205,16 @@ const handleSliderChange2 = (event) => {
     return (
         <>
             <Head>
-                <title>Gallery Page</title>
-                <meta name="description" content="Explore our gallery" />
+                <title>Gallery |Top Elevators Company In India | Teknix Elevators</title>
+                <meta name="description" content="Explore the gallery of Teknix Elevators, a top elevator company in India, showcasing our innovative, high-quality, and safe elevator solutions for various projects." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta name="robots" content="index, follow" />
+                <link rel="canonical" href="https://teknixelevators.com/gallery" />
+                
             </Head>
             <SimpleCarousel slides={myslides} showIndicators={false} showControls={false} />
             <>
+            <h1 className='d-none'>Top Elevators Company In India</h1>
                 <section className="section position-relative mygallery">
                     <div className='container'>
                         <div className='row'>

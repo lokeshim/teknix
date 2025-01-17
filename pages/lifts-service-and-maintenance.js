@@ -22,7 +22,7 @@ export default function Home() {
                 <meta name="keywords" content="Elevator Companies In India, Lift For Home Price In Bangalore, Elevator Manufacturers In India, Residential Elevators In Hyderabad, Top Elevators Company In India" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="#" />
+                <link rel="canonical" href="https://teknixelevators.com/lifts-service-and-maintenance" />
 
             </Head>
       <>
@@ -30,7 +30,7 @@ export default function Home() {
 
 <SimpleCarousel slides={slides} showIndicators={false} showControls={false} />
 
-
+<h1 className='d-none'>Service </h1>
   <section className="section" data-aos="fade-up" data-aos-duration={1500}>
     <div className="container ">
       <div className="row">

@@ -29,7 +29,7 @@ export default function Home() {
                 <meta name="keywords" content="" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="#" />
+                <link rel="canonical" href="https://teknixelevators.com/tmw-15" />
 
             </Head>
       <>
@@ -39,6 +39,7 @@ export default function Home() {
 
 
 <div>
+<h1 className='d-none'>TMW 15 </h1>
   <section className="section" data-aos="fade-up" data-aos-duration={1500}>
     <div className="container-fluid  ">
       <div className="row">

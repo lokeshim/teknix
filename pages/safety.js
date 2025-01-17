@@ -17,19 +17,19 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Elevator Companies in Hyderabad India | Teknix Elevators</title>
+                <title>Elevator Companies In Hyderabad |Teknix Elevators</title>
                 <meta name="description" content="Our focus on protecting and caring for people has made Teknix a leader in safety. 4-passenger lift size, Elevator Companies in Hyderabad India" />
                 <meta name="keywords" content="4 passenger lift size, elevator companies in hyderabad, elevator manufacturers in hyderabad,  lift manufacturers in hyderabad, residential elevators in hyderabad" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="#" />
+                <link rel="canonical" href="https://teknixelevators.com/safety" />
 
             </Head>
       <>
 
 
 <SimpleCarousel slides={slides} showIndicators={false} showControls={false} />
-
+<h1 className='d-none'>safety </h1>
 
 
 <section className="section position-relative" id="experience" data-aos="fade-up" data-aos-duration={1500}>

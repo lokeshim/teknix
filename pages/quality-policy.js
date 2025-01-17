@@ -18,12 +18,12 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Quality Policy | Bangalore Elevator companies | Teknix Elevators</title>
-                <meta name="description" content="Quality Policy | Best Lift Manufacturers & Company in Hyderabad, Manufacturing small elevators for home, and residential elevators in Hyderabad" />
+                <title>Quality Policy | Elevator Companies In India| Teknix Elevators</title>
+                <meta name="description" content="Teknix Elevators is committed to providing high-quality, safe, and innovative elevator solutions across India, ensuring customer satisfaction and excellence." />
                 <meta name="keywords" content="Best elevator companies in india, Best elevator company in bangalore, Best home elevators in bangalore, Residential elevators in hyderabad, Residential lifts in bangalore" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="#" />
+                <link rel="canonical" href="https://teknixelevators.com/quality-policy" />
 
             </Head>
       <>
@@ -32,7 +32,7 @@ export default function Home() {
 <SimpleCarousel slides={slides} showIndicators={false} showControls={false} />
 
 
-
+<h1 className='d-none'>Quality Policy </h1>
 
 <section className="section position-relative" id="experience" data-aos="fade-up" data-aos-duration={1500}>
   <div className="container text-center p-0">

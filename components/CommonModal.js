@@ -93,7 +93,7 @@ const CommanModal = () => {
             <h2 className="text-white">Enquire Now</h2>
               <button
                 type="button"
-                class="btn-close bg-white"
+                className="btn-close bg-white"
                 data-bs-dismiss="modal"
                 aria-label="Close"
               ></button>
