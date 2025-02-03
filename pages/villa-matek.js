@@ -29,7 +29,7 @@ export default function Home() {
                 <meta name="keywords" content="Elevator companies in hyderabad, Elevator manufacturers in bangalore, Elevators company in bangalore, Elevator suppliers in bangalore, Elevators manufacturer in Bangalore, Elevator manufacturers in india" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="https://teknixelevators.com/villa-matek" />
+                <link rel="canonical" href="https://www.teknixelevators.com/villa-matek" />
 
             </Head>
       <>

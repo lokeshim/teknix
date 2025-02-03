@@ -29,7 +29,7 @@ export default function Home() {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://teknixelevators.com/sustainability" />
+        <link rel="canonical" href="https://www.teknixelevators.com/sustainability" />
       </Head>
       <>
         <SimpleCarousel

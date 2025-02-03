@@ -22,7 +22,7 @@ export default function Home() {
                 <meta name="keywords" content="4 passenger lift size, elevator companies in hyderabad, elevator manufacturers in hyderabad,  lift manufacturers in hyderabad, residential elevators in hyderabad" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="https://teknixelevators.com/safety" />
+                <link rel="canonical" href="https://www.teknixelevators.com/safety" />
 
             </Head>
       <>

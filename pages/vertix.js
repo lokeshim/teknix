@@ -29,7 +29,7 @@ export default function Home() {
                 <meta name="keywords" content="Residential Elevators In Hyderabad, Residential Lifts In Bangalore, Elevator Manufacturers In Hyderabad, Elevator Suppliers In Bangalore" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="https://teknixelevators.com/vertix" />
+                <link rel="canonical" href="https://www.teknixelevators.com/vertix" />
 
             </Head>
       <>

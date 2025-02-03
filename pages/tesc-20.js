@@ -29,7 +29,7 @@ export default function Home() {
                 <meta name="keywords" content="" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="https://teknixelevators.com/tesc-20" />
+                <link rel="canonical" href="https://www.teknixelevators.com/tesc-20" />
 
             </Head>
       <>

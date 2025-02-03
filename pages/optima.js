@@ -29,7 +29,7 @@ export default function Home() {
                 <meta name="keywords" content="Best Elevator Companies In India, Best Elevator Company In Bangalore, Best Home Elevators In Bangalore, Elevator Companies In India, Home Elevators In Bangalore" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="https://teknixelevators.com/optima" />
+                <link rel="canonical" href="https://www.teknixelevators.com/optima" />
 
             </Head>
       <>

@@ -29,7 +29,7 @@ export default function Home() {
                 <meta name="keywords" content="Lift Manufacturers In Bangalore, Lift Manufacturers In Hyderabad, Passenger Lift Manufacturers In Bangalore, Lift Company In Bangalore" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="https://teknixelevators.com/greentek" />
+                <link rel="canonical" href="https://www.teknixelevators.com/greentek" />
 
             </Head>
       <>

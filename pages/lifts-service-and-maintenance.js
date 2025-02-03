@@ -22,7 +22,7 @@ export default function Home() {
                 <meta name="keywords" content="Elevator Companies In India, Lift For Home Price In Bangalore, Elevator Manufacturers In India, Residential Elevators In Hyderabad, Top Elevators Company In India" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="https://teknixelevators.com/lifts-service-and-maintenance" />
+                <link rel="canonical" href="https://www.teknixelevators.com/lifts-service-and-maintenance" />
 
             </Head>
       <>
