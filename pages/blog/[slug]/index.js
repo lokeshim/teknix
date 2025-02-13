@@ -25,9 +25,11 @@ export const getStaticProps = async ({ params }) => {
   };
 };
 
+
+
 const BlogPost = ({ post }) => {
   const router = useRouter();
-
+const domain = process.env.NEXT_PUBLIC_SITE_URL || (typeof window !== "undefined" && window.location.origin);
   if (!post) {
     return <div>Post not found</div>;
   }
@@ -39,7 +41,7 @@ const BlogPost = ({ post }) => {
         <meta name="description" content={post.description} />
         <meta name="keywords" content={post.keywords} />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href={`/blog/${post.slug}`} />
+     <link rel="canonical" href={`${domain}/blog/${post.slug}/`} />
         
       </Head>
       <h1 className="d-none">{post.h1} </h1>

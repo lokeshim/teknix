@@ -9,16 +9,16 @@ import SimpleCarousel from '../components/SimpleCarousel';
 export default function Home() {
    const slides = [
     {
-      mobile: 'img/mobile/Banner Mobile 1 - Greentek.png',
-      desktop: 'img/Elevators/G/Banner 1.webp',
+      mobile: '/img/mobile/Banner Mobile 1 - Greentek.png',
+      desktop: '/img/Elevators/G/Banner 1.webp',
     },
     {
-      mobile: 'img/mobile/Banner Mobile 2 - Greentek.png',
-      desktop: 'img/Elevators/G/Banner 2.webp',
+      mobile: '/img/mobile/Banner Mobile 2 - Greentek.png',
+      desktop: '/img/Elevators/G/Banner 2.webp',
     },
     {
-      mobile: 'img/mobile/Banner Mobile 3 - Greentek.png',
-      desktop: 'img/Elevators/G/Banner 3.webp',
+      mobile: '/img/mobile/Banner Mobile 3 - Greentek.png',
+      desktop: '/img/Elevators/G/Banner 3.webp',
     },
   ];
     return (
@@ -29,7 +29,7 @@ export default function Home() {
                 <meta name="keywords" content="Lift Manufacturers In Bangalore, Lift Manufacturers In Hyderabad, Passenger Lift Manufacturers In Bangalore, Lift Company In Bangalore" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="https://www.teknixelevators.com/greentek" />
+                <link rel="canonical" href="https://www.teknixelevators.com/greentek/" />
 
             </Head>
       <>
@@ -61,7 +61,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Greentek-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
-              <Image src="img/type.png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}
+              <Image src="/img/type.png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}
                 height={80} />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
@@ -75,7 +75,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Greentek-list">
             <div className="col-6 col-md-6 d-flex align-items-center ">
-              <Image src="img/cap.png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}
+              <Image src="/img/cap.png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}
                 height={80} />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
@@ -89,7 +89,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Greentek-list">
             <div className="col-6 col-md-6 d-flex align-items-center ">
-              <Image src="img/icon-stars.png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}
+              <Image src="/img/icon-stars.png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}
                 height={80} />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
@@ -103,7 +103,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Greentek-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
-              <Image src="img/icon-stars(1).png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}
+              <Image src="/img/icon-stars(1).png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}
                 height={80} />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
@@ -117,7 +117,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Greentek-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
-              <Image src="img/icon-agent(1).png" className="d-block mx-auto" alt="teknix"  width={80}
+              <Image src="/img/icon-agent(1).png" className="d-block mx-auto" alt="teknix"  width={80}
                 height={80} />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
@@ -131,7 +131,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Greentek-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
-              <Image src="img/operation.png" className="d-block mx-auto" alt="teknix"  width={80}
+              <Image src="/img/operation.png" className="d-block mx-auto" alt="teknix"  width={80}
                 height={80} />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
@@ -145,7 +145,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Greentek-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
-              <Image src="img/width.png" className="d-block mx-auto" alt="teknix"  width={80}
+              <Image src="/img/width.png" className="d-block mx-auto" alt="teknix"  width={80}
                 height={80} />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
@@ -159,7 +159,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Greentek-list">
             <div className="col-4 col-md-6 d-flex align-items-center">
-              <Image src="img/height.png" className="d-block mx-auto" alt="teknix" width={80}
+              <Image src="/img/height.png" className="d-block mx-auto" alt="teknix" width={80}
                 height={80} />
             </div>
             <div className="col-8 col-md-6 d-flex align-items-center">
@@ -444,7 +444,7 @@ export default function Home() {
       </div>
     </div>
   </section>
-  <section className="section position-relative bg-dark" id="experience" data-aos="fade-up" data-aos-duration={2500}>
+  <section className="section position-relative bg-black" id="experience" data-aos="fade-up" data-aos-duration={2500}>
     <div className="container px-md-3 px-3">
       <div className="row">
         <div className="col-md-12">
@@ -463,7 +463,7 @@ export default function Home() {
   <div className="row my-3 justify-content-center align-items-center">
     <div className="col-md-4 mb-4">
       <div className=" py-3 px-3">
-        <Image src="img/icon 80x80-31-31.webp" width={80} height={80} alt="teknix" style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
+        <Image src="/img/icon 80x80-31-31.webp" width={80} height={80} alt="teknix" style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
         <p className="font-24 py-3 text-center ">Ultra-Efficient Motor</p>
         <p className="text font-15 text-center ">Our advanced motors are designed for
           ultra-low power consumption, ensuring
@@ -475,7 +475,7 @@ export default function Home() {
     </div>
     <div className="col-md-4 mb-4">
       <div className=" py-3 px-3">
-        <Image src="img/icon 80x80-32.webp" width={80} height={80} alt="teknix" style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
+        <Image src="/img/icon 80x80-32.webp" width={80} height={80} alt="teknix" style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
         <p className="font-24 py-3 text-center "> Hibernation Mode</p>
         <p className="text font-15 text-center ">
           Elevators from Teknix come standard with
@@ -487,7 +487,7 @@ export default function Home() {
     </div>
     <div className="col-md-4 mb-4">
       <div className=" py-3 px-3">
-        <Image src="img/icon 80x80-33.webp" width={80} height={80} alt="teknix" style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
+        <Image src="/img/icon 80x80-33.webp" width={80} height={80} alt="teknix" style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
         <p className="font-24 py-3 text-center ">Auto Car Display Cut-Off</p>
         <p className="text font-15 text-center ">The car display intelligently turns off in
           Hibernation Mode, maximizing energy
@@ -498,7 +498,7 @@ export default function Home() {
   <div className="row my-3 justify-content-center align-items-center">
     <div className="col-md-4 mb-4">
       <div className=" py-3 px-3">
-        <Image src="img/icon 80x80-34.webp" width={80} height={80} alt="teknix" style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
+        <Image src="/img/icon 80x80-34.webp" width={80} height={80} alt="teknix" style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
         <p className="font-24 py-3 text-center ">Eco-Friendly LED Lighting</p>
         <p className="text font-15 text-center mb-0">
           Utilizing cutting-edge green LED lights, our
@@ -509,7 +509,7 @@ export default function Home() {
     </div>
     <div className="col-md-4 mb-4">
       <div className=" py-3 px-3">
-        <Image src="img/icon 80x80-35.webp" width={80} height={80} alt="teknix" style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
+        <Image src="/img/icon 80x80-35.webp" width={80} height={80} alt="teknix" style={{"max-width":"100px","height":"auto"}} className="d-block mx-auto" />
         <p className="font-24 py-3 text-center ">Automatic
           Fan and Light Controls</p>
         <p className="text font-15 text-center mb-0">

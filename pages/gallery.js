@@ -10,8 +10,8 @@ import SimpleCarousel from '../components/SimpleCarousel';
 export default function GalleryPage() {
     const myslides = [
         {
-            mobile: 'img/mobile/Banner Mobile - Contact.png',
-            desktop: 'img/gallery.webp',
+            mobile: '/img/mobile/Banner Mobile - Contact.png',
+            desktop: '/img/gallery.webp',
         }
 
     ];
@@ -209,7 +209,7 @@ const handleSliderChange2 = (event) => {
                 <meta name="description" content="Explore the gallery of Teknix Elevators, a top elevator company in India, showcasing our innovative, high-quality, and safe elevator solutions for various projects." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="https://www.teknixelevators.com/gallery" />
+                <link rel="canonical" href="https://www.teknixelevators.com/gallery/" />
                 
             </Head>
             <SimpleCarousel slides={myslides} showIndicators={false} showControls={false} />

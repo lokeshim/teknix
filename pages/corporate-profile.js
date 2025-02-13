@@ -9,8 +9,8 @@ import SimpleCarousel from '../components/SimpleCarousel';
 export default function Home() {
    const slides = [
     {
-      mobile: 'img/mobile/Banner Mobile - Corporate Profile.png',
-      desktop: 'img/About us/CORPORATE.webp',
+      mobile: '/img/mobile/Banner Mobile - Corporate Profile.png',
+      desktop: '/img/About us/CORPORATE.webp',
     },
   
   ];
@@ -22,7 +22,7 @@ export default function Home() {
                 <meta name="keywords" content="4 passenger lift size, Elevator suppliers in bangalore" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="https://www.teknixelevators.com/corporate-profile" />
+                <link rel="canonical" href="https://www.teknixelevators.com/corporate-profile/" />
 
             </Head>
       <>
@@ -91,7 +91,7 @@ export default function Home() {
     <div className="container-fluid px-md-5  text-center p-0">
       <div className="row">
         <div className="col-md-12">
-          <Image src="img/research-center.webp" width={1848} height={900} alt="teknix" className="d-block mx-auto img-fluid" />
+          <Image src="/img/research-center.webp" width={1848} height={900} alt="teknix" className="d-block mx-auto img-fluid" />
         </div>
       </div>
     </div>

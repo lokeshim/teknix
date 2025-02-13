@@ -10,8 +10,8 @@ import SimpleCarousel from '../components/SimpleCarousel';
 export default function Home() {
    const slides = [
     {
-      mobile: 'img/mobile/Banner Mobile - Quality Policy.png',
-      desktop: 'img/About us/Quality.webp',
+      mobile: '/img/mobile/Banner Mobile - Quality Policy.png',
+      desktop: '/img/About us/Quality.webp',
     },
    
   ];
@@ -23,7 +23,7 @@ export default function Home() {
                 <meta name="keywords" content="Best elevator companies in india, Best elevator company in bangalore, Best home elevators in bangalore, Residential elevators in hyderabad, Residential lifts in bangalore" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="https://www.teknixelevators.com/quality-policy" />
+                <link rel="canonical/" href="https://www.teknixelevators.com/quality-policy/" />
 
             </Head>
       <>

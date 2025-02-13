@@ -9,16 +9,16 @@ import SimpleCarousel from '../components/SimpleCarousel';
 export default function Home() {
    const slides = [
     {
-      mobile: 'img/mobile/Banner Mobile 1 - Optima.png',
-      desktop: 'img/Elevators/o/Banner 1.webp',
+      mobile: '/img/mobile/Banner Mobile 1 - Optima.png',
+      desktop: '/img/Elevators/o/Banner 1.webp',
     },
     {
-     mobile: 'img/mobile/Banner Mobile 2 - Optima.png',
-      desktop: 'img/Elevators/o/Banner 2.webp',
+     mobile: '/img/mobile/Banner Mobile 2 - Optima.png',
+      desktop: '/img/Elevators/o/Banner 2.webp',
     },
     {
-    mobile: 'img/mobile/Banner Mobile 3 - Optima.png',
-      desktop: 'img/Elevators/o/Banner 3.webp',
+    mobile: '/img/mobile/Banner Mobile 3 - Optima.png',
+      desktop: '/img/Elevators/o/Banner 3.webp',
     },
   ];
     return (
@@ -29,7 +29,7 @@ export default function Home() {
                 <meta name="keywords" content="teknix" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="https://www.teknixelevators.com/about" />
+                <link rel="canonical" href="https://www.teknixelevators.com/about/" />
 
             </Head>
       <>

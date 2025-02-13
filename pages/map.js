@@ -14,9 +14,9 @@ export default function Map() {
   ];
 
   const logos = [
-    { content: <Image src="img/Belgaum.png" alt="Logo 1" /> },
-    { content: <Image src="img/Chennai.png" alt="Logo 2" /> },
-    { content: <Image src="img/Coimbatore.png" alt="Logo 3" /> },
+    { content: <Image src="/img/Belgaum.png" alt="Logo 1" /> },
+    { content: <Image src="/img/Chennai.png" alt="Logo 2" /> },
+    { content: <Image src="/img/Coimbatore.png" alt="Logo 3" /> },
   ];
 
   const testimonialOptions = {

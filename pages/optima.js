@@ -9,16 +9,16 @@ import SimpleCarousel from '../components/SimpleCarousel';
 export default function Home() {
    const slides = [
     {
-      mobile: 'img/mobile/Banner Mobile 1 - Optima.png',
-      desktop: 'img/optima banner.png',
+      mobile: '/img/mobile/Banner Mobile 1 - Optima.png',
+      desktop: '/img/optima banner.png',
     },
     {
-     mobile: 'img/mobile/Banner Mobile 2 - Optima.png',
-      desktop: 'img/Elevators/o/Banner 2.webp',
+     mobile: '/img/mobile/Banner Mobile 2 - Optima.png',
+      desktop: '/img/Elevators/o/Banner 2.webp',
     },
     {
-    mobile: 'img/mobile/Banner Mobile 3 - Optima.png',
-      desktop: 'img/Elevators/o/Banner 3.webp',
+    mobile: '/img/mobile/Banner Mobile 3 - Optima.png',
+      desktop: '/img/Elevators/o/Banner 3.webp',
     },
   ];
     return (
@@ -29,7 +29,7 @@ export default function Home() {
                 <meta name="keywords" content="Best Elevator Companies In India, Best Elevator Company In Bangalore, Best Home Elevators In Bangalore, Elevator Companies In India, Home Elevators In Bangalore" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="https://www.teknixelevators.com/optima" />
+                <link rel="canonical" href="https://www.teknixelevators.com/optima/" />
 
             </Head>
       <>
@@ -86,7 +86,7 @@ export default function Home() {
           <div className="row optima-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
               <Image
-                src="img/type.png"
+                src="/img/type.png"
                 className="d-block mx-auto img-fluid"
                 alt="optima features"
                 width={80}
@@ -107,7 +107,7 @@ export default function Home() {
           <div className="row optima-list">
             <div className="col-6 col-md-6 d-flex align-items-center ">
               <Image
-                src="img/cap.png"
+                src="/img/cap.png"
                 className="d-block mx-auto img-fluid"
                 alt="optima features"
                 width={80}
@@ -128,7 +128,7 @@ export default function Home() {
           <div className="row optima-list">
             <div className="col-6 col-md-6 d-flex align-items-center ">
               <Image
-                src="img/icon-stars.png"
+                src="/img/icon-stars.png"
                 className="d-block mx-auto img-fluid"
                 alt="optima features"
                 width={80}
@@ -149,7 +149,7 @@ export default function Home() {
           <div className="row optima-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
               <Image
-                src="img/icon-stars(1).png"
+                src="/img/icon-stars(1).png"
                 className="d-block mx-auto img-fluid"
                 alt="optima features"
                 width={80}
@@ -170,7 +170,7 @@ export default function Home() {
           <div className="row optima-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
               <Image
-                src="img/icon-agent(1).png"
+                src="/img/icon-agent(1).png"
                 className="d-block mx-auto"
                 alt="optima features"
                 width={80}
@@ -192,7 +192,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row optima-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
-              <Image src="img/operation.png" className="d-block mx-auto" alt="optima features"
+              <Image src="/img/operation.png" className="d-block mx-auto" alt="optima features"
                 width={80}
                 height={80} />
             </div>
@@ -209,7 +209,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row optima-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
-              <Image src="img/width.png" className="d-block mx-auto" alt="optima features"
+              <Image src="/img/width.png" className="d-block mx-auto" alt="optima features"
                 width={80}
                 height={80} />
             </div>
@@ -226,7 +226,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row optima-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
-              <Image src="img/height.png" className="d-block mx-auto" alt="optima features"
+              <Image src="/img/height.png" className="d-block mx-auto" alt="optima features"
                 width={80}
                 height={80} />
             </div>

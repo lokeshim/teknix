@@ -49,19 +49,19 @@ export default function Home() {
     </div>
     <div className="carousel-inner">
       <div className="carousel-item active">
-        <Image src="img/escalators.png" className="d-block w-100" alt="Slide 1" />
+        <Image src="/img/escalators.png" className="d-block w-100" alt="Slide 1" />
         <div className="carousel-caption d-none d-md-block">
           <p className="slider-txt">TESC 20</p>
         </div>
       </div>
       <div className="carousel-item">
-        <Image src="img/escalators.png" className="d-block w-100" alt="Slide 2" />
+        <Image src="/img/escalators.png" className="d-block w-100" alt="Slide 2" />
         <div className="carousel-caption d-none d-md-block">
           <p className="slider-txt">TESC 20</p>
         </div>
       </div>
       <div className="carousel-item">
-        <Image src="img/escalators.png" className="d-block w-100" alt="Slide 3" />
+        <Image src="/img/escalators.png" className="d-block w-100" alt="Slide 3" />
         <div className="carousel-caption d-none d-md-block">
           <p className="slider-txt">TESC 20</p>
         </div>
@@ -107,7 +107,7 @@ export default function Home() {
         <div className="col-md-3  d-block mx-auto">
           <div className="row optima-list">
             <div className="col-3">
-              <Image src="img/type.png" className="d-block mx-auto" alt="" />
+              <Image src="/img/type.png" className="d-block mx-auto" alt="" />
             </div>
             <div className="col-9 d-flex align-items-center">
               <div>
@@ -120,7 +120,7 @@ export default function Home() {
         <div className="col-md-3  d-block mx-auto">
           <div className="row optima-list">
             <div className="col-3">
-              <Image src="img/type.png" className="d-block mx-auto" alt="" />
+              <Image src="/img/type.png" className="d-block mx-auto" alt="" />
             </div>
             <div className="col-9 d-flex align-items-center">
               <div>
@@ -133,7 +133,7 @@ export default function Home() {
         <div className="col-md-3  d-block mx-auto">
           <div className="row optima-list">
             <div className="col-3">
-              <Image src="img/type.png" className="d-block mx-auto" alt="" />
+              <Image src="/img/type.png" className="d-block mx-auto" alt="" />
             </div>
             <div className="col-9 d-flex align-items-center">
               <div>
@@ -146,7 +146,7 @@ export default function Home() {
         <div className="col-md-3  d-block mx-auto">
           <div className="row optima-list">
             <div className="col-3">
-              <Image src="img/type.png" className="d-block mx-auto" alt="" />
+              <Image src="/img/type.png" className="d-block mx-auto" alt="" />
             </div>
             <div className="col-9 d-flex align-items-center">
               <div>
@@ -161,7 +161,7 @@ export default function Home() {
         <div className="col-md-2 offset-md-1  d-block mx-auto">
           <div className="row optima-list">
             <div className="col-3">
-              <Image src="img/type.png" className="d-block mx-auto" alt="" />
+              <Image src="/img/type.png" className="d-block mx-auto" alt="" />
             </div>
             <div className="col-9 d-flex align-items-center">
               <div>
@@ -174,7 +174,7 @@ export default function Home() {
         <div className="col-md-2  d-block mx-auto">
           <div className="row optima-list">
             <div className="col-3">
-              <Image src="img/type.png" className="d-block mx-auto" alt="" />
+              <Image src="/img/type.png" className="d-block mx-auto" alt="" />
             </div>
             <div className="col-9 d-flex align-items-center">
               <div>
@@ -187,7 +187,7 @@ export default function Home() {
         <div className="col-md-2  d-block mx-auto">
           <div className="row optima-list">
             <div className="col-3">
-              <Image src="img/type.png" className="d-block mx-auto" alt="" />
+              <Image src="/img/type.png" className="d-block mx-auto" alt="" />
             </div>
             <div className="col-9 d-flex align-items-center">
               <div>
@@ -200,7 +200,7 @@ export default function Home() {
         <div className="col-md-2  d-block mx-auto">
           <div className="row optima-list">
             <div className="col-3">
-              <Image src="img/type.png" className="d-block mx-auto" alt="" />
+              <Image src="/img/type.png" className="d-block mx-auto" alt="" />
             </div>
             <div className="col-9 d-flex align-items-center">
               <div>

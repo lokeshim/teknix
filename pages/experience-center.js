@@ -13,8 +13,8 @@ import { EffectCoverflow, Pagination } from 'swiper/modules';
 export default function Home() {
   const slides = [
     {
-      mobile: 'img/mobile/Banner Mobile - Experience Centre.png',
-      desktop: 'img/center.webp',
+      mobile: '/img/mobile/Banner Mobile - Experience Centre.png',
+      desktop: '/img/center.webp',
     },
 
   ];
@@ -26,7 +26,7 @@ export default function Home() {
         <meta name="keywords" content="Elevator suppliers in bangalore, Bangalore elevator companies, Bangalore lift companies, Elevator in bangalore" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.teknixelevators.com/experience-center" />
+        <link rel="canonical" href="https://www.teknixelevators.com/experience-center/" />
 
       </Head>
       <>
@@ -96,41 +96,41 @@ export default function Home() {
                   className="mySwiper"
                 >
                   <SwiperSlide>
-                    <Image src="img/Center/s1.jpg" alt="gallery" className='img-fluid' width={460} height={613} />
+                    <Image src="/img/Center/s1.jpg" alt="gallery" className='img-fluid' width={460} height={613} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image src="img/Center/s7.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
+                    <Image src="/img/Center/s7.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image src="img/Center/s3.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
+                    <Image src="/img/Center/s3.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image src="img/Center/s9.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
+                    <Image src="/img/Center/s9.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image src="img/Center/s5.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
+                    <Image src="/img/Center/s5.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image src="img/Center/s11.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
+                    <Image src="/img/Center/s11.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image src="img/Center/s14.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
+                    <Image src="/img/Center/s14.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image src="img/Center/s2.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
+                    <Image src="/img/Center/s2.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image src="img/Center/s4.jpg" alt="gallery"className='img-fluid' width={460} height={613} /> 
+                    <Image src="/img/Center/s4.jpg" alt="gallery"className='img-fluid' width={460} height={613} /> 
                     </SwiperSlide>
                   <SwiperSlide>
-                    <Image src="img/Center/s6.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
+                    <Image src="/img/Center/s6.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
                   </SwiperSlide>
 
                   <SwiperSlide>
-                    <Image src="img/Center/s8.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
+                    <Image src="/img/Center/s8.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image src="img/Center/s10.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
+                    <Image src="/img/Center/s10.jpg" alt="gallery"className='img-fluid' width={460} height={613} />
                   </SwiperSlide>
                 </Swiper>
             </div>

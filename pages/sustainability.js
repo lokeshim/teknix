@@ -9,8 +9,8 @@ import SimpleCarousel from "../components/SimpleCarousel";
 export default function Home() {
   const slides = [
     {
-      mobile: "img/mobile/Banner Mobile - Sustainability.png",
-      desktop: "img/About us/SUSTAINABILITY.webp",
+      mobile: "/img/mobile/Banner Mobile - Sustainability.png",
+      desktop: "/img/About us/SUSTAINABILITY.webp",
     },
   ];
   return (
@@ -29,7 +29,7 @@ export default function Home() {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.teknixelevators.com/sustainability" />
+        <link rel="canonical" href="https://www.teknixelevators.com/sustainability/" />
       </Head>
       <>
         <SimpleCarousel

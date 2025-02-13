@@ -66,7 +66,7 @@ const BlogSection = () => {
                 <div className="sidebar__post-content">
                           
                             <h5 class="title mt-2 mb-3">
-                              <a href={`/blog/${sortedPosts[0].slug}`} passHref class="text-decoration-none text-white">
+                              <a href={`/blog/${post.slug}`} passHref class="text-decoration-none text-white">
                                  {post.title}
                               </a>
                             </h5>

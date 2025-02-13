@@ -9,8 +9,8 @@ export default function Blog() {
    const sortedPosts = posts.sort((a, b) => new Date(b.date) - new Date(a.date));
  const slides = [
     {
-      mobile: 'img/mobile/Banner Mobile - Blogs.png',
-      desktop: 'img/Blog.webp',
+      mobile: '/img/mobile/Banner Mobile - Blogs.png',
+      desktop: '/img/Blog.webp',
     }
    
   ];
@@ -21,7 +21,7 @@ export default function Blog() {
                 <meta name="description" content="Explore insights on luxury and efficiency through our blogs." />
                 <meta name="keywords" content="blogs, elevators, technology, luxury, efficiency" />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="https://www.teknixelevators.com/blog" />
+                <link rel="canonical" href="https://www.teknixelevators.com/blog/" />
             </Head>
 
           
@@ -49,7 +49,7 @@ export default function Blog() {
             <div className="post-img">
              
                 <Image
-                  src={`img/blogs_image/${post.image}`}
+                  src={`/img/blogs_image/${post.image}`}
                   className="img-fluid m-20"
                   alt={post.title}
                   width={500}

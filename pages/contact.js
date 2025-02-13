@@ -13,8 +13,8 @@ import MapWithSliderIframe from "../components/MapWithSliderIframe";
 export default function Home() {
    const slides = [
     {
-      mobile: 'img/mobile/Banner Mobile - Contact.png',
-      desktop: 'img/contact.webp',
+      mobile: '/img/mobile/Banner Mobile - Contact.png',
+      desktop: '/img/contact.webp',
     }
    
   ];
@@ -26,7 +26,7 @@ export default function Home() {
                 <meta name="keywords" content="Best Elevator Companies In India, Best Elevator Company In Bangalore, Best Home Elevators In Bangalore, Elevator Companies In India, Home Elevators In Bangalore" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="https://www.teknixelevators.com/contact" />
+                <link rel="canonical" href="https://www.teknixelevators.com/contact/" />
 
             </Head>
       <>
@@ -120,7 +120,7 @@ export default function Home() {
  <MapWithSliderIframe />
   <section className="section position-relative" id="experience" data-aos="fade-up" data-aos-duration={2500}>
     <div className="container-fluid px-md-5 p-0">
-      <Image src="img/map.png" alt="teknix" className="w-100"   width={1920}
+      <Image src="/img/map.png" alt="teknix" className="w-100"   width={1920}
                       height={850} />
     </div>
   </section>

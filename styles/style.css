@@ -770,7 +770,7 @@ z-index: 1;
 .table th,
 .table td {
   background-color: transparent !important;
-  color: #fff !;
+  color: #fff !important;
 }
 
 @media only screen and (max-width: 767px) {

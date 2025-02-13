@@ -9,16 +9,16 @@ import SimpleCarousel from '../components/SimpleCarousel';
 export default function Home() {
    const slides = [
     {
-      mobile: 'img/mobile/Banner Mobile 1 - Tesc 50.png',
-      desktop: 'img/Esculators/50/1.webp',
+      mobile: '/img/mobile/Banner Mobile 1 - Tesc 50.png',
+      desktop: '/img/Esculators/50/1.webp',
     },
     {
-    mobile: 'img/mobile/Banner Mobile 2 - Tesc 50.png',
-      desktop: 'img/Esculators/50/2.webp',
+    mobile: '/img/mobile/Banner Mobile 2 - Tesc 50.png',
+      desktop: '/img/Esculators/50/2.webp',
     },
     {
-     mobile: 'img/mobile/Banner Mobile 3 - Tesc 50.png',
-      desktop: 'img/Esculators/50/3.webp',
+     mobile: '/img/mobile/Banner Mobile 3 - Tesc 50.png',
+      desktop: '/img/Esculators/50/3.webp',
     },
   ];
     return (
@@ -29,7 +29,7 @@ export default function Home() {
                 <meta name="keywords" content="" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="https://www.teknixelevators.com/tesc-50" />
+                <link rel="canonical" href="https://www.teknixelevators.com/tesc-50/" />
 
             </Head>
       <>
@@ -58,7 +58,7 @@ export default function Home() {
         <div className="col-md-3   d-flex align-items-center justify-content-center">
           <div className="row optima-list m-30">
             <div className="col-6 d-flex align-items-center ">
-              <Image src="img/TESC1.png" className="d-block mx-auto" alt="teknix"  width={80}  height={80}   />
+              <Image src="/img/TESC1.png" className="d-block mx-auto" alt="teknix"  width={80}  height={80}   />
             </div>
             <div className="col-6 d-flex align-items-center">
               <div>
@@ -71,7 +71,7 @@ export default function Home() {
         <div className="col-md-3   d-flex align-items-center justify-content-center">
           <div className="row optima-list m-30">
             <div className="col-6 d-flex align-items-center ">
-              <Image src="img/TESC2.png" className="d-block mx-auto" alt="teknix"  width={80}  height={80}  />
+              <Image src="/img/TESC2.png" className="d-block mx-auto" alt="teknix"  width={80}  height={80}  />
             </div>
             <div className="col-6 d-flex align-items-center">
               <div>
@@ -84,7 +84,7 @@ export default function Home() {
         <div className="col-md-3   d-flex align-items-center justify-content-center">
           <div className="row optima-list m-30">
             <div className="col-6 d-flex align-items-center ">
-              <Image src="img/TESC3.png" className="d-block mx-auto" alt="teknix"  width={80}  height={80}  />
+              <Image src="/img/TESC3.png" className="d-block mx-auto" alt="teknix"  width={80}  height={80}  />
             </div>
             <div className="col-6 d-flex align-items-center">
               <div>
@@ -97,7 +97,7 @@ export default function Home() {
         <div className="col-md-3   d-flex align-items-center justify-content-center">
           <div className="row optima-list m-30">
             <div className="col-6 d-flex align-items-center ">
-              <Image src="img/TESC4.png" className="d-block mx-auto" alt="teknix"  width={80}  height={80}  />
+              <Image src="/img/TESC4.png" className="d-block mx-auto" alt="teknix"  width={80}  height={80}  />
             </div>
             <div className="col-6 d-flex align-items-center">
               <div>

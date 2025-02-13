@@ -9,16 +9,16 @@ import SimpleCarousel from '../components/SimpleCarousel';
 export default function Home() {
   const slides = [
     {
-      mobile: 'img/mobile/Banner Mobile 1 - Optima.png',
-      desktop: 'img/Elevators/o/Banner 1.webp',
+      mobile: '/img/mobile/Banner Mobile 1 - Optima.png',
+      desktop: '/img/Elevators/o/Banner 1.webp',
     },
     {
-     mobile: 'img/mobile/Banner Mobile 2 - Optima.png',
-      desktop: 'img/Elevators/o/Banner 2.webp',
+     mobile: '/img/mobile/Banner Mobile 2 - Optima.png',
+      desktop: '/img/Elevators/o/Banner 2.webp',
     },
     {
-    mobile: 'img/mobile/Banner Mobile 3 - Optima.png',
-      desktop: 'img/Elevators/o/Banner 3.webp',
+    mobile: '/img/mobile/Banner Mobile 3 - Optima.png',
+      desktop: '/img/Elevators/o/Banner 3.webp',
     },
   ];
     return (
@@ -77,7 +77,7 @@ export default function Home() {
   <div className="carousel-inner">
     <div className="carousel-item active">
       <Image
-        src="img/Banner Mobile- Homepage.png"
+        src="/img/Banner Mobile- Homepage.png"
         alt="Slide 1 Mobile"
         layout="responsive"
         width={1080}
@@ -85,7 +85,7 @@ export default function Home() {
         className="d-md-none d-block img-fluid carousel-image"
       />
       <Image
-        src="img/Home/3.webp"
+        src="/img/Home/3.webp"
         alt="Slide 1 Desktop"
         layout="responsive"
         width={1920}
@@ -101,7 +101,7 @@ export default function Home() {
     </div>
     <div className="carousel-item">
       <Image
-        src="img/mobile/Banner Mobile 1 - Greentek.png"
+        src="/img/mobile/Banner Mobile 1 - Greentek.png"
         alt="Slide 1 Mobile"
         layout="responsive"
         width={1080}
@@ -109,7 +109,7 @@ export default function Home() {
         className="d-md-none d-block img-fluid carousel-image"
       />
       <Image
-        src="img/Home/greentek.webp"
+        src="/img/Home/greentek.webp"
         alt="Slide 1 Desktop"
         layout="responsive"
         width={1920}
@@ -122,7 +122,7 @@ export default function Home() {
     </div>
     <div className="carousel-item">
      <Image
-        src="img/mobile/Banner Mobile 2 - Hydratek.png"
+        src="/img/mobile/Banner Mobile 2 - Hydratek.png"
         alt="Slide 1 Mobile"
         layout="responsive"
         width={1080}
@@ -130,7 +130,7 @@ export default function Home() {
         className="d-md-none d-block img-fluid carousel-image"
       />
       <Image
-        src="img/Home/2.webp"
+        src="/img/Home/2.webp"
         alt="Slide 1 Desktop"
         layout="responsive"
         width={1920}
@@ -143,7 +143,7 @@ export default function Home() {
     </div>
     <div className="carousel-item">
     <Image
-        src="img/mobile/Banner Mobile 1 - Villa Matek.png"
+        src="/img/mobile/Banner Mobile 1 - Villa Matek.png"
         alt="Slide 1 Mobile"
         layout="responsive"
         width={1080}
@@ -151,7 +151,7 @@ export default function Home() {
         className="d-md-none d-block img-fluid carousel-image"
       />
       <Image
-        src="img/Banner 3 - Villa Matek (1).png"
+        src="/img/Banner 3 - Villa Matek (1).png"
         alt="Slide 1 Desktop"
         layout="responsive"
         width={1920}
@@ -169,7 +169,7 @@ export default function Home() {
         loop=""
         muted=""
       >
-        <source src="img/Teknix Elevator.mp4" type="video/mp4" />
+        <source src="/img/Teknix Elevator.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>

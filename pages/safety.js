@@ -9,8 +9,8 @@ import SimpleCarousel from '../components/SimpleCarousel';
 export default function Home() {
    const slides = [
     {
-      mobile: 'img/mobile/Banner Mobile - Safety.png',
-      desktop: 'img/safe.png',
+      mobile: '/img/mobile/Banner Mobile - Safety.png',
+      desktop: '/img/safe.png',
     },
     
   ];
@@ -22,7 +22,7 @@ export default function Home() {
                 <meta name="keywords" content="4 passenger lift size, elevator companies in hyderabad, elevator manufacturers in hyderabad,  lift manufacturers in hyderabad, residential elevators in hyderabad" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="https://www.teknixelevators.com/safety" />
+                <link rel="canonical" href="https://www.teknixelevators.com/safety/" />
 
             </Head>
       <>
@@ -36,7 +36,7 @@ export default function Home() {
   <div className="container text-center p-0">
     <div className="row">
       <div className="col-md-4 ">
-        <Image src="img/safety-site.webp" className="img-fluid px-md-3 py-md-3d-block mx-auto" alt="teknix" width={424} height={560} />
+        <Image src="/img/safety-site.webp" className="img-fluid px-md-3 py-md-3d-block mx-auto" alt="teknix" width={424} height={560} />
       </div>
       <div className="col-md-8 home-about-heading  d-flex align-items-center">
         <div>

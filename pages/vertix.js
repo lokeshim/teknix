@@ -29,7 +29,7 @@ export default function Home() {
                 <meta name="keywords" content="Residential Elevators In Hyderabad, Residential Lifts In Bangalore, Elevator Manufacturers In Hyderabad, Elevator Suppliers In Bangalore" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="https://www.teknixelevators.com/vertix" />
+                <link rel="canonical" href="https://www.teknixelevators.com/vertix/" />
 
             </Head>
       <>
@@ -59,7 +59,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Vertix-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
-              <Image src="img/type.png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}
+              <Image src="/img/type.png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}
                 height={80}  />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
@@ -73,7 +73,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Vertix-list">
             <div className="col-6 col-md-6 d-flex align-items-center ">
-              <Image src="img/cap.png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}
+              <Image src="/img/cap.png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}
                 height={80} />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
@@ -87,7 +87,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Vertix-list">
             <div className="col-6 col-md-6 d-flex align-items-center ">
-              <Image src="img/icon-stars.png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}
+              <Image src="/img/icon-stars.png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}
                 height={80} />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
@@ -101,7 +101,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Vertix-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
-              <Image src="img/icon-stars(1).png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}
+              <Image src="/img/icon-stars(1).png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}
                 height={80} />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
@@ -115,7 +115,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Vertix-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
-              <Image src="img/icon-agent(1).png" className="d-block mx-auto" alt="teknix" width={80}
+              <Image src="/img/icon-agent(1).png" className="d-block mx-auto" alt="teknix" width={80}
                 height={80} />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
@@ -129,7 +129,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Vertix-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
-              <Image src="img/operation.png" className="d-block mx-auto" alt="teknix"
+              <Image src="/img/operation.png" className="d-block mx-auto" alt="teknix"
                 width={80}
                 height={80} />
             </div>
@@ -144,7 +144,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Vertix-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
-              <Image src="img/width.png" className="d-block mx-auto" alt="teknix"  width={80}
+              <Image src="/img/width.png" className="d-block mx-auto" alt="teknix"  width={80}
                 height={80} />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
@@ -158,7 +158,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Vertix-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
-              <Image src="img/height.png" className="d-block mx-auto" alt="teknix"  width={80}
+              <Image src="/img/height.png" className="d-block mx-auto" alt="teknix"  width={80}
                 height={80} />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">

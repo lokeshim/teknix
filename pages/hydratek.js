@@ -9,16 +9,16 @@ import SimpleCarousel from '../components/SimpleCarousel';
 export default function Home() {
    const slides = [
     {
-      mobile: 'img/mobile/Banner Mobile 1 - Hydratek.png',
-      desktop: 'img/Elevators/H/1.webp',
+      mobile: '/img/mobile/Banner Mobile 1 - Hydratek.png',
+      desktop: '/img/Elevators/H/1.webp',
     },
     {
-      mobile: 'img/mobile/Banner Mobile 2 - Hydratek.png',
-      desktop: 'img/Elevators/H/2.webp',
+      mobile: '/img/mobile/Banner Mobile 2 - Hydratek.png',
+      desktop: '/img/Elevators/H/2.webp',
     },
     {
-      mobile: 'img/mobile/Banner Mobile 3 - Hydratek.png',
-      desktop: 'img/Elevators/H/3.webp',
+      mobile: '/img/mobile/Banner Mobile 3 - Hydratek.png',
+      desktop: '/img/Elevators/H/3.webp',
     },
   ];
     return (
@@ -29,7 +29,7 @@ export default function Home() {
                 <meta name="keywords" content="Top elevators in bangalore, Top elevators company in India, Top elevators company in Bangalore" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content="index, follow" />
-                <link rel="canonical" href="https://www.teknixelevators.com/hydratek" />
+                <link rel="canonical" href="https://www.teknixelevators.com/hydratek/" />
 
             </Head>
       <>
@@ -57,7 +57,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Hydratek-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
-              <Image src="img/type.png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}  height={80}  />
+              <Image src="/img/type.png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}  height={80}  />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
               <div>
@@ -70,7 +70,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Hydratek-list">
             <div className="col-6 col-md-6 d-flex align-items-center ">
-              <Image src="img/cap.png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}  height={80}  />
+              <Image src="/img/cap.png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}  height={80}  />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
               <div>
@@ -83,7 +83,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Hydratek-list">
             <div className="col-6 col-md-6 d-flex align-items-center ">
-              <Image src="img/icon-stars.png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}  height={80}  />
+              <Image src="/img/icon-stars.png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}  height={80}  />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
               <div>
@@ -96,7 +96,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Hydratek-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
-              <Image src="img/icon-stars(1).png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}  height={80}  />
+              <Image src="/img/icon-stars(1).png" className="d-block mx-auto img-fluid" alt="teknix"  width={80}  height={80}  />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
               <div>
@@ -109,7 +109,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Hydratek-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
-              <Image src="img/icon-agent(1).png" className="d-block mx-auto" alt="teknix"  width={80}  height={80}  />
+              <Image src="/img/icon-agent(1).png" className="d-block mx-auto" alt="teknix"  width={80}  height={80}  />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
               <div>
@@ -122,7 +122,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Hydratek-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
-              <Image src="img/operation.png" className="d-block mx-auto" alt="teknix"  width={80}  height={80}  />
+              <Image src="/img/operation.png" className="d-block mx-auto" alt="teknix"  width={80}  height={80}  />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
               <div>
@@ -135,7 +135,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Hydratek-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
-              <Image src="img/width.png" className="d-block mx-auto" alt="teknix"  width={80}  height={80}  />
+              <Image src="/img/width.png" className="d-block mx-auto" alt="teknix"  width={80}  height={80}  />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
               <div>
@@ -148,7 +148,7 @@ export default function Home() {
         <div className="col-md-3 col-12 m-20">
           <div className="row Hydratek-list">
             <div className="col-6 col-md-6 d-flex align-items-center">
-              <Image src="img/height.png" className="d-block mx-auto" alt="teknix"  width={80}  height={80}  />
+              <Image src="/img/height.png" className="d-block mx-auto" alt="teknix"  width={80}  height={80}  />
             </div>
             <div className="col-6 col-md-6 d-flex align-items-center">
               <div>
