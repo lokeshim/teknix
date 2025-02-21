@@ -31,7 +31,7 @@ export default function Home() {
       </Head>
       <>
 
-
+      <h1 className='d-none'></h1>
         <SimpleCarousel slides={slides} showIndicators={false} showControls={false} />
 
 

@@ -27,7 +27,7 @@ export default function Home() {
             </Head>
       <>
 
-
+      <h1 className='d-none'>Elevator Suppliers In Bangalore</h1>
 <SimpleCarousel slides={slides} showIndicators={false} showControls={false} />
 
 <h1 className='d-none'>Corporate Profile </h1>

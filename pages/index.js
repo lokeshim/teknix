@@ -34,7 +34,8 @@ export default function Home() {
             </Head>
       <>
 
-
+      <h1 class="d-none">Best Elevator Company In Bangalore</h1>
+    
 <div
   id="carouselExampleCaptions"
   className="carousel slide top-bg"

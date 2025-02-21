@@ -32,7 +32,7 @@ export default function Home() {
 <SimpleCarousel slides={slides} showIndicators={false} showControls={false} />
 
 
-<h1 className='d-none'>Quality Policy </h1>
+<h1 className='d-none'>Bangalore Elevator Companies </h1>
 
 <section className="section position-relative" id="experience" data-aos="fade-up" data-aos-duration={1500}>
   <div className="container text-center p-0">

@@ -37,9 +37,9 @@ export default function Home() {
 
 <SimpleCarousel slides={slides} showIndicators={true} showControls={true} />
 
+<h1 className='d-none'>Passenger Lift Manufacturers In Bangalore</h1>
 
 
-<h1 className='d-none'>GREENTEK</h1>
 
  
   <section className="section" data-aos="fade-up" data-aos-duration={1500}>

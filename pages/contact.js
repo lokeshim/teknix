@@ -34,7 +34,7 @@ export default function Home() {
 
   <SimpleCarousel slides={slides} showIndicators={false} showControls={false} />
 
-  <h1 className='d-none'>Contact</h1>
+  <h1 className='d-none'>Residential Elevators in Hyderabad</h1>
 <div>
   <section className="section" data-aos="fade-left" data-aos-duration={1000}>
     <div className="container">

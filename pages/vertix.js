@@ -36,7 +36,7 @@ export default function Home() {
 
 
 <SimpleCarousel slides={slides} showIndicators={true} showControls={true} />
-<h1 className='d-none'>VERTIX</h1>
+<h1 className='d-none'>Residential Elevators In Hyderabad</h1>
   <section className="section" data-aos="fade-up" data-aos-duration={1500}>
     <div className="container-fluid  ">
       <div className="row">

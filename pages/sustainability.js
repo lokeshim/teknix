@@ -37,7 +37,7 @@ export default function Home() {
           showIndicators={false}
           showControls={false}
         />
-<h1 className='d-none'>Sustainability</h1>
+<h1 className='d-none'>Lift Company In Bangalore</h1>
         <section
           className="section position-relative"
           id="experience"

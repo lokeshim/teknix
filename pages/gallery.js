@@ -212,6 +212,7 @@ const handleSliderChange2 = (event) => {
                 <link rel="canonical" href="https://www.teknixelevators.com/gallery/" />
                 
             </Head>
+            <h1 className='d-none'>Gallery</h1>
             <SimpleCarousel slides={myslides} showIndicators={false} showControls={false} />
             <>
             <h1 className='d-none'>Top Elevators Company In India</h1>

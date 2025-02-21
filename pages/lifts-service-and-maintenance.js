@@ -30,7 +30,7 @@ export default function Home() {
 
 <SimpleCarousel slides={slides} showIndicators={false} showControls={false} />
 
-<h1 className='d-none'>Service </h1>
+<h1 className='d-none'>Elevators Service & Maintenance in Bangalore </h1>
   <section className="section" data-aos="fade-up" data-aos-duration={1500}>
     <div className="container ">
       <div className="row">

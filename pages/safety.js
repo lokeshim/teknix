@@ -29,7 +29,7 @@ export default function Home() {
 
 
 <SimpleCarousel slides={slides} showIndicators={false} showControls={false} />
-<h1 className='d-none'>safety </h1>
+<h1 className='d-none'>Elevator Companies in Hyderabad India </h1>
 
 
 <section className="section position-relative" id="experience" data-aos="fade-up" data-aos-duration={1500}>

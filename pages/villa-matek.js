@@ -40,7 +40,7 @@ export default function Home() {
 
 
 <div>
-<h1 className='d-none'>VILLA MATEK</h1>
+<h1 className='d-none'>Elevator Manufacturers in India</h1>
   <section className="section" data-aos="fade-up" data-aos-duration={1500}>
     <div className="container-fluid">
       <div className="row">

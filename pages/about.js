@@ -34,7 +34,7 @@ export default function Home() {
             </Head>
       <>
 
-
+      <h1 class="d-none">Lift Manufacturers In Bangalore</h1>
 <SimpleCarousel slides={slides} showIndicators={false} showControls={false} />
 
 

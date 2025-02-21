@@ -37,7 +37,7 @@ export default function Home() {
 
 <SimpleCarousel slides={slides} showIndicators={true} showControls={true} />
 
-<h1 className='d-none'>HYDRATEK</h1>
+<h1 className='d-none'>Top Elevators Company In India</h1>
   <section className="section" data-aos="fade-up" data-aos-duration={1500}>
     <div className="container-fluid  ">
       <div className="row">

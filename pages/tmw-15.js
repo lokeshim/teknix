@@ -39,7 +39,7 @@ export default function Home() {
 
 
 <div>
-<h1 className='d-none'>TMW 15 </h1>
+<h1 className='d-none'>Escalators for Office Buildings </h1>
   <section className="section" data-aos="fade-up" data-aos-duration={1500}>
     <div className="container-fluid  ">
       <div className="row">
