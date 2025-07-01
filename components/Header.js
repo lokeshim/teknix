@@ -142,9 +142,9 @@ const Header = () => {
         </ul>
       </div>
       {/* Center Logo */}
-      <a className="navbar-brand mx-md-auto " href="./">
+      <Link className="navbar-brand mx-md-auto " href="./">
         <Image src="/img/Web-teknix-logo.svg" alt="Logo" width={150} height={50}  style={{ width: 150,height: '50px'  }} />
-      </a>
+      </Link>
       {/* Right-side Menu (hamburger icon for small screens) */}
       <button
         className="navbar-toggler"
@@ -250,27 +250,27 @@ const Header = () => {
             </Link>
             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
               <li>
-                <Link className="dropdown-item" href="optima">
+                <Link className="dropdown-item" href="/optima">
                   Optima
                 </Link>
               </li>
               <li>
-                <Link className="dropdown-item" href="vertix">
+                <Link className="dropdown-item" href="/vertix">
                   Vertix
                 </Link>
               </li>
               <li>
-                <Link className="dropdown-item" href="greentek">
+                <Link className="dropdown-item" href="/greentek">
                   Greentek
                 </Link>
               </li>
               <li>
-                <a className="dropdown-item" href="hydratek">
+                <Link className="dropdown-item" href="/hydratek">
                   Hydratek
-                </a>
+                </Link>
               </li>
               <li>
-                <Link className="dropdown-item" href="villa-matek">
+                <Link className="dropdown-item" href="/villa-matek">
                   Villa Matek
                 </Link>
               </li>
@@ -289,19 +289,19 @@ const Header = () => {
             </Link>
             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
               <li>
-                <Link className="dropdown-item" href="tesc-20">
+                <Link className="dropdown-item" href="/tesc-20">
                   TESC-20
                 </Link>
               </li>
               <li>
-                <Link className="dropdown-item" href="tesc-50">
+                <Link className="dropdown-item" href="/tesc-50">
                   TESC-50
                 </Link>
               </li>
               <li>
-                <a className="dropdown-item" href="tmw-15">
+                <Link className="dropdown-item" href="/tmw-15">
                   TMW-15
-                </a>
+                </Link>
               </li>
             </ul>
           </li>
@@ -328,7 +328,7 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link className="dropdown-item" href="safety">
+                <Link className="dropdown-item" href="/safety">
                   SAFETY
                 </Link>
               </li>
@@ -347,17 +347,17 @@ const Header = () => {
             </Link>
             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
               <li>
-                <Link className="dropdown-item" href="corporate-profile">
+                <Link className="dropdown-item" href="/corporate-profile">
                   CORPORATE PROFILE
                 </Link>
               </li>
               <li>
-                <Link className="dropdown-item" href="quality-policy">
+                <Link className="dropdown-item" href="/quality-policy">
                   QUALITY POLICY
                 </Link>
               </li>
               <li>
-                <Link className="dropdown-item" href="sustainability">
+                <Link className="dropdown-item" href="/sustainability">
                   SUSTAINABILITY
                 </Link>
               </li>
@@ -372,18 +372,18 @@ const Header = () => {
             </ul>
           </li>
           <li className="nav-item">
-            <Link className="nav-link text-white" href="experience-center">
+            <Link className="nav-link text-white" href="/experience-center">
               {" "}
               EXPERIENCE CENTRE
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link text-white" href="blog">
+            <Link className="nav-link text-white" href="/blog">
               BLOG
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link text-white" href="contact">
+            <Link className="nav-link text-white" href="/contact">
               CONTACT
             </Link>
           </li>

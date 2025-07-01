@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import emailjs from 'emailjs-com';
-
+import Link from 'next/link';
 const ConnectForm = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -79,12 +79,12 @@ const ConnectForm = () => {
                 Let us <br /> Connect you
               </p>
               <p className="py-3 text-start p-30">
-                <a
+                <Link
                   href=""
                   className="text-light text-decoration-none font-11 d-none fw-normal letter-spacing"
                 >
                   We&apos;ll put you in touch with your acclaimed Global Collective™ member.
-                </a>
+                </Link>
               </p>
             </div>
             <form className="p-1 myform" onSubmit={handleSubmit}>

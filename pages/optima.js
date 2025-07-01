@@ -1,6 +1,7 @@
 // pages/index.js
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import ElevatorCarousel from '../components/ElevatorCarousel';
 import BlogSection from '../components/BlogSection';
 import Testimonials from '../components/Testimonials';
@@ -242,12 +243,12 @@ export default function Home() {
         </div>
       </div>
       <div className="row mt-md-3">
-        <a
+        <Link
           href="#"
           className="text-danger  text-decoration-none font-13 fw-normal letter-spacing text-center"
         >
           DOWNLOAD OPTIMA BROCHURE
-        </a>
+        </Link>
       </div>
     </div>
   </section>

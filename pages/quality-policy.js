@@ -1,6 +1,7 @@
 // pages/index.js
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import ElevatorCarousel from '../components/ElevatorCarousel';
 import BlogSection from '../components/BlogSection';
 import Testimonials from '../components/Testimonials';
@@ -38,7 +39,7 @@ export default function Home() {
   <div className="container text-center p-0">
     <div className="row">
       <div className="col-md-5 d-flex">
-        <Image src="img/quality-policy.webp" className="img-fluid px-md-3 py-md-3d-block mx-auto object-fit" alt="qualtiy policy" width={536} height={512} />
+        <Image src="/img/quality-policy.webp" className="img-fluid px-md-3 py-md-3d-block mx-auto object-fit" alt="qualtiy policy" width={536} height={512} />
       </div>
       <div className="col-md-7 d-flex align-items-center">
         <div>

@@ -4,6 +4,21 @@ export default function Document() {
   return (
     <Html>
       <Head>
+         {/* Google Ads / gtag.js */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-11090469169"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-11090469169');
+            `,
+          }}
+        />
         {/* Link to the favicon */}
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />

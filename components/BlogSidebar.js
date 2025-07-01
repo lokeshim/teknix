@@ -17,7 +17,7 @@ const BlogSection = () => {
           {sortedPosts.length > 0 && (
             <div classNmae="sidebar__post-item mb-4">
                         <div className="sidebar__post-thumb">
-                              <a href={`/blog/${sortedPosts[0].slug}`} passHref>
+                              <Link href={`/blog/${sortedPosts[0].slug}`} passHref>
                                 <Image
                 src={`/img/blogs_image/${sortedPosts[0].image}`}
               
@@ -27,15 +27,15 @@ const BlogSection = () => {
                 height={475}
                 className="w-100"
               />
-                              </a>
+                              </Link>
                         
                         </div>
                         <div className="sidebar__post-content">
                           
                             <h5 class="title mt-2 mb-3">
-                              <a href={`/blog/${sortedPosts[0].slug}`} passHref class="text-white">
+                              <Link href={`/blog/${sortedPosts[0].slug}`} passHref class="text-white">
                                  {sortedPosts[0].title}
-                              </a>
+                              </Link>
                             </h5>
                            
                             
@@ -66,9 +66,9 @@ const BlogSection = () => {
                 <div className="sidebar__post-content">
                           
                             <h5 class="title mt-2 mb-3">
-                              <a href={`/blog/${post.slug}`} passHref class="text-decoration-none text-white">
+                              <Link href={`/blog/${post.slug}`} passHref class="text-decoration-none text-white">
                                  {post.title}
-                              </a>
+                              </Link>
                             </h5>
                            
                             <span class="date font-15 my-2"><i class="flaticon-time"></i>  {sortedPosts[0].date}</span>

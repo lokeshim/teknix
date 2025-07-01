@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Script from 'next/script';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-
+import Link from 'next/link';
 // Dynamically import react-owl-carousel to work with SSR (Next.js)
 const OwlCarousel = dynamic(() => import('react-owl-carousel'), {
   ssr: false,
@@ -94,10 +94,10 @@ const Testimonials = () => {
         <div className="row py-5 border-bottom border-light border-opacity-25 my-5">
           <div className="col-md-9 d-block mx-auto offset-md-1 my-5">
             <p>
-              <a href="#" className="text-danger text-decoration-none font-12 fw-normal letter-spacing">
+              <Link href="#" className="text-danger text-decoration-none font-12 fw-normal letter-spacing">
                 View All Testimonials{' '}
                 <Image src="/img/right-carousel.png" alt="Right Arrow" width={20} height={20} className="w-12" />
-              </a>
+              </Link>
             </p>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import emailjs from "emailjs-com";
-
+import Link from 'next/link';
 const CommanModal = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -187,12 +187,12 @@ const CommanModal = () => {
                       >
                         By providing Global Collective your contact information,
                         you acknowledge and agree to our{" "}
-                        <a
+                        <Link
                           href="#"
                           className="text-white text-decoration-none fw-bold"
                         >
                           Privacy Policy
-                        </a>{" "}
+                        </Link>{" "}
                         and consent to receiving marketing communications.
                       </p>
                       {errors.terms && (

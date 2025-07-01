@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { useForm } from 'react-hook-form';
 import { useEffect } from 'react';
 
+
 const Footer = () => {
   const { register, handleSubmit, formState: { errors }, reset } = useForm();
   const current_date = new Date(); // Create a new Date object
@@ -46,9 +47,9 @@ const Footer = () => {
             <div className="col-md-4 d-flex align-items-center justify-content-center justify-content-md-start">
               <div className="row ">
                 <div className="col-md-9 ps-md-0 align-items-center  text-md-start text-center   p-10">
-                  <a className="lh-lg text-danger font-13  " href="sales@teknixelevators.com" style={{ "display": "block ruby" }}> <i className="bi bi-envelope-at px-2" /> sales@teknixelevators.com</a> <br />
-                  <a className="lh-lg text-danger  font-13" href="tel:+919148788011"><i className="bi bi-telephone px-2" /> +91-9148788011</a> <br />
-                  <a className="lh-lg text-danger  font-13" href="tel:+919141413435"> <i className="bi bi-telephone px-2" /> +919141413435 </a>
+                  <Link className="lh-lg text-danger font-13  " href="sales@teknixelevators.com" style={{ "display": "block ruby" }}> <i className="bi bi-envelope-at px-2" /> sales@teknixelevators.com</Link> <br />
+                  <Link className="lh-lg text-danger  font-13" href="tel:+919148788011"><i className="bi bi-telephone px-2" /> +91-9148788011</Link> <br />
+                  <Link className="lh-lg text-danger  font-13" href="tel:+919141413435"> <i className="bi bi-telephone px-2" /> +919141413435 </Link>
                 </div>
               </div>
             </div>
@@ -96,24 +97,24 @@ const Footer = () => {
               <div className="row ">
                 <div className="col-md-4 d-flex align-items-center justify-content-center justify-content-md-start">
                   <ul>
-                    <li> <a className="lh-lg text-light font-13" href="#">Home</a></li>
-                    <li> <a className="lh-lg text-light font-13" href="#">Elevators</a></li>
-                    <li> <a className="lh-lg text-light font-13" href="#">Escalators</a></li>
+                    <li> <Link className="lh-lg text-light font-13" href="./">Home</Link></li>
+                    <li> <Link className="lh-lg text-light font-13" href="/about">About</Link></li>
+                    <li> <Link className="lh-lg text-light font-13" href="/privacy-policy">Privacy Policy</Link></li>
                   </ul>
                 </div>
                 <div className="col-md-4 d-flex align-items-center justify-content-center justify-content-md-start">
                   <ul>
-                    <li> <a className="lh-lg text-light font-13 text-decoration-none" href="#">Experience Centre</a></li>
-                    <li> <a className="lh-lg text-light font-13" href="#">Blog</a></li>
-                    <li> <a className="lh-lg text-light font-13" href="#">Contact</a></li>
+                    <li> <Link className="lh-lg text-light font-13 text-decoration-none" href="/experience-center">Experience Centre</Link></li>
+                    <li> <Link className="lh-lg text-light font-13" href="/blog">Blog</Link></li>
+                    <li> <Link className="lh-lg text-light font-13" href="/contact">Contact</Link></li>
                   </ul>
                 </div>
                 <div className="col-md-4 d-flex align-items-center justify-content-center justify-content-md-start social">
                   <ul>
-                    <li> <a className="lh-lg text-light font-16 text-decoration-none" href="https://www.facebook.com/teknixelevators/" target="_blank"><i className="bi bi-facebook" /></a></li>
-                    <li> <a className="lh-lg text-light font-16 text-decoration-none" href="https://twitter.com/TeknixE" target="_blank"><i className="bi bi-twitter-x" /></a></li>
-                    <li> <a className="lh-lg text-light font-19 text-decoration-none" href="https://www.linkedin.com/company/teknixelevators/" target="_blank"><i className="bi bi-linkedin" /></a></li>
-                    <li> <a className="lh-lg text-light font-19 text-decoration-none" href="https://www.instagram.com/teknixelevators_india/" target="_blank"><i className="bi bi-instagram" /></a></li>
+                    <li> <Link className="lh-lg text-light font-16 text-decoration-none" href="https://www.facebook.com/teknixelevators/" target="_blank"><i className="bi bi-facebook" /></Link></li>
+                    <li> <Link className="lh-lg text-light font-16 text-decoration-none" href="https://twitter.com/TeknixE" target="_blank"><i className="bi bi-twitter-x" /></Link></li>
+                    <li> <Link className="lh-lg text-light font-19 text-decoration-none" href="https://www.linkedin.com/company/teknixelevators/" target="_blank"><i className="bi bi-linkedin" /></Link></li>
+                    <li> <Link className="lh-lg text-light font-19 text-decoration-none" href="https://www.instagram.com/teknixelevators_india/" target="_blank"><i className="bi bi-instagram" /></Link></li>
                   </ul>
                 </div>
               </div>
@@ -128,7 +129,7 @@ const Footer = () => {
       </section>
 
       <Link href="https://wa.me/918123393168?text=hi" style={{ position: "fixed", right: "10px", bottom: "100px" }}><Image src="/img/whatsapp.png" width={80} height={80} alt="whatsapp" /></Link>
-      <a data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ position: "fixed", right: "22px", bottom: "200px", }}><i className="fa-solid fa-envelope" style={{ fontSize: "28px", width: "50px", height: "50px", borderRadius: "50%", border: '1px solid #fff', padding: "10px 10px" }}></i></a>
+      <div data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ position: "fixed", right: "22px", bottom: "200px", cursor:"pointer"}}><i className="fa-solid fa-envelope" style={{ fontSize: "28px", width: "50px", height: "50px", borderRadius: "50%", border: '1px solid #fff', padding: "10px 10px" }}></i></div>
     </>
   );
 };

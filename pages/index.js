@@ -1,6 +1,7 @@
 // pages/index.js
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import ElevatorCarousel from '../components/ElevatorCarousel';
 import BlogSection from '../components/BlogSection';
 import Testimonials from '../components/Testimonials';
@@ -283,12 +284,12 @@ export default function Home() {
             <br />
           </p>
           <p className=" ">
-            <a
-              href="gallery"
+            <Link
+              href="/gallery"
               className="text-danger  text-decoration-none font-15 fw-normal letter-spacing"
             >
               EXPLORE OUR GALLERY
-            </a>
+            </Link>
           </p>
         </div>
       </div>

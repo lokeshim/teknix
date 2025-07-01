@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import ElevatorCarousel from '../components/ElevatorCarousel';
 import BlogSection from '../components/BlogSection';
 import Testimonials from '../components/Testimonials';
